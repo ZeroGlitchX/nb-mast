@@ -11,6 +11,7 @@ Evolve NB-MAST v1 into a faster, safer, and more maintainable v2 while preservin
 - Follow-up optimization implemented: when `--only` is used, index preloading is now endpoint-scoped instead of always loading all indexes.
 - Phase 3 completed: `--preflight` and `--preflight-strict` readiness checks are implemented and validated.
 - Phase 5 completed: smoke tests and GitHub Actions CI validation passed (run `22561377015` on March 1, 2026 CST / March 2, 2026 UTC).
+- Suggested execution order Step 1 completed: `import_resources.py` key-handler dedupe landed with smoke tests passing (10/10).
 
 ## Phased Plan
 
@@ -139,6 +140,5 @@ Validation:
 
 ## Suggested Execution Order (Next)
 
-1. Optional: incremental cleanup in `import_resources.py` (registry dedupe for repeated key handlers) now that CI baseline is stable.
-2. Optional: add branch-protection requirements in GitHub so Phase5 Smoke Tests must pass before merge.
-3. Optional: split smoke suite into targeted files (`test_only_selectors.py`, `test_preflight.py`, `test_rollback.py`, `test_csv_materialization.py`) for maintainability as coverage grows.
+1. Optional: add branch-protection requirements in GitHub so Phase5 Smoke Tests must pass before merge.
+2. Optional: split smoke suite into targeted files (`test_only_selectors.py`, `test_preflight.py`, `test_rollback.py`, `test_csv_materialization.py`) for maintainability as coverage grows.
