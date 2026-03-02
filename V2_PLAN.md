@@ -143,3 +143,12 @@ Validation:
 ## Suggested Execution Order (Next)
 
 - No pending optional items from this plan section.
+
+## Future Considerations
+
+- Introduce semantic versioning and regular tagged releases (starting with `v1.0.0`) so deployments can target stable versions.
+- Add packaging metadata (`pyproject.toml`) and explicit Python version constraints to prevent interpreter mismatch issues.
+- Keep operational export data out of product releases (use fixture/sample datasets for reproducible testing).
+- Add structured logging and config file support for easier operations and CI/CD integration.
+- Evaluate a lightweight web UI/API layer once CLI workflows are stable.
+
