@@ -1,0 +1,1 @@
+device,vdcs,module,name,label,type,enabled,parent,bridge,lag,mtu,primary_mac_address,speed,duplex,wwn,mgmt_only,description,mode,rf_role,rf_channel,poe_mode,poe_type,rf_channel_frequency,rf_channel_width,tx_power,untagged_vlan,tagged_vlans,qinq_svlan,vlan_translation_policy,mark_connected,wireless_lans,vrf,owner,tags,custom_fields

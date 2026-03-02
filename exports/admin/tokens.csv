@@ -1,0 +1,3 @@
+allowed_ips,created,description,display,display_url,enabled,expires,id,key,last_used,pepper_id,token,url,user,version,write_enabled
+[],2026-03-01T04:25:23.941185Z,,**********************************XAAtzq,http://192.168.65.40:8000/users/tokens/4/,True,,4,,2026-03-01T07:50:34.739889Z,,,http://192.168.65.40:8000/api/users/tokens/4/,"{""display"": ""netbox-admin"", ""id"": 1, ""url"": ""http://192.168.65.40:8000/api/users/users/1/"", ""username"": ""netbox-admin""}",1,True
+[],2026-03-01T04:23:24.542297Z,,BiFEaPwnLM5r,http://192.168.65.40:8000/users/tokens/3/,True,,3,BiFEaPwnLM5r,,1,,http://192.168.65.40:8000/api/users/tokens/3/,"{""display"": ""netbox-admin"", ""id"": 1, ""url"": ""http://192.168.65.40:8000/api/users/users/1/"", ""username"": ""netbox-admin""}",2,True

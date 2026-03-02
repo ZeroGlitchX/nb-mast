@@ -1,0 +1,116 @@
+[
+  {
+    "contact": {
+      "description": "",
+      "display": "Dwight Schrute",
+      "id": 1,
+      "name": "Dwight Schrute",
+      "url": "http://192.168.65.40:8000/api/tenancy/contacts/1/"
+    },
+    "created": "2026-03-01T04:26:44.578552Z",
+    "custom_fields": {},
+    "display": "Dwight Schrute (Primary) -> DM-Scranton",
+    "id": 1,
+    "last_updated": "2026-03-01T04:26:44.578570Z",
+    "object": {
+      "description": "",
+      "display": "DM-Scranton",
+      "id": 12,
+      "name": "DM-Scranton",
+      "slug": "dm-scranton",
+      "url": "http://192.168.65.40:8000/api/dcim/sites/12/"
+    },
+    "object_id": 12,
+    "object_type": "dcim.site",
+    "priority": {
+      "label": "Primary",
+      "value": "primary"
+    },
+    "role": {
+      "description": "",
+      "display": "Operational",
+      "id": 3,
+      "name": "Operational",
+      "slug": "operational",
+      "url": "http://192.168.65.40:8000/api/tenancy/contact-roles/3/"
+    },
+    "tags": [],
+    "url": "http://192.168.65.40:8000/api/tenancy/contact-assignments/1/"
+  },
+  {
+    "contact": {
+      "description": "",
+      "display": "Michael Scott",
+      "id": 2,
+      "name": "Michael Scott",
+      "url": "http://192.168.65.40:8000/api/tenancy/contacts/2/"
+    },
+    "created": "2026-03-01T04:26:44.629561Z",
+    "custom_fields": {},
+    "display": "Michael Scott (Secondary) -> DM-Scranton",
+    "id": 2,
+    "last_updated": "2026-03-01T04:26:44.629578Z",
+    "object": {
+      "description": "",
+      "display": "DM-Scranton",
+      "id": 12,
+      "name": "DM-Scranton",
+      "slug": "dm-scranton",
+      "url": "http://192.168.65.40:8000/api/dcim/sites/12/"
+    },
+    "object_id": 12,
+    "object_type": "dcim.site",
+    "priority": {
+      "label": "Secondary",
+      "value": "secondary"
+    },
+    "role": {
+      "description": "",
+      "display": "Administrative",
+      "id": 1,
+      "name": "Administrative",
+      "slug": "administrative",
+      "url": "http://192.168.65.40:8000/api/tenancy/contact-roles/1/"
+    },
+    "tags": [],
+    "url": "http://192.168.65.40:8000/api/tenancy/contact-assignments/2/"
+  },
+  {
+    "contact": {
+      "description": "",
+      "display": "Pamela Halpert",
+      "id": 3,
+      "name": "Pamela Halpert",
+      "url": "http://192.168.65.40:8000/api/tenancy/contacts/3/"
+    },
+    "created": "2026-03-01T04:26:44.686340Z",
+    "custom_fields": {},
+    "display": "Pamela Halpert (Primary) -> DM-Scranton",
+    "id": 3,
+    "last_updated": "2026-03-01T04:26:44.686358Z",
+    "object": {
+      "description": "",
+      "display": "DM-Scranton",
+      "id": 12,
+      "name": "DM-Scranton",
+      "slug": "dm-scranton",
+      "url": "http://192.168.65.40:8000/api/dcim/sites/12/"
+    },
+    "object_id": 12,
+    "object_type": "dcim.site",
+    "priority": {
+      "label": "Primary",
+      "value": "primary"
+    },
+    "role": {
+      "description": "",
+      "display": "Administrative",
+      "id": 1,
+      "name": "Administrative",
+      "slug": "administrative",
+      "url": "http://192.168.65.40:8000/api/tenancy/contact-roles/1/"
+    },
+    "tags": [],
+    "url": "http://192.168.65.40:8000/api/tenancy/contact-assignments/3/"
+  }
+]

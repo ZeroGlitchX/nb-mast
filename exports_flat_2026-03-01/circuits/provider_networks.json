@@ -1,0 +1,25 @@
+[
+  {
+    "comments": "",
+    "created": "2026-03-01T05:03:00.727366Z",
+    "custom_fields": {},
+    "description": "",
+    "display": "Level3 MPLS",
+    "display_url": "http://192.168.65.40:8000/circuits/provider-networks/1/",
+    "id": 1,
+    "last_updated": "2026-03-01T05:03:00.727385Z",
+    "name": "Level3 MPLS",
+    "owner": null,
+    "provider": {
+      "description": "",
+      "display": "Level 3",
+      "id": 5,
+      "name": "Level 3",
+      "slug": "level-3",
+      "url": "http://192.168.65.40:8000/api/circuits/providers/5/"
+    },
+    "service_id": "",
+    "tags": [],
+    "url": "http://192.168.65.40:8000/api/circuits/provider-networks/1/"
+  }
+]

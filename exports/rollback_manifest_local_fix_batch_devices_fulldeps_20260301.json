@@ -1,0 +1,2703 @@
+{
+  "created_count": 206,
+  "created_objects": [
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 423,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (82)"
+        ],
+        null,
+        "Port 35"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 424,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (82)"
+        ],
+        null,
+        "Port 36"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 425,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (82)"
+        ],
+        null,
+        "Port 37"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 426,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (82)"
+        ],
+        null,
+        "Port 38"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 427,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (82)"
+        ],
+        null,
+        "Port 39"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 428,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (82)"
+        ],
+        null,
+        "Port 40"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 429,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (82)"
+        ],
+        null,
+        "Port 41"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 430,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (82)"
+        ],
+        null,
+        "Port 42"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 431,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (82)"
+        ],
+        null,
+        "Port 43"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 432,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (82)"
+        ],
+        null,
+        "Port 44"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 433,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (82)"
+        ],
+        null,
+        "Port 45"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 434,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (82)"
+        ],
+        null,
+        "Port 46"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 435,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (82)"
+        ],
+        null,
+        "Port 47"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 436,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (82)"
+        ],
+        null,
+        "Port 48"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 437,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (83)"
+        ],
+        null,
+        "Port 1"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 438,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (83)"
+        ],
+        null,
+        "Port 2"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 439,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (83)"
+        ],
+        null,
+        "Port 3"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 440,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (83)"
+        ],
+        null,
+        "Port 4"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 441,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (83)"
+        ],
+        null,
+        "Port 5"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 442,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (83)"
+        ],
+        null,
+        "Port 6"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 443,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (83)"
+        ],
+        null,
+        "Port 7"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 444,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (83)"
+        ],
+        null,
+        "Port 8"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 445,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (83)"
+        ],
+        null,
+        "Port 9"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 446,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (83)"
+        ],
+        null,
+        "Port 10"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 447,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (83)"
+        ],
+        null,
+        "Port 11"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 448,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (83)"
+        ],
+        null,
+        "Port 12"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 449,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (83)"
+        ],
+        null,
+        "Port 13"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 450,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (83)"
+        ],
+        null,
+        "Port 14"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 451,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (83)"
+        ],
+        null,
+        "Port 15"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 452,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (83)"
+        ],
+        null,
+        "Port 16"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 453,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (83)"
+        ],
+        null,
+        "Port 17"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 454,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (83)"
+        ],
+        null,
+        "Port 18"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 455,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (83)"
+        ],
+        null,
+        "Port 19"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 456,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (83)"
+        ],
+        null,
+        "Port 20"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 457,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (83)"
+        ],
+        null,
+        "Port 21"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 458,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (83)"
+        ],
+        null,
+        "Port 22"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 459,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (83)"
+        ],
+        null,
+        "Port 23"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 460,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (83)"
+        ],
+        null,
+        "Port 24"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 461,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (83)"
+        ],
+        null,
+        "Port 25"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 462,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (83)"
+        ],
+        null,
+        "Port 26"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 463,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (83)"
+        ],
+        null,
+        "Port 27"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 464,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (83)"
+        ],
+        null,
+        "Port 28"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 465,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (83)"
+        ],
+        null,
+        "Port 29"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 466,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (83)"
+        ],
+        null,
+        "Port 30"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 467,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (83)"
+        ],
+        null,
+        "Port 31"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 468,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (83)"
+        ],
+        null,
+        "Port 32"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 469,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (83)"
+        ],
+        null,
+        "Port 33"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 470,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (83)"
+        ],
+        null,
+        "Port 34"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 471,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (83)"
+        ],
+        null,
+        "Port 35"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 472,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (83)"
+        ],
+        null,
+        "Port 36"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 473,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (83)"
+        ],
+        null,
+        "Port 37"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 474,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (83)"
+        ],
+        null,
+        "Port 38"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 475,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (83)"
+        ],
+        null,
+        "Port 39"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 476,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (83)"
+        ],
+        null,
+        "Port 40"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 477,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (83)"
+        ],
+        null,
+        "Port 41"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 478,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (83)"
+        ],
+        null,
+        "Port 42"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 479,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (83)"
+        ],
+        null,
+        "Port 43"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 480,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (83)"
+        ],
+        null,
+        "Port 44"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 481,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (83)"
+        ],
+        null,
+        "Port 45"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 482,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (83)"
+        ],
+        null,
+        "Port 46"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 483,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (83)"
+        ],
+        null,
+        "Port 47"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 484,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (83)"
+        ],
+        null,
+        "Port 48"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 485,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (84)"
+        ],
+        null,
+        "Port 1"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 486,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (84)"
+        ],
+        null,
+        "Port 2"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 487,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (84)"
+        ],
+        null,
+        "Port 3"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 488,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (84)"
+        ],
+        null,
+        "Port 4"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 489,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (84)"
+        ],
+        null,
+        "Port 5"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 490,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (84)"
+        ],
+        null,
+        "Port 6"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 491,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (84)"
+        ],
+        null,
+        "Port 7"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 492,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (84)"
+        ],
+        null,
+        "Port 8"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 493,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (84)"
+        ],
+        null,
+        "Port 9"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 494,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (84)"
+        ],
+        null,
+        "Port 10"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 495,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (84)"
+        ],
+        null,
+        "Port 11"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 496,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (84)"
+        ],
+        null,
+        "Port 12"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 497,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (84)"
+        ],
+        null,
+        "Port 13"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 498,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (84)"
+        ],
+        null,
+        "Port 14"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 499,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (84)"
+        ],
+        null,
+        "Port 15"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 500,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (84)"
+        ],
+        null,
+        "Port 16"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 501,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (84)"
+        ],
+        null,
+        "Port 17"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 502,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (84)"
+        ],
+        null,
+        "Port 18"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 503,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (84)"
+        ],
+        null,
+        "Port 19"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 504,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (84)"
+        ],
+        null,
+        "Port 20"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 505,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (84)"
+        ],
+        null,
+        "Port 21"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 506,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (84)"
+        ],
+        null,
+        "Port 22"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 507,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (84)"
+        ],
+        null,
+        "Port 23"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 508,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (84)"
+        ],
+        null,
+        "Port 24"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 509,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (84)"
+        ],
+        null,
+        "Port 25"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 510,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (84)"
+        ],
+        null,
+        "Port 26"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 511,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (84)"
+        ],
+        null,
+        "Port 27"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 512,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (84)"
+        ],
+        null,
+        "Port 28"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 513,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (84)"
+        ],
+        null,
+        "Port 29"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 514,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (84)"
+        ],
+        null,
+        "Port 30"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 515,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (84)"
+        ],
+        null,
+        "Port 31"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 516,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (84)"
+        ],
+        null,
+        "Port 32"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 517,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (84)"
+        ],
+        null,
+        "Port 33"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 518,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (84)"
+        ],
+        null,
+        "Port 34"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 519,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (84)"
+        ],
+        null,
+        "Port 35"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 520,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (84)"
+        ],
+        null,
+        "Port 36"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 521,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (84)"
+        ],
+        null,
+        "Port 37"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 522,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (84)"
+        ],
+        null,
+        "Port 38"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 523,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (84)"
+        ],
+        null,
+        "Port 39"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 524,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (84)"
+        ],
+        null,
+        "Port 40"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 525,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (84)"
+        ],
+        null,
+        "Port 41"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 526,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (84)"
+        ],
+        null,
+        "Port 42"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 527,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (84)"
+        ],
+        null,
+        "Port 43"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 528,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (84)"
+        ],
+        null,
+        "Port 44"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 529,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (84)"
+        ],
+        null,
+        "Port 45"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 530,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (84)"
+        ],
+        null,
+        "Port 46"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 531,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (84)"
+        ],
+        null,
+        "Port 47"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 532,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (84)"
+        ],
+        null,
+        "Port 48"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 533,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (85)"
+        ],
+        null,
+        "Port 1"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 534,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (85)"
+        ],
+        null,
+        "Port 2"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 535,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (85)"
+        ],
+        null,
+        "Port 3"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 536,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (85)"
+        ],
+        null,
+        "Port 4"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 537,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (85)"
+        ],
+        null,
+        "Port 5"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 538,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (85)"
+        ],
+        null,
+        "Port 6"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 539,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (85)"
+        ],
+        null,
+        "Port 7"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 540,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (85)"
+        ],
+        null,
+        "Port 8"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 541,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (85)"
+        ],
+        null,
+        "Port 9"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 542,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (85)"
+        ],
+        null,
+        "Port 10"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 543,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (85)"
+        ],
+        null,
+        "Port 11"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 544,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (85)"
+        ],
+        null,
+        "Port 12"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 545,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (85)"
+        ],
+        null,
+        "Port 13"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 546,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (85)"
+        ],
+        null,
+        "Port 14"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 547,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (85)"
+        ],
+        null,
+        "Port 15"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 548,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (85)"
+        ],
+        null,
+        "Port 16"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 549,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (85)"
+        ],
+        null,
+        "Port 17"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 550,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (85)"
+        ],
+        null,
+        "Port 18"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 551,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (85)"
+        ],
+        null,
+        "Port 19"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 552,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (85)"
+        ],
+        null,
+        "Port 20"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 553,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (85)"
+        ],
+        null,
+        "Port 21"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 554,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (85)"
+        ],
+        null,
+        "Port 22"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 555,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (85)"
+        ],
+        null,
+        "Port 23"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 556,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (85)"
+        ],
+        null,
+        "Port 24"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 557,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (85)"
+        ],
+        null,
+        "Port 25"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 558,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (85)"
+        ],
+        null,
+        "Port 26"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 559,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (85)"
+        ],
+        null,
+        "Port 27"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 560,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (85)"
+        ],
+        null,
+        "Port 28"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 561,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (85)"
+        ],
+        null,
+        "Port 29"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 562,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (85)"
+        ],
+        null,
+        "Port 30"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 563,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (85)"
+        ],
+        null,
+        "Port 31"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 564,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (85)"
+        ],
+        null,
+        "Port 32"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 565,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (85)"
+        ],
+        null,
+        "Port 33"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 566,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (85)"
+        ],
+        null,
+        "Port 34"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 567,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (85)"
+        ],
+        null,
+        "Port 35"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 568,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (85)"
+        ],
+        null,
+        "Port 36"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 569,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (85)"
+        ],
+        null,
+        "Port 37"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 570,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (85)"
+        ],
+        null,
+        "Port 38"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 571,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (85)"
+        ],
+        null,
+        "Port 39"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 572,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (85)"
+        ],
+        null,
+        "Port 40"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 573,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (85)"
+        ],
+        null,
+        "Port 41"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 574,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (85)"
+        ],
+        null,
+        "Port 42"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 575,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (85)"
+        ],
+        null,
+        "Port 43"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 576,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (85)"
+        ],
+        null,
+        "Port 44"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 577,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (85)"
+        ],
+        null,
+        "Port 45"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 578,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (85)"
+        ],
+        null,
+        "Port 46"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 579,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (85)"
+        ],
+        null,
+        "Port 47"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 580,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (85)"
+        ],
+        null,
+        "Port 48"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 581,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (86)"
+        ],
+        null,
+        "Port 1"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 582,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (86)"
+        ],
+        null,
+        "Port 2"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 583,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (86)"
+        ],
+        null,
+        "Port 3"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 584,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (86)"
+        ],
+        null,
+        "Port 4"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 585,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (86)"
+        ],
+        null,
+        "Port 5"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 586,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (86)"
+        ],
+        null,
+        "Port 6"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 587,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (86)"
+        ],
+        null,
+        "Port 7"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 588,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (86)"
+        ],
+        null,
+        "Port 8"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 589,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (86)"
+        ],
+        null,
+        "Port 9"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 590,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (86)"
+        ],
+        null,
+        "Port 10"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 591,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (86)"
+        ],
+        null,
+        "Port 11"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 592,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (86)"
+        ],
+        null,
+        "Port 12"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 593,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (86)"
+        ],
+        null,
+        "Port 13"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 594,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (86)"
+        ],
+        null,
+        "Port 14"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 595,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (86)"
+        ],
+        null,
+        "Port 15"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 596,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (86)"
+        ],
+        null,
+        "Port 16"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 597,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (86)"
+        ],
+        null,
+        "Port 17"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 598,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (86)"
+        ],
+        null,
+        "Port 18"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 599,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (86)"
+        ],
+        null,
+        "Port 19"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 600,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (86)"
+        ],
+        null,
+        "Port 20"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 601,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (86)"
+        ],
+        null,
+        "Port 21"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 602,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (86)"
+        ],
+        null,
+        "Port 22"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 603,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (86)"
+        ],
+        null,
+        "Port 23"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 604,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (86)"
+        ],
+        null,
+        "Port 24"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 605,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (86)"
+        ],
+        null,
+        "Port 25"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 606,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (86)"
+        ],
+        null,
+        "Port 26"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 607,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (86)"
+        ],
+        null,
+        "Port 27"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 608,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (86)"
+        ],
+        null,
+        "Port 28"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 609,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (86)"
+        ],
+        null,
+        "Port 29"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 610,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (86)"
+        ],
+        null,
+        "Port 30"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 611,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (86)"
+        ],
+        null,
+        "Port 31"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 612,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (86)"
+        ],
+        null,
+        "Port 32"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 613,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (86)"
+        ],
+        null,
+        "Port 33"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 614,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (86)"
+        ],
+        null,
+        "Port 34"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 615,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (86)"
+        ],
+        null,
+        "Port 35"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 616,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (86)"
+        ],
+        null,
+        "Port 36"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 617,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (86)"
+        ],
+        null,
+        "Port 37"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 618,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (86)"
+        ],
+        null,
+        "Port 38"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 619,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (86)"
+        ],
+        null,
+        "Port 39"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 620,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (86)"
+        ],
+        null,
+        "Port 40"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 621,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (86)"
+        ],
+        null,
+        "Port 41"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 622,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (86)"
+        ],
+        null,
+        "Port 42"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 623,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (86)"
+        ],
+        null,
+        "Port 43"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 624,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (86)"
+        ],
+        null,
+        "Port 44"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 625,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (86)"
+        ],
+        null,
+        "Port 45"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 626,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (86)"
+        ],
+        null,
+        "Port 46"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 627,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (86)"
+        ],
+        null,
+        "Port 47"
+      ],
+      "resource": "rear_ports"
+    },
+    {
+      "endpoint": "/api/dcim/rear-ports/",
+      "id": 628,
+      "key": [
+        [
+          "display",
+          "Panduit 48-Port Patch Panel (86)"
+        ],
+        null,
+        "Port 48"
+      ],
+      "resource": "rear_ports"
+    }
+  ],
+  "generated_at_utc": "2026-03-01T05:21:56.886195+00:00",
+  "input_dir": "/var/www/html/netbox-mast-v2/exports",
+  "mode": "APPLY",
+  "netbox_url": "http://192.168.65.40:8000",
+  "rollback_order": "reverse(created_objects)",
+  "selected_resources": [
+    "device_roles",
+    "device_types",
+    "devices",
+    "front_ports",
+    "interfaces",
+    "manufacturers",
+    "module_bays",
+    "module_type_profiles",
+    "module_types",
+    "modules",
+    "platforms",
+    "rear_ports"
+  ],
+  "update_existing": false
+}

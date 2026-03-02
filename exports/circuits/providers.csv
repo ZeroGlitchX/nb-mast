@@ -1,0 +1,10 @@
+accounts,asns,circuit_count,comments,created,custom_fields,description,display,display_url,id,last_updated,name,owner,slug,tags,url
+[],[],0,,2026-03-01T05:02:59.328741Z,{},,AT&T,http://192.168.65.40:8000/circuits/providers/1/,1,2026-03-01T05:02:59.328759Z,AT&T,,att,[],http://192.168.65.40:8000/api/circuits/providers/1/
+[],[],13,,2026-03-01T05:02:59.386519Z,{},,CenturyLink,http://192.168.65.40:8000/circuits/providers/2/,2,2026-03-01T05:02:59.386537Z,CenturyLink,,centurylink,[],http://192.168.65.40:8000/api/circuits/providers/2/
+[],[],0,,2026-03-01T05:02:59.435584Z,{},,Comcast,http://192.168.65.40:8000/circuits/providers/3/,3,2026-03-01T05:02:59.435602Z,Comcast,,comcast,[],http://192.168.65.40:8000/api/circuits/providers/3/
+[],[],0,,2026-03-01T05:02:59.478843Z,{},,GTT,http://192.168.65.40:8000/circuits/providers/4/,4,2026-03-01T05:02:59.478860Z,GTT,,gtt,[],http://192.168.65.40:8000/api/circuits/providers/4/
+[],[],13,,2026-03-01T05:02:59.525108Z,{},,Level 3,http://192.168.65.40:8000/circuits/providers/5/,5,2026-03-01T05:02:59.525126Z,Level 3,,level-3,[],http://192.168.65.40:8000/api/circuits/providers/5/
+[],[],3,Local maintainer for NC State communications facilities,2026-03-01T05:02:59.574480Z,{},,NCSU Facilities,http://192.168.65.40:8000/circuits/providers/6/,6,2026-03-01T05:02:59.574497Z,NCSU Facilities,,ncsu-facilities,[],http://192.168.65.40:8000/api/circuits/providers/6/
+[],[],0,,2026-03-01T05:02:59.625069Z,{},,NTT,http://192.168.65.40:8000/circuits/providers/7/,7,2026-03-01T05:02:59.625086Z,NTT,,ntt,[],http://192.168.65.40:8000/api/circuits/providers/7/
+[],[],0,,2026-03-01T05:03:00.256368Z,{},,Verizon,http://192.168.65.40:8000/circuits/providers/8/,8,2026-03-01T05:03:00.256386Z,Verizon,,verizon,[],http://192.168.65.40:8000/api/circuits/providers/8/
+[],[],0,,2026-03-01T05:03:00.622870Z,{},,Zayo,http://192.168.65.40:8000/circuits/providers/9/,9,2026-03-01T05:03:00.622888Z,Zayo,,zayo,[],http://192.168.65.40:8000/api/circuits/providers/9/

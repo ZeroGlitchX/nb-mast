@@ -1,0 +1,54 @@
+{
+  "created_count": 2,
+  "created_objects": [
+    {
+      "endpoint": "/api/dcim/rack-reservations/",
+      "id": 1,
+      "key": [
+        [
+          "name",
+          "IDF128"
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        null
+      ],
+      "resource": "rack_reservations"
+    },
+    {
+      "endpoint": "/api/dcim/rack-reservations/",
+      "id": 2,
+      "key": [
+        [
+          "name",
+          "R101"
+        ],
+        [
+          20,
+          21
+        ],
+        null
+      ],
+      "resource": "rack_reservations"
+    }
+  ],
+  "generated_at_utc": "2026-03-01T07:22:43.279104+00:00",
+  "input_dir": "/var/www/html/netbox-mast-v2/exports",
+  "mode": "APPLY",
+  "netbox_url": "http://192.168.65.40:8000",
+  "rollback_order": "reverse(created_objects)",
+  "selected_resources": [
+    "rack_reservations"
+  ],
+  "update_existing": false
+}

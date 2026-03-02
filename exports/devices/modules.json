@@ -1,0 +1,102 @@
+[
+  {
+    "asset_tag": null,
+    "comments": "",
+    "created": "2026-03-01T05:16:33.373340Z",
+    "custom_fields": {},
+    "description": "",
+    "device": {
+      "description": "",
+      "display": "ncsu-coreswitch1",
+      "id": 40,
+      "name": "ncsu-coreswitch1",
+      "url": "http://192.168.65.40:8000/api/dcim/devices/40/"
+    },
+    "display": "Slot 0: EX9200-32XS (1)",
+    "display_url": "http://192.168.65.40:8000/dcim/modules/1/",
+    "id": 1,
+    "last_updated": "2026-03-01T05:16:33.373359Z",
+    "module_bay": {
+      "display": "Slot 0",
+      "display_url": "http://192.168.65.40:8000/dcim/module-bays/25/",
+      "id": 25,
+      "name": "Slot 0",
+      "url": "http://192.168.65.40:8000/api/dcim/module-bays/25/"
+    },
+    "module_type": {
+      "description": "",
+      "display": "EX9200-32XS",
+      "id": 1,
+      "manufacturer": {
+        "description": "",
+        "display": "Juniper",
+        "id": 9,
+        "name": "Juniper",
+        "slug": "juniper",
+        "url": "http://192.168.65.40:8000/api/dcim/manufacturers/9/"
+      },
+      "model": "EX9200-32XS",
+      "module_count": 2,
+      "profile": null,
+      "url": "http://192.168.65.40:8000/api/dcim/module-types/1/"
+    },
+    "owner": null,
+    "serial": "",
+    "status": {
+      "label": "Active",
+      "value": "active"
+    },
+    "tags": [],
+    "url": "http://192.168.65.40:8000/api/dcim/modules/1/"
+  },
+  {
+    "asset_tag": null,
+    "comments": "",
+    "created": "2026-03-01T05:16:33.540348Z",
+    "custom_fields": {},
+    "description": "",
+    "device": {
+      "description": "",
+      "display": "ncsu-coreswitch1",
+      "id": 40,
+      "name": "ncsu-coreswitch1",
+      "url": "http://192.168.65.40:8000/api/dcim/devices/40/"
+    },
+    "display": "Slot 1: EX9200-32XS (2)",
+    "display_url": "http://192.168.65.40:8000/dcim/modules/2/",
+    "id": 2,
+    "last_updated": "2026-03-01T05:16:33.540368Z",
+    "module_bay": {
+      "display": "Slot 1",
+      "display_url": "http://192.168.65.40:8000/dcim/module-bays/26/",
+      "id": 26,
+      "name": "Slot 1",
+      "url": "http://192.168.65.40:8000/api/dcim/module-bays/26/"
+    },
+    "module_type": {
+      "description": "",
+      "display": "EX9200-32XS",
+      "id": 1,
+      "manufacturer": {
+        "description": "",
+        "display": "Juniper",
+        "id": 9,
+        "name": "Juniper",
+        "slug": "juniper",
+        "url": "http://192.168.65.40:8000/api/dcim/manufacturers/9/"
+      },
+      "model": "EX9200-32XS",
+      "module_count": 2,
+      "profile": null,
+      "url": "http://192.168.65.40:8000/api/dcim/module-types/1/"
+    },
+    "owner": null,
+    "serial": "",
+    "status": {
+      "label": "Active",
+      "value": "active"
+    },
+    "tags": [],
+    "url": "http://192.168.65.40:8000/api/dcim/modules/2/"
+  }
+]

@@ -1,0 +1,5 @@
+comments,created,description,display,display_url,id,last_updated,location,name,owner,powerfeed_count,url
+,2026-03-01T05:03:08.057714Z,,Panel 1,http://192.168.65.40:8000/dcim/power-panels/1/,1,2026-03-01T05:03:08.057731Z,,Panel 1,,16,http://192.168.65.40:8000/api/dcim/power-panels/1/
+,2026-03-01T05:03:08.114372Z,,Panel 2,http://192.168.65.40:8000/dcim/power-panels/2/,2,2026-03-01T05:03:08.114390Z,,Panel 2,,16,http://192.168.65.40:8000/api/dcim/power-panels/2/
+,2026-03-01T05:03:08.162332Z,,Panel 3,http://192.168.65.40:8000/dcim/power-panels/3/,3,2026-03-01T05:03:08.162349Z,,Panel 3,,8,http://192.168.65.40:8000/api/dcim/power-panels/3/
+,2026-03-01T05:03:08.217415Z,,Panel 4,http://192.168.65.40:8000/dcim/power-panels/4/,4,2026-03-01T05:03:08.217433Z,,Panel 4,,8,http://192.168.65.40:8000/api/dcim/power-panels/4/

@@ -1,0 +1,7 @@
+cluster_count,comments,created,custom_fields,description,display,display_url,id,last_updated,name,owner,slug,tags,url
+0,,2026-03-01T05:02:30.280496Z,{},,Amazon Web Services,http://192.168.65.40:8000/virtualization/cluster-types/1/,1,2026-03-01T05:02:30.280528Z,Amazon Web Services,,amazon-web-services,[],http://192.168.65.40:8000/api/virtualization/cluster-types/1/
+9,,2026-03-01T05:02:30.340242Z,{},,DigitalOcean,http://192.168.65.40:8000/virtualization/cluster-types/2/,2,2026-03-01T05:02:30.340259Z,DigitalOcean,,digitalocean,[],http://192.168.65.40:8000/api/virtualization/cluster-types/2/
+23,,2026-03-01T05:02:30.381267Z,{},,Google Cloud,http://192.168.65.40:8000/virtualization/cluster-types/3/,3,2026-03-01T05:02:30.381283Z,Google Cloud,,google-cloud,[],http://192.168.65.40:8000/api/virtualization/cluster-types/3/
+0,,2026-03-01T05:02:30.423199Z,{},,KVM,http://192.168.65.40:8000/virtualization/cluster-types/4/,4,2026-03-01T05:02:30.423216Z,KVM,,kvm,[],http://192.168.65.40:8000/api/virtualization/cluster-types/4/
+0,,2026-03-01T05:02:30.466374Z,{},,Microsoft Azure,http://192.168.65.40:8000/virtualization/cluster-types/5/,5,2026-03-01T05:02:30.466391Z,Microsoft Azure,,microsoft-azure,[],http://192.168.65.40:8000/api/virtualization/cluster-types/5/
+0,,2026-03-01T05:02:30.511417Z,{},,VMware,http://192.168.65.40:8000/virtualization/cluster-types/6/,6,2026-03-01T05:02:30.511435Z,VMware,,vmware,[],http://192.168.65.40:8000/api/virtualization/cluster-types/6/

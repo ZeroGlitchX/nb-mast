@@ -1,0 +1,46 @@
+[
+  {
+    "_depth": 0,
+    "comments": "",
+    "contact_count": 3,
+    "created": "2026-03-01T04:26:44.046131Z",
+    "custom_fields": {},
+    "description": "",
+    "display": "Customers",
+    "display_url": "http://192.168.65.40:8000/tenancy/contact-groups/1/",
+    "id": 1,
+    "last_updated": "2026-03-01T04:26:44.046147Z",
+    "name": "Customers",
+    "owner": null,
+    "parent": null,
+    "slug": "customers",
+    "tags": [],
+    "url": "http://192.168.65.40:8000/api/tenancy/contact-groups/1/"
+  },
+  {
+    "_depth": 1,
+    "comments": "",
+    "contact_count": 3,
+    "created": "2026-03-01T04:26:44.096184Z",
+    "custom_fields": {},
+    "description": "",
+    "display": "Dunder-Mifflin",
+    "display_url": "http://192.168.65.40:8000/tenancy/contact-groups/2/",
+    "id": 2,
+    "last_updated": "2026-03-01T04:26:44.096200Z",
+    "name": "Dunder-Mifflin",
+    "owner": null,
+    "parent": {
+      "_depth": 0,
+      "display": "Customers",
+      "display_url": "http://192.168.65.40:8000/tenancy/contact-groups/1/",
+      "id": 1,
+      "name": "Customers",
+      "slug": "customers",
+      "url": "http://192.168.65.40:8000/api/tenancy/contact-groups/1/"
+    },
+    "slug": "dunder-mifflin",
+    "tags": [],
+    "url": "http://192.168.65.40:8000/api/tenancy/contact-groups/2/"
+  }
+]

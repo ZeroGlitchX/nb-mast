@@ -1,0 +1,21 @@
+{
+  "created_count": 1,
+  "created_objects": [
+    {
+      "endpoint": "/api/extras/custom-fields/",
+      "id": 1,
+      "key": "cust_id",
+      "resource": "custom_fields"
+    }
+  ],
+  "generated_at_utc": "2026-03-01T05:38:07.685011+00:00",
+  "input_dir": "/var/www/html/netbox-mast-v2/exports",
+  "mode": "APPLY",
+  "netbox_url": "http://192.168.65.40:8000",
+  "rollback_order": "reverse(created_objects)",
+  "selected_resources": [
+    "custom_field_choice_sets",
+    "custom_fields"
+  ],
+  "update_existing": false
+}

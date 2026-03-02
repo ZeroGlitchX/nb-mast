@@ -1,0 +1,1 @@
+object_types,type,related_object_type,name,label,group_name,description,required,unique,search_weight,filter_logic,ui_visible,ui_editable,is_cloneable,default,related_object_filter,weight,validation_minimum,validation_maximum,validation_regex,comments

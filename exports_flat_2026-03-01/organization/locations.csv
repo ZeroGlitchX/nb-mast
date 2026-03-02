@@ -1,0 +1,5 @@
+_depth,comments,created,description,device_count,display,display_url,facility,id,last_updated,name,owner,parent,prefix_count,rack_count,slug,tenant,url
+0,,2026-03-01T04:26:43.016638Z,,10,Row 1,http://192.168.65.40:8000/dcim/locations/1/,,1,2026-03-01T04:26:43.016655Z,Row 1,,,0,0,row-1,,http://192.168.65.40:8000/api/dcim/locations/1/
+0,,2026-03-01T04:26:43.096955Z,,1,Row 2,http://192.168.65.40:8000/dcim/locations/2/,,2,2026-03-01T04:26:43.096972Z,Row 2,,,0,0,row-2,,http://192.168.65.40:8000/api/dcim/locations/2/
+0,,2026-03-01T04:26:43.157998Z,,0,Row 3,http://192.168.65.40:8000/dcim/locations/3/,,3,2026-03-01T04:26:43.158015Z,Row 3,,,0,0,row-3,,http://192.168.65.40:8000/api/dcim/locations/3/
+0,,2026-03-01T04:26:43.216949Z,,0,Row 4,http://192.168.65.40:8000/dcim/locations/4/,,4,2026-03-01T04:26:43.216966Z,Row 4,,,0,0,row-4,,http://192.168.65.40:8000/api/dcim/locations/4/

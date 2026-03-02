@@ -1,0 +1,31 @@
+circuit_count,comments,created,description,device_count,display,display_url,facility,id,last_updated,latitude,longitude,name,owner,physical_address,prefix_count,rack_count,shipping_address,slug,tenant,time_zone,url,virtualmachine_count,vlan_count
+1,,2026-03-01T04:26:40.313310Z,,2,Butler Communications,http://192.168.65.40:8000/dcim/sites/1/,BUT,1,2026-03-01T04:26:40.313325Z,,,Butler Communications,,"3210 Faucette Dr., Raleigh, NC 27607",0,1,,ncsu-128,,,http://192.168.65.40:8000/api/dcim/sites/1/,0,0
+1,,2026-03-01T04:26:40.384721Z,,2,D. S. Weaver Labs,http://192.168.65.40:8000/dcim/sites/2/,DSW,2,2026-03-01T04:26:40.384738Z,,,D. S. Weaver Labs,,"3110 Faucette Dr., Raleigh, NC 27607",0,1,,ncsu-117,,,http://192.168.65.40:8000/api/dcim/sites/2/,0,0
+2,,2026-03-01T04:26:40.445686Z,,5,DM-Akron,http://192.168.65.40:8000/dcim/sites/3/,,3,2026-03-01T04:26:40.445703Z,,,DM-Akron,,,5,1,,dm-akron,,,http://192.168.65.40:8000/api/dcim/sites/3/,0,3
+2,,2026-03-01T04:26:40.508346Z,,5,DM-Albany,http://192.168.65.40:8000/dcim/sites/4/,,4,2026-03-01T04:26:40.508363Z,,,DM-Albany,,,5,1,,dm-albany,,,http://192.168.65.40:8000/api/dcim/sites/4/,0,3
+2,,2026-03-01T04:26:40.570206Z,,5,DM-Binghamton,http://192.168.65.40:8000/dcim/sites/5/,,5,2026-03-01T04:26:40.570228Z,,,DM-Binghamton,,,5,1,,dm-binghamton,,,http://192.168.65.40:8000/api/dcim/sites/5/,0,3
+2,,2026-03-01T04:26:40.628516Z,,5,DM-Buffalo,http://192.168.65.40:8000/dcim/sites/6/,,6,2026-03-01T04:26:40.628533Z,,,DM-Buffalo,,,5,1,,dm-buffalo,,,http://192.168.65.40:8000/api/dcim/sites/6/,0,3
+2,,2026-03-01T04:26:40.933219Z,,5,DM-Camden,http://192.168.65.40:8000/dcim/sites/7/,,7,2026-03-01T04:26:40.933239Z,,,DM-Camden,,,5,1,,dm-camden,,,http://192.168.65.40:8000/api/dcim/sites/7/,0,3
+2,,2026-03-01T04:26:41.016253Z,,5,DM-Nashua,http://192.168.65.40:8000/dcim/sites/8/,,8,2026-03-01T04:26:41.016270Z,,,DM-Nashua,,,5,1,,dm-nashua,,,http://192.168.65.40:8000/api/dcim/sites/8/,0,3
+0,,2026-03-01T04:26:41.165267Z,,0,DM-NYC,http://192.168.65.40:8000/dcim/sites/9/,,9,2026-03-01T04:26:41.165293Z,,,DM-NYC,,,0,0,,dm-nyc,,,http://192.168.65.40:8000/api/dcim/sites/9/,0,0
+2,,2026-03-01T04:26:41.249886Z,,5,DM-Pittsfield,http://192.168.65.40:8000/dcim/sites/10/,,10,2026-03-01T04:26:41.249903Z,,,DM-Pittsfield,,,5,1,,dm-pittsfield,,,http://192.168.65.40:8000/api/dcim/sites/10/,0,3
+2,,2026-03-01T04:26:41.309432Z,,5,DM-Rochester,http://192.168.65.40:8000/dcim/sites/11/,,11,2026-03-01T04:26:41.309449Z,,,DM-Rochester,,,5,1,,dm-rochester,,,http://192.168.65.40:8000/api/dcim/sites/11/,0,3
+2,,2026-03-01T04:26:41.374379Z,,5,DM-Scranton,http://192.168.65.40:8000/dcim/sites/12/,,12,2026-03-01T04:26:41.374409Z,,,DM-Scranton,,,5,1,,dm-scranton,,,http://192.168.65.40:8000/api/dcim/sites/12/,0,3
+2,,2026-03-01T04:26:41.433741Z,,5,DM-Stamford,http://192.168.65.40:8000/dcim/sites/13/,,13,2026-03-01T04:26:41.433758Z,,,DM-Stamford,,,5,1,,dm-stamford,,,http://192.168.65.40:8000/api/dcim/sites/13/,0,3
+2,,2026-03-01T04:26:41.495956Z,,5,DM-Syracuse,http://192.168.65.40:8000/dcim/sites/14/,,14,2026-03-01T04:26:41.495973Z,,,DM-Syracuse,,,5,1,,dm-syracuse,,,http://192.168.65.40:8000/api/dcim/sites/14/,0,3
+2,,2026-03-01T04:26:41.555719Z,,5,DM-Utica,http://192.168.65.40:8000/dcim/sites/15/,,15,2026-03-01T04:26:41.555736Z,,,DM-Utica,,,5,1,,dm-utica,,,http://192.168.65.40:8000/api/dcim/sites/15/,0,3
+2,,2026-03-01T04:26:41.618338Z,,5,DM-Yonkers,http://192.168.65.40:8000/dcim/sites/16/,,16,2026-03-01T04:26:41.618355Z,,,DM-Yonkers,,,5,1,,dm-yonkers,,,http://192.168.65.40:8000/api/dcim/sites/16/,0,3
+1,,2026-03-01T04:26:41.680747Z,,2,Grinnells Lab,http://192.168.65.40:8000/dcim/sites/17/,GRL,17,2026-03-01T04:26:41.680764Z,,,Grinnells Lab,,"3200 Faucette Dr., Raleigh, NC 27607",0,1,,ncsu-118,,,http://192.168.65.40:8000/api/dcim/sites/17/,0,0
+0,,2026-03-01T04:26:41.740973Z,,0,JBB Branch 104,http://192.168.65.40:8000/dcim/sites/18/,,18,2026-03-01T04:26:41.740990Z,,,JBB Branch 104,,"7 Indian Spring Lane
+Menasha, WI 54952",0,0,,jbb-branch-104,,,http://192.168.65.40:8000/api/dcim/sites/18/,0,4
+0,,2026-03-01T04:26:41.804003Z,,0,JBB Branch 109,http://192.168.65.40:8000/dcim/sites/19/,,19,2026-03-01T04:26:41.804020Z,,,JBB Branch 109,,"14 South Mill Pond Ave.
+Annandale, VA 22003",0,0,,jbb-branch-109,,,http://192.168.65.40:8000/api/dcim/sites/19/,0,4
+0,,2026-03-01T04:26:41.866761Z,,0,JBB Branch 115,http://192.168.65.40:8000/dcim/sites/20/,,20,2026-03-01T04:26:41.866778Z,,,JBB Branch 115,,"44 Blue Spring Dr.
+West Warwick, RI 02893",0,0,,jbb-branch-115,,,http://192.168.65.40:8000/api/dcim/sites/20/,0,4
+0,,2026-03-01T04:26:41.928436Z,,0,JBB Branch 120,http://192.168.65.40:8000/dcim/sites/21/,,21,2026-03-01T04:26:41.928453Z,,,JBB Branch 120,,"682 Marlborough Street
+Hicksville, NY 11801",0,0,,jbb-branch-120,,,http://192.168.65.40:8000/api/dcim/sites/21/,0,4
+0,,2026-03-01T04:26:42.130567Z,,0,JBB Branch 127,http://192.168.65.40:8000/dcim/sites/22/,,22,2026-03-01T04:26:42.130584Z,,,JBB Branch 127,,"7730 Summerhouse St.
+Orange Park, FL 32065",0,0,,jbb-branch-127,,,http://192.168.65.40:8000/api/dcim/sites/22/,0,4
+0,,2026-03-01T04:26:42.332547Z,,0,JBB Branch 133,http://192.168.65.40:8000/dcim/sites/23/,,23,2026-03-01T04:26:42.332565Z,,,JBB Branch 133,,"1 Old Union Ave.
+Troy, NY 12180",0,0,,jbb-branch-133,,,http://192.168.65.40:8000/api/dcim/sites/23/,0,4
+3,,2026-03-01T04:26:42.554553Z,Main Distribution Frame,23,MDF,http://192.168.65.40:8000/dcim/sites/24/,065,24,2026-03-01T04:26:42.554570Z,,,MDF,,"401 Dan Allen Dr., Raleigh, NC 27607",0,26,,ncsu-065,,,http://192.168.65.40:8000/api/dcim/sites/24/,0,0

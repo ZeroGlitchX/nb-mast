@@ -1,0 +1,2 @@
+choice_set,comments,created,data_type,default,description,display,display_url,group_name,id,is_cloneable,label,last_updated,name,owner,related_object_filter,related_object_type,required,search_weight,unique,url,validation_maximum,validation_minimum,validation_regex,weight
+,,2026-03-01T05:38:07.634162Z,string,,,Customer ID,http://192.168.65.40:8000/extras/custom-fields/1/,,1,False,Customer ID,2026-03-01T05:38:07.634179Z,cust_id,,,,False,1000,False,http://192.168.65.40:8000/api/extras/custom-fields/1/,,,^[A-Z]{3}\d{2}$,100

@@ -1,0 +1,5 @@
+circuit_count,color,comments,created,description,display,display_url,id,last_updated,name,owner,slug,url
+3,,,2026-03-01T05:03:00.782574Z,,Dark Fiber,http://192.168.65.40:8000/circuits/circuit-types/1/,1,2026-03-01T05:03:00.782593Z,Dark Fiber,,dark-fiber,http://192.168.65.40:8000/api/circuits/circuit-types/1/
+13,,,2026-03-01T05:03:00.827326Z,,Internet Access,http://192.168.65.40:8000/circuits/circuit-types/2/,2,2026-03-01T05:03:00.827344Z,Internet Access,,internet,http://192.168.65.40:8000/api/circuits/circuit-types/2/
+13,,,2026-03-01T05:03:00.871116Z,,MPLS,http://192.168.65.40:8000/circuits/circuit-types/3/,3,2026-03-01T05:03:00.871134Z,MPLS,,mpls,http://192.168.65.40:8000/api/circuits/circuit-types/3/
+0,,,2026-03-01T05:03:00.914842Z,,Point-to-point,http://192.168.65.40:8000/circuits/circuit-types/4/,4,2026-03-01T05:03:00.914860Z,Point-to-point,,point-to-point,http://192.168.65.40:8000/api/circuits/circuit-types/4/

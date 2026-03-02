@@ -1,0 +1,2858 @@
+[
+  {
+    "_occupied": true,
+    "cable": {
+      "description": "",
+      "display": "#63",
+      "id": 63,
+      "label": "",
+      "url": "http://192.168.65.40:8000/api/dcim/cables/63/"
+    },
+    "cable_end": "A",
+    "circuit": {
+      "cid": "1002840283",
+      "description": "",
+      "display": "1002840283",
+      "id": 1,
+      "provider": {
+        "description": "",
+        "display": "CenturyLink",
+        "id": 2,
+        "name": "CenturyLink",
+        "slug": "centurylink",
+        "url": "http://192.168.65.40:8000/api/circuits/providers/2/"
+      },
+      "url": "http://192.168.65.40:8000/api/circuits/circuits/1/"
+    },
+    "created": "2026-03-01T05:03:02.709127Z",
+    "custom_fields": {},
+    "description": "",
+    "display": "1002840283: Termination Z",
+    "display_url": "http://192.168.65.40:8000/circuits/circuit-terminations/1/",
+    "id": 1,
+    "last_updated": "2026-03-01T05:38:52.465194Z",
+    "link_peers": [
+      {
+        "_occupied": true,
+        "cable": {
+          "description": "",
+          "display": "#63",
+          "id": 63,
+          "label": "",
+          "url": "http://192.168.65.40:8000/api/dcim/cables/63/"
+        },
+        "description": "",
+        "device": {
+          "description": "",
+          "display": "dmi01-akron-rtr01",
+          "id": 2,
+          "name": "dmi01-akron-rtr01",
+          "url": "http://192.168.65.40:8000/api/dcim/devices/2/"
+        },
+        "display": "GigabitEthernet0/0/1",
+        "id": 2,
+        "name": "GigabitEthernet0/0/1",
+        "url": "http://192.168.65.40:8000/api/dcim/interfaces/2/"
+      }
+    ],
+    "link_peers_type": "dcim.interface",
+    "mark_connected": false,
+    "port_speed": null,
+    "pp_info": "",
+    "tags": [],
+    "term_side": "Z",
+    "termination": {
+      "description": "",
+      "display": "DM-Akron",
+      "id": 3,
+      "name": "DM-Akron",
+      "slug": "dm-akron",
+      "url": "http://192.168.65.40:8000/api/dcim/sites/3/"
+    },
+    "termination_id": 3,
+    "termination_type": "dcim.site",
+    "upstream_speed": null,
+    "url": "http://192.168.65.40:8000/api/circuits/circuit-terminations/1/",
+    "xconnect_id": ""
+  },
+  {
+    "_occupied": true,
+    "cable": {
+      "description": "",
+      "display": "#64",
+      "id": 64,
+      "label": "",
+      "url": "http://192.168.65.40:8000/api/dcim/cables/64/"
+    },
+    "cable_end": "A",
+    "circuit": {
+      "cid": "1002840457",
+      "description": "",
+      "display": "1002840457",
+      "id": 2,
+      "provider": {
+        "description": "",
+        "display": "CenturyLink",
+        "id": 2,
+        "name": "CenturyLink",
+        "slug": "centurylink",
+        "url": "http://192.168.65.40:8000/api/circuits/providers/2/"
+      },
+      "url": "http://192.168.65.40:8000/api/circuits/circuits/2/"
+    },
+    "created": "2026-03-01T05:03:02.794157Z",
+    "custom_fields": {},
+    "description": "",
+    "display": "1002840457: Termination Z",
+    "display_url": "http://192.168.65.40:8000/circuits/circuit-terminations/2/",
+    "id": 2,
+    "last_updated": "2026-03-01T05:38:52.649376Z",
+    "link_peers": [
+      {
+        "_occupied": true,
+        "cable": {
+          "description": "",
+          "display": "#64",
+          "id": 64,
+          "label": "",
+          "url": "http://192.168.65.40:8000/api/dcim/cables/64/"
+        },
+        "description": "",
+        "device": {
+          "description": "",
+          "display": "dmi01-akron-sw01",
+          "id": 3,
+          "name": "dmi01-akron-sw01",
+          "url": "http://192.168.65.40:8000/api/dcim/devices/3/"
+        },
+        "display": "GigabitEthernet1/0/5",
+        "id": 15,
+        "name": "GigabitEthernet1/0/5",
+        "url": "http://192.168.65.40:8000/api/dcim/interfaces/15/"
+      }
+    ],
+    "link_peers_type": "dcim.interface",
+    "mark_connected": false,
+    "port_speed": null,
+    "pp_info": "",
+    "tags": [],
+    "term_side": "Z",
+    "termination": {
+      "description": "",
+      "display": "DM-Albany",
+      "id": 4,
+      "name": "DM-Albany",
+      "slug": "dm-albany",
+      "url": "http://192.168.65.40:8000/api/dcim/sites/4/"
+    },
+    "termination_id": 4,
+    "termination_type": "dcim.site",
+    "upstream_speed": null,
+    "url": "http://192.168.65.40:8000/api/circuits/circuit-terminations/2/",
+    "xconnect_id": ""
+  },
+  {
+    "_occupied": true,
+    "cable": {
+      "description": "",
+      "display": "#65",
+      "id": 65,
+      "label": "",
+      "url": "http://192.168.65.40:8000/api/dcim/cables/65/"
+    },
+    "cable_end": "A",
+    "circuit": {
+      "cid": "1002841093",
+      "description": "",
+      "display": "1002841093",
+      "id": 3,
+      "provider": {
+        "description": "",
+        "display": "CenturyLink",
+        "id": 2,
+        "name": "CenturyLink",
+        "slug": "centurylink",
+        "url": "http://192.168.65.40:8000/api/circuits/providers/2/"
+      },
+      "url": "http://192.168.65.40:8000/api/circuits/circuits/3/"
+    },
+    "created": "2026-03-01T05:03:02.865583Z",
+    "custom_fields": {},
+    "description": "",
+    "display": "1002841093: Termination Z",
+    "display_url": "http://192.168.65.40:8000/circuits/circuit-terminations/3/",
+    "id": 3,
+    "last_updated": "2026-03-01T05:38:52.873886Z",
+    "link_peers": [
+      {
+        "_occupied": true,
+        "cable": {
+          "description": "",
+          "display": "#65",
+          "id": 65,
+          "label": "",
+          "url": "http://192.168.65.40:8000/api/dcim/cables/65/"
+        },
+        "description": "",
+        "device": {
+          "description": "",
+          "display": "dmi01-akron-sw01",
+          "id": 3,
+          "name": "dmi01-akron-sw01",
+          "url": "http://192.168.65.40:8000/api/dcim/devices/3/"
+        },
+        "display": "GigabitEthernet1/0/18",
+        "id": 28,
+        "name": "GigabitEthernet1/0/18",
+        "url": "http://192.168.65.40:8000/api/dcim/interfaces/28/"
+      }
+    ],
+    "link_peers_type": "dcim.interface",
+    "mark_connected": false,
+    "port_speed": null,
+    "pp_info": "",
+    "tags": [],
+    "term_side": "Z",
+    "termination": {
+      "description": "",
+      "display": "DM-Binghamton",
+      "id": 5,
+      "name": "DM-Binghamton",
+      "slug": "dm-binghamton",
+      "url": "http://192.168.65.40:8000/api/dcim/sites/5/"
+    },
+    "termination_id": 5,
+    "termination_type": "dcim.site",
+    "upstream_speed": null,
+    "url": "http://192.168.65.40:8000/api/circuits/circuit-terminations/3/",
+    "xconnect_id": ""
+  },
+  {
+    "_occupied": true,
+    "cable": {
+      "description": "",
+      "display": "#66",
+      "id": 66,
+      "label": "",
+      "url": "http://192.168.65.40:8000/api/dcim/cables/66/"
+    },
+    "cable_end": "A",
+    "circuit": {
+      "cid": "1002842917",
+      "description": "",
+      "display": "1002842917",
+      "id": 4,
+      "provider": {
+        "description": "",
+        "display": "CenturyLink",
+        "id": 2,
+        "name": "CenturyLink",
+        "slug": "centurylink",
+        "url": "http://192.168.65.40:8000/api/circuits/providers/2/"
+      },
+      "url": "http://192.168.65.40:8000/api/circuits/circuits/4/"
+    },
+    "created": "2026-03-01T05:03:02.941423Z",
+    "custom_fields": {},
+    "description": "",
+    "display": "1002842917: Termination Z",
+    "display_url": "http://192.168.65.40:8000/circuits/circuit-terminations/4/",
+    "id": 4,
+    "last_updated": "2026-03-01T05:38:53.080024Z",
+    "link_peers": [
+      {
+        "_occupied": true,
+        "cable": {
+          "description": "",
+          "display": "#66",
+          "id": 66,
+          "label": "",
+          "url": "http://192.168.65.40:8000/api/dcim/cables/66/"
+        },
+        "description": "",
+        "device": {
+          "description": "",
+          "display": "dmi01-akron-sw01",
+          "id": 3,
+          "name": "dmi01-akron-sw01",
+          "url": "http://192.168.65.40:8000/api/dcim/devices/3/"
+        },
+        "display": "GigabitEthernet1/0/31",
+        "id": 41,
+        "name": "GigabitEthernet1/0/31",
+        "url": "http://192.168.65.40:8000/api/dcim/interfaces/41/"
+      }
+    ],
+    "link_peers_type": "dcim.interface",
+    "mark_connected": false,
+    "port_speed": null,
+    "pp_info": "",
+    "tags": [],
+    "term_side": "Z",
+    "termination": {
+      "description": "",
+      "display": "DM-Buffalo",
+      "id": 6,
+      "name": "DM-Buffalo",
+      "slug": "dm-buffalo",
+      "url": "http://192.168.65.40:8000/api/dcim/sites/6/"
+    },
+    "termination_id": 6,
+    "termination_type": "dcim.site",
+    "upstream_speed": null,
+    "url": "http://192.168.65.40:8000/api/circuits/circuit-terminations/4/",
+    "xconnect_id": ""
+  },
+  {
+    "_occupied": true,
+    "cable": {
+      "description": "",
+      "display": "#67",
+      "id": 67,
+      "label": "",
+      "url": "http://192.168.65.40:8000/api/dcim/cables/67/"
+    },
+    "cable_end": "A",
+    "circuit": {
+      "cid": "1002843016",
+      "description": "",
+      "display": "1002843016",
+      "id": 5,
+      "provider": {
+        "description": "",
+        "display": "CenturyLink",
+        "id": 2,
+        "name": "CenturyLink",
+        "slug": "centurylink",
+        "url": "http://192.168.65.40:8000/api/circuits/providers/2/"
+      },
+      "url": "http://192.168.65.40:8000/api/circuits/circuits/5/"
+    },
+    "created": "2026-03-01T05:03:03.016876Z",
+    "custom_fields": {},
+    "description": "",
+    "display": "1002843016: Termination Z",
+    "display_url": "http://192.168.65.40:8000/circuits/circuit-terminations/5/",
+    "id": 5,
+    "last_updated": "2026-03-01T05:38:53.389959Z",
+    "link_peers": [
+      {
+        "_occupied": true,
+        "cable": {
+          "description": "",
+          "display": "#67",
+          "id": 67,
+          "label": "",
+          "url": "http://192.168.65.40:8000/api/dcim/cables/67/"
+        },
+        "description": "",
+        "device": {
+          "description": "",
+          "display": "dmi01-akron-sw01",
+          "id": 3,
+          "name": "dmi01-akron-sw01",
+          "url": "http://192.168.65.40:8000/api/dcim/devices/3/"
+        },
+        "display": "GigabitEthernet1/0/44",
+        "id": 54,
+        "name": "GigabitEthernet1/0/44",
+        "url": "http://192.168.65.40:8000/api/dcim/interfaces/54/"
+      }
+    ],
+    "link_peers_type": "dcim.interface",
+    "mark_connected": false,
+    "port_speed": null,
+    "pp_info": "",
+    "tags": [],
+    "term_side": "Z",
+    "termination": {
+      "description": "",
+      "display": "DM-Camden",
+      "id": 7,
+      "name": "DM-Camden",
+      "slug": "dm-camden",
+      "url": "http://192.168.65.40:8000/api/dcim/sites/7/"
+    },
+    "termination_id": 7,
+    "termination_type": "dcim.site",
+    "upstream_speed": null,
+    "url": "http://192.168.65.40:8000/api/circuits/circuit-terminations/5/",
+    "xconnect_id": ""
+  },
+  {
+    "_occupied": true,
+    "cable": {
+      "description": "",
+      "display": "#68",
+      "id": 68,
+      "label": "",
+      "url": "http://192.168.65.40:8000/api/dcim/cables/68/"
+    },
+    "cable_end": "A",
+    "circuit": {
+      "cid": "1002843350",
+      "description": "",
+      "display": "1002843350",
+      "id": 6,
+      "provider": {
+        "description": "",
+        "display": "CenturyLink",
+        "id": 2,
+        "name": "CenturyLink",
+        "slug": "centurylink",
+        "url": "http://192.168.65.40:8000/api/circuits/providers/2/"
+      },
+      "url": "http://192.168.65.40:8000/api/circuits/circuits/6/"
+    },
+    "created": "2026-03-01T05:03:03.107010Z",
+    "custom_fields": {},
+    "description": "",
+    "display": "1002843350: Termination Z",
+    "display_url": "http://192.168.65.40:8000/circuits/circuit-terminations/6/",
+    "id": 6,
+    "last_updated": "2026-03-01T05:38:53.575753Z",
+    "link_peers": [
+      {
+        "_occupied": true,
+        "cable": {
+          "description": "",
+          "display": "#68",
+          "id": 68,
+          "label": "",
+          "url": "http://192.168.65.40:8000/api/dcim/cables/68/"
+        },
+        "description": "",
+        "device": {
+          "description": "",
+          "display": "dmi01-albany-rtr01",
+          "id": 5,
+          "name": "dmi01-albany-rtr01",
+          "url": "http://192.168.65.40:8000/api/dcim/devices/5/"
+        },
+        "display": "GigabitEthernet0/1/4",
+        "id": 67,
+        "name": "GigabitEthernet0/1/4",
+        "url": "http://192.168.65.40:8000/api/dcim/interfaces/67/"
+      }
+    ],
+    "link_peers_type": "dcim.interface",
+    "mark_connected": false,
+    "port_speed": null,
+    "pp_info": "",
+    "tags": [],
+    "term_side": "Z",
+    "termination": {
+      "description": "",
+      "display": "DM-Nashua",
+      "id": 8,
+      "name": "DM-Nashua",
+      "slug": "dm-nashua",
+      "url": "http://192.168.65.40:8000/api/dcim/sites/8/"
+    },
+    "termination_id": 8,
+    "termination_type": "dcim.site",
+    "upstream_speed": null,
+    "url": "http://192.168.65.40:8000/api/circuits/circuit-terminations/6/",
+    "xconnect_id": ""
+  },
+  {
+    "_occupied": true,
+    "cable": {
+      "description": "",
+      "display": "#69",
+      "id": 69,
+      "label": "",
+      "url": "http://192.168.65.40:8000/api/dcim/cables/69/"
+    },
+    "cable_end": "A",
+    "circuit": {
+      "cid": "1002843428",
+      "description": "",
+      "display": "1002843428",
+      "id": 7,
+      "provider": {
+        "description": "",
+        "display": "CenturyLink",
+        "id": 2,
+        "name": "CenturyLink",
+        "slug": "centurylink",
+        "url": "http://192.168.65.40:8000/api/circuits/providers/2/"
+      },
+      "url": "http://192.168.65.40:8000/api/circuits/circuits/7/"
+    },
+    "created": "2026-03-01T05:03:03.204362Z",
+    "custom_fields": {},
+    "description": "",
+    "display": "1002843428: Termination Z",
+    "display_url": "http://192.168.65.40:8000/circuits/circuit-terminations/7/",
+    "id": 7,
+    "last_updated": "2026-03-01T05:38:53.764436Z",
+    "link_peers": [
+      {
+        "_occupied": true,
+        "cable": {
+          "description": "",
+          "display": "#69",
+          "id": 69,
+          "label": "",
+          "url": "http://192.168.65.40:8000/api/dcim/cables/69/"
+        },
+        "description": "",
+        "device": {
+          "description": "",
+          "display": "dmi01-albany-sw01",
+          "id": 6,
+          "name": "dmi01-albany-sw01",
+          "url": "http://192.168.65.40:8000/api/dcim/devices/6/"
+        },
+        "display": "GigabitEthernet1/0/8",
+        "id": 80,
+        "name": "GigabitEthernet1/0/8",
+        "url": "http://192.168.65.40:8000/api/dcim/interfaces/80/"
+      }
+    ],
+    "link_peers_type": "dcim.interface",
+    "mark_connected": false,
+    "port_speed": null,
+    "pp_info": "",
+    "tags": [],
+    "term_side": "Z",
+    "termination": {
+      "description": "",
+      "display": "DM-Pittsfield",
+      "id": 10,
+      "name": "DM-Pittsfield",
+      "slug": "dm-pittsfield",
+      "url": "http://192.168.65.40:8000/api/dcim/sites/10/"
+    },
+    "termination_id": 10,
+    "termination_type": "dcim.site",
+    "upstream_speed": null,
+    "url": "http://192.168.65.40:8000/api/circuits/circuit-terminations/7/",
+    "xconnect_id": ""
+  },
+  {
+    "_occupied": true,
+    "cable": {
+      "description": "",
+      "display": "#70",
+      "id": 70,
+      "label": "",
+      "url": "http://192.168.65.40:8000/api/dcim/cables/70/"
+    },
+    "cable_end": "A",
+    "circuit": {
+      "cid": "1002843688",
+      "description": "",
+      "display": "1002843688",
+      "id": 8,
+      "provider": {
+        "description": "",
+        "display": "CenturyLink",
+        "id": 2,
+        "name": "CenturyLink",
+        "slug": "centurylink",
+        "url": "http://192.168.65.40:8000/api/circuits/providers/2/"
+      },
+      "url": "http://192.168.65.40:8000/api/circuits/circuits/8/"
+    },
+    "created": "2026-03-01T05:03:03.278656Z",
+    "custom_fields": {},
+    "description": "",
+    "display": "1002843688: Termination Z",
+    "display_url": "http://192.168.65.40:8000/circuits/circuit-terminations/8/",
+    "id": 8,
+    "last_updated": "2026-03-01T05:38:54.021938Z",
+    "link_peers": [
+      {
+        "_occupied": true,
+        "cable": {
+          "description": "",
+          "display": "#70",
+          "id": 70,
+          "label": "",
+          "url": "http://192.168.65.40:8000/api/dcim/cables/70/"
+        },
+        "description": "",
+        "device": {
+          "description": "",
+          "display": "dmi01-albany-sw01",
+          "id": 6,
+          "name": "dmi01-albany-sw01",
+          "url": "http://192.168.65.40:8000/api/dcim/devices/6/"
+        },
+        "display": "GigabitEthernet1/0/21",
+        "id": 93,
+        "name": "GigabitEthernet1/0/21",
+        "url": "http://192.168.65.40:8000/api/dcim/interfaces/93/"
+      }
+    ],
+    "link_peers_type": "dcim.interface",
+    "mark_connected": false,
+    "port_speed": null,
+    "pp_info": "",
+    "tags": [],
+    "term_side": "Z",
+    "termination": {
+      "description": "",
+      "display": "DM-Rochester",
+      "id": 11,
+      "name": "DM-Rochester",
+      "slug": "dm-rochester",
+      "url": "http://192.168.65.40:8000/api/dcim/sites/11/"
+    },
+    "termination_id": 11,
+    "termination_type": "dcim.site",
+    "upstream_speed": null,
+    "url": "http://192.168.65.40:8000/api/circuits/circuit-terminations/8/",
+    "xconnect_id": ""
+  },
+  {
+    "_occupied": true,
+    "cable": {
+      "description": "",
+      "display": "#71",
+      "id": 71,
+      "label": "",
+      "url": "http://192.168.65.40:8000/api/dcim/cables/71/"
+    },
+    "cable_end": "A",
+    "circuit": {
+      "cid": "1002844901",
+      "description": "",
+      "display": "1002844901",
+      "id": 9,
+      "provider": {
+        "description": "",
+        "display": "CenturyLink",
+        "id": 2,
+        "name": "CenturyLink",
+        "slug": "centurylink",
+        "url": "http://192.168.65.40:8000/api/circuits/providers/2/"
+      },
+      "url": "http://192.168.65.40:8000/api/circuits/circuits/9/"
+    },
+    "created": "2026-03-01T05:03:03.354617Z",
+    "custom_fields": {},
+    "description": "",
+    "display": "1002844901: Termination Z",
+    "display_url": "http://192.168.65.40:8000/circuits/circuit-terminations/9/",
+    "id": 9,
+    "last_updated": "2026-03-01T05:38:55.250141Z",
+    "link_peers": [
+      {
+        "_occupied": true,
+        "cable": {
+          "description": "",
+          "display": "#71",
+          "id": 71,
+          "label": "",
+          "url": "http://192.168.65.40:8000/api/dcim/cables/71/"
+        },
+        "description": "",
+        "device": {
+          "description": "",
+          "display": "dmi01-albany-sw01",
+          "id": 6,
+          "name": "dmi01-albany-sw01",
+          "url": "http://192.168.65.40:8000/api/dcim/devices/6/"
+        },
+        "display": "GigabitEthernet1/0/34",
+        "id": 106,
+        "name": "GigabitEthernet1/0/34",
+        "url": "http://192.168.65.40:8000/api/dcim/interfaces/106/"
+      }
+    ],
+    "link_peers_type": "dcim.interface",
+    "mark_connected": false,
+    "port_speed": null,
+    "pp_info": "",
+    "tags": [],
+    "term_side": "Z",
+    "termination": {
+      "description": "",
+      "display": "DM-Scranton",
+      "id": 12,
+      "name": "DM-Scranton",
+      "slug": "dm-scranton",
+      "url": "http://192.168.65.40:8000/api/dcim/sites/12/"
+    },
+    "termination_id": 12,
+    "termination_type": "dcim.site",
+    "upstream_speed": null,
+    "url": "http://192.168.65.40:8000/api/circuits/circuit-terminations/9/",
+    "xconnect_id": ""
+  },
+  {
+    "_occupied": true,
+    "cable": {
+      "description": "",
+      "display": "#72",
+      "id": 72,
+      "label": "",
+      "url": "http://192.168.65.40:8000/api/dcim/cables/72/"
+    },
+    "cable_end": "A",
+    "circuit": {
+      "cid": "1002844927",
+      "description": "",
+      "display": "1002844927",
+      "id": 10,
+      "provider": {
+        "description": "",
+        "display": "CenturyLink",
+        "id": 2,
+        "name": "CenturyLink",
+        "slug": "centurylink",
+        "url": "http://192.168.65.40:8000/api/circuits/providers/2/"
+      },
+      "url": "http://192.168.65.40:8000/api/circuits/circuits/10/"
+    },
+    "created": "2026-03-01T05:03:03.431484Z",
+    "custom_fields": {},
+    "description": "",
+    "display": "1002844927: Termination Z",
+    "display_url": "http://192.168.65.40:8000/circuits/circuit-terminations/10/",
+    "id": 10,
+    "last_updated": "2026-03-01T05:38:56.477708Z",
+    "link_peers": [
+      {
+        "_occupied": true,
+        "cable": {
+          "description": "",
+          "display": "#72",
+          "id": 72,
+          "label": "",
+          "url": "http://192.168.65.40:8000/api/dcim/cables/72/"
+        },
+        "description": "",
+        "device": {
+          "description": "",
+          "display": "dmi01-albany-sw01",
+          "id": 6,
+          "name": "dmi01-albany-sw01",
+          "url": "http://192.168.65.40:8000/api/dcim/devices/6/"
+        },
+        "display": "GigabitEthernet1/0/47",
+        "id": 119,
+        "name": "GigabitEthernet1/0/47",
+        "url": "http://192.168.65.40:8000/api/dcim/interfaces/119/"
+      }
+    ],
+    "link_peers_type": "dcim.interface",
+    "mark_connected": false,
+    "port_speed": null,
+    "pp_info": "",
+    "tags": [],
+    "term_side": "Z",
+    "termination": {
+      "description": "",
+      "display": "DM-Stamford",
+      "id": 13,
+      "name": "DM-Stamford",
+      "slug": "dm-stamford",
+      "url": "http://192.168.65.40:8000/api/dcim/sites/13/"
+    },
+    "termination_id": 13,
+    "termination_type": "dcim.site",
+    "upstream_speed": null,
+    "url": "http://192.168.65.40:8000/api/circuits/circuit-terminations/10/",
+    "xconnect_id": ""
+  },
+  {
+    "_occupied": true,
+    "cable": {
+      "description": "",
+      "display": "#73",
+      "id": 73,
+      "label": "",
+      "url": "http://192.168.65.40:8000/api/dcim/cables/73/"
+    },
+    "cable_end": "A",
+    "circuit": {
+      "cid": "1002844978",
+      "description": "",
+      "display": "1002844978",
+      "id": 11,
+      "provider": {
+        "description": "",
+        "display": "CenturyLink",
+        "id": 2,
+        "name": "CenturyLink",
+        "slug": "centurylink",
+        "url": "http://192.168.65.40:8000/api/circuits/providers/2/"
+      },
+      "url": "http://192.168.65.40:8000/api/circuits/circuits/11/"
+    },
+    "created": "2026-03-01T05:03:03.515561Z",
+    "custom_fields": {},
+    "description": "",
+    "display": "1002844978: Termination Z",
+    "display_url": "http://192.168.65.40:8000/circuits/circuit-terminations/11/",
+    "id": 11,
+    "last_updated": "2026-03-01T05:38:56.782548Z",
+    "link_peers": [
+      {
+        "_occupied": true,
+        "cable": {
+          "description": "",
+          "display": "#73",
+          "id": 73,
+          "label": "",
+          "url": "http://192.168.65.40:8000/api/dcim/cables/73/"
+        },
+        "description": "",
+        "device": {
+          "description": "",
+          "display": "dmi01-binghamton-rtr01",
+          "id": 8,
+          "name": "dmi01-binghamton-rtr01",
+          "url": "http://192.168.65.40:8000/api/dcim/devices/8/"
+        },
+        "display": "GigabitEthernet0/1/7",
+        "id": 132,
+        "name": "GigabitEthernet0/1/7",
+        "url": "http://192.168.65.40:8000/api/dcim/interfaces/132/"
+      }
+    ],
+    "link_peers_type": "dcim.interface",
+    "mark_connected": false,
+    "port_speed": null,
+    "pp_info": "",
+    "tags": [],
+    "term_side": "Z",
+    "termination": {
+      "description": "",
+      "display": "DM-Syracuse",
+      "id": 14,
+      "name": "DM-Syracuse",
+      "slug": "dm-syracuse",
+      "url": "http://192.168.65.40:8000/api/dcim/sites/14/"
+    },
+    "termination_id": 14,
+    "termination_type": "dcim.site",
+    "upstream_speed": null,
+    "url": "http://192.168.65.40:8000/api/circuits/circuit-terminations/11/",
+    "xconnect_id": ""
+  },
+  {
+    "_occupied": true,
+    "cable": {
+      "description": "",
+      "display": "#74",
+      "id": 74,
+      "label": "",
+      "url": "http://192.168.65.40:8000/api/dcim/cables/74/"
+    },
+    "cable_end": "A",
+    "circuit": {
+      "cid": "1002845894",
+      "description": "",
+      "display": "1002845894",
+      "id": 12,
+      "provider": {
+        "description": "",
+        "display": "CenturyLink",
+        "id": 2,
+        "name": "CenturyLink",
+        "slug": "centurylink",
+        "url": "http://192.168.65.40:8000/api/circuits/providers/2/"
+      },
+      "url": "http://192.168.65.40:8000/api/circuits/circuits/12/"
+    },
+    "created": "2026-03-01T05:03:03.587671Z",
+    "custom_fields": {},
+    "description": "",
+    "display": "1002845894: Termination Z",
+    "display_url": "http://192.168.65.40:8000/circuits/circuit-terminations/12/",
+    "id": 12,
+    "last_updated": "2026-03-01T05:38:57.074562Z",
+    "link_peers": [
+      {
+        "_occupied": true,
+        "cable": {
+          "description": "",
+          "display": "#74",
+          "id": 74,
+          "label": "",
+          "url": "http://192.168.65.40:8000/api/dcim/cables/74/"
+        },
+        "description": "",
+        "device": {
+          "description": "",
+          "display": "dmi01-binghamton-sw01",
+          "id": 9,
+          "name": "dmi01-binghamton-sw01",
+          "url": "http://192.168.65.40:8000/api/dcim/devices/9/"
+        },
+        "display": "GigabitEthernet1/0/11",
+        "id": 145,
+        "name": "GigabitEthernet1/0/11",
+        "url": "http://192.168.65.40:8000/api/dcim/interfaces/145/"
+      }
+    ],
+    "link_peers_type": "dcim.interface",
+    "mark_connected": false,
+    "port_speed": null,
+    "pp_info": "",
+    "tags": [],
+    "term_side": "Z",
+    "termination": {
+      "description": "",
+      "display": "DM-Utica",
+      "id": 15,
+      "name": "DM-Utica",
+      "slug": "dm-utica",
+      "url": "http://192.168.65.40:8000/api/dcim/sites/15/"
+    },
+    "termination_id": 15,
+    "termination_type": "dcim.site",
+    "upstream_speed": null,
+    "url": "http://192.168.65.40:8000/api/circuits/circuit-terminations/12/",
+    "xconnect_id": ""
+  },
+  {
+    "_occupied": true,
+    "cable": {
+      "description": "",
+      "display": "#75",
+      "id": 75,
+      "label": "",
+      "url": "http://192.168.65.40:8000/api/dcim/cables/75/"
+    },
+    "cable_end": "A",
+    "circuit": {
+      "cid": "1002847289",
+      "description": "",
+      "display": "1002847289",
+      "id": 13,
+      "provider": {
+        "description": "",
+        "display": "CenturyLink",
+        "id": 2,
+        "name": "CenturyLink",
+        "slug": "centurylink",
+        "url": "http://192.168.65.40:8000/api/circuits/providers/2/"
+      },
+      "url": "http://192.168.65.40:8000/api/circuits/circuits/13/"
+    },
+    "created": "2026-03-01T05:03:03.672554Z",
+    "custom_fields": {},
+    "description": "",
+    "display": "1002847289: Termination Z",
+    "display_url": "http://192.168.65.40:8000/circuits/circuit-terminations/13/",
+    "id": 13,
+    "last_updated": "2026-03-01T05:38:57.417715Z",
+    "link_peers": [
+      {
+        "_occupied": true,
+        "cable": {
+          "description": "",
+          "display": "#75",
+          "id": 75,
+          "label": "",
+          "url": "http://192.168.65.40:8000/api/dcim/cables/75/"
+        },
+        "description": "",
+        "device": {
+          "description": "",
+          "display": "dmi01-binghamton-sw01",
+          "id": 9,
+          "name": "dmi01-binghamton-sw01",
+          "url": "http://192.168.65.40:8000/api/dcim/devices/9/"
+        },
+        "display": "GigabitEthernet1/0/24",
+        "id": 158,
+        "name": "GigabitEthernet1/0/24",
+        "url": "http://192.168.65.40:8000/api/dcim/interfaces/158/"
+      }
+    ],
+    "link_peers_type": "dcim.interface",
+    "mark_connected": false,
+    "port_speed": null,
+    "pp_info": "",
+    "tags": [],
+    "term_side": "Z",
+    "termination": {
+      "description": "",
+      "display": "DM-Yonkers",
+      "id": 16,
+      "name": "DM-Yonkers",
+      "slug": "dm-yonkers",
+      "url": "http://192.168.65.40:8000/api/dcim/sites/16/"
+    },
+    "termination_id": 16,
+    "termination_type": "dcim.site",
+    "upstream_speed": null,
+    "url": "http://192.168.65.40:8000/api/circuits/circuit-terminations/13/",
+    "xconnect_id": ""
+  },
+  {
+    "_occupied": false,
+    "cable": null,
+    "cable_end": null,
+    "circuit": {
+      "cid": "DEOW4921",
+      "description": "",
+      "display": "DEOW4921",
+      "id": 14,
+      "provider": {
+        "description": "",
+        "display": "Level 3",
+        "id": 5,
+        "name": "Level 3",
+        "slug": "level-3",
+        "url": "http://192.168.65.40:8000/api/circuits/providers/5/"
+      },
+      "url": "http://192.168.65.40:8000/api/circuits/circuits/14/"
+    },
+    "created": "2026-03-01T05:03:03.744715Z",
+    "custom_fields": {},
+    "description": "",
+    "display": "DEOW4921: Termination A",
+    "display_url": "http://192.168.65.40:8000/circuits/circuit-terminations/14/",
+    "id": 14,
+    "last_updated": "2026-03-01T05:03:03.744733Z",
+    "link_peers": [],
+    "link_peers_type": null,
+    "mark_connected": false,
+    "port_speed": null,
+    "pp_info": "",
+    "tags": [],
+    "term_side": "A",
+    "termination": {
+      "description": "",
+      "display": "Level3 MPLS",
+      "id": 1,
+      "name": "Level3 MPLS",
+      "url": "http://192.168.65.40:8000/api/circuits/provider-networks/1/"
+    },
+    "termination_id": 1,
+    "termination_type": "circuits.providernetwork",
+    "upstream_speed": null,
+    "url": "http://192.168.65.40:8000/api/circuits/circuit-terminations/14/",
+    "xconnect_id": ""
+  },
+  {
+    "_occupied": true,
+    "cable": {
+      "description": "",
+      "display": "#50",
+      "id": 50,
+      "label": "",
+      "url": "http://192.168.65.40:8000/api/dcim/cables/50/"
+    },
+    "cable_end": "A",
+    "circuit": {
+      "cid": "DEOW4921",
+      "description": "",
+      "display": "DEOW4921",
+      "id": 14,
+      "provider": {
+        "description": "",
+        "display": "Level 3",
+        "id": 5,
+        "name": "Level 3",
+        "slug": "level-3",
+        "url": "http://192.168.65.40:8000/api/circuits/providers/5/"
+      },
+      "url": "http://192.168.65.40:8000/api/circuits/circuits/14/"
+    },
+    "created": "2026-03-01T05:03:03.824900Z",
+    "custom_fields": {},
+    "description": "",
+    "display": "DEOW4921: Termination Z",
+    "display_url": "http://192.168.65.40:8000/circuits/circuit-terminations/15/",
+    "id": 15,
+    "last_updated": "2026-03-01T05:38:46.959982Z",
+    "link_peers": [
+      {
+        "_occupied": true,
+        "cable": {
+          "description": "",
+          "display": "#50",
+          "id": 50,
+          "label": "",
+          "url": "http://192.168.65.40:8000/api/dcim/cables/50/"
+        },
+        "description": "",
+        "device": {
+          "description": "",
+          "display": "dmi01-binghamton-sw01",
+          "id": 9,
+          "name": "dmi01-binghamton-sw01",
+          "url": "http://192.168.65.40:8000/api/dcim/devices/9/"
+        },
+        "display": "GigabitEthernet1/0/23",
+        "id": 157,
+        "name": "GigabitEthernet1/0/23",
+        "url": "http://192.168.65.40:8000/api/dcim/interfaces/157/"
+      }
+    ],
+    "link_peers_type": "dcim.interface",
+    "mark_connected": false,
+    "port_speed": null,
+    "pp_info": "",
+    "tags": [],
+    "term_side": "Z",
+    "termination": {
+      "description": "",
+      "display": "DM-Yonkers",
+      "id": 16,
+      "name": "DM-Yonkers",
+      "slug": "dm-yonkers",
+      "url": "http://192.168.65.40:8000/api/dcim/sites/16/"
+    },
+    "termination_id": 16,
+    "termination_type": "dcim.site",
+    "upstream_speed": null,
+    "url": "http://192.168.65.40:8000/api/circuits/circuit-terminations/15/",
+    "xconnect_id": ""
+  },
+  {
+    "_occupied": false,
+    "cable": null,
+    "cable_end": null,
+    "circuit": {
+      "cid": "DJDP9577",
+      "description": "",
+      "display": "DJDP9577",
+      "id": 15,
+      "provider": {
+        "description": "",
+        "display": "Level 3",
+        "id": 5,
+        "name": "Level 3",
+        "slug": "level-3",
+        "url": "http://192.168.65.40:8000/api/circuits/providers/5/"
+      },
+      "url": "http://192.168.65.40:8000/api/circuits/circuits/15/"
+    },
+    "created": "2026-03-01T05:03:03.897581Z",
+    "custom_fields": {},
+    "description": "",
+    "display": "DJDP9577: Termination A",
+    "display_url": "http://192.168.65.40:8000/circuits/circuit-terminations/16/",
+    "id": 16,
+    "last_updated": "2026-03-01T05:03:03.897599Z",
+    "link_peers": [],
+    "link_peers_type": null,
+    "mark_connected": false,
+    "port_speed": null,
+    "pp_info": "",
+    "tags": [],
+    "term_side": "A",
+    "termination": {
+      "description": "",
+      "display": "Level3 MPLS",
+      "id": 1,
+      "name": "Level3 MPLS",
+      "url": "http://192.168.65.40:8000/api/circuits/provider-networks/1/"
+    },
+    "termination_id": 1,
+    "termination_type": "circuits.providernetwork",
+    "upstream_speed": null,
+    "url": "http://192.168.65.40:8000/api/circuits/circuit-terminations/16/",
+    "xconnect_id": ""
+  },
+  {
+    "_occupied": true,
+    "cable": {
+      "description": "",
+      "display": "#51",
+      "id": 51,
+      "label": "",
+      "url": "http://192.168.65.40:8000/api/dcim/cables/51/"
+    },
+    "cable_end": "A",
+    "circuit": {
+      "cid": "DJDP9577",
+      "description": "",
+      "display": "DJDP9577",
+      "id": 15,
+      "provider": {
+        "description": "",
+        "display": "Level 3",
+        "id": 5,
+        "name": "Level 3",
+        "slug": "level-3",
+        "url": "http://192.168.65.40:8000/api/circuits/providers/5/"
+      },
+      "url": "http://192.168.65.40:8000/api/circuits/circuits/15/"
+    },
+    "created": "2026-03-01T05:03:03.978894Z",
+    "custom_fields": {},
+    "description": "",
+    "display": "DJDP9577: Termination Z",
+    "display_url": "http://192.168.65.40:8000/circuits/circuit-terminations/17/",
+    "id": 17,
+    "last_updated": "2026-03-01T05:38:47.244062Z",
+    "link_peers": [
+      {
+        "_occupied": true,
+        "cable": {
+          "description": "",
+          "display": "#51",
+          "id": 51,
+          "label": "",
+          "url": "http://192.168.65.40:8000/api/dcim/cables/51/"
+        },
+        "description": "",
+        "device": {
+          "description": "",
+          "display": "dmi01-albany-sw01",
+          "id": 6,
+          "name": "dmi01-albany-sw01",
+          "url": "http://192.168.65.40:8000/api/dcim/devices/6/"
+        },
+        "display": "GigabitEthernet1/0/46",
+        "id": 118,
+        "name": "GigabitEthernet1/0/46",
+        "url": "http://192.168.65.40:8000/api/dcim/interfaces/118/"
+      }
+    ],
+    "link_peers_type": "dcim.interface",
+    "mark_connected": false,
+    "port_speed": null,
+    "pp_info": "",
+    "tags": [],
+    "term_side": "Z",
+    "termination": {
+      "description": "",
+      "display": "DM-Stamford",
+      "id": 13,
+      "name": "DM-Stamford",
+      "slug": "dm-stamford",
+      "url": "http://192.168.65.40:8000/api/dcim/sites/13/"
+    },
+    "termination_id": 13,
+    "termination_type": "dcim.site",
+    "upstream_speed": null,
+    "url": "http://192.168.65.40:8000/api/circuits/circuit-terminations/17/",
+    "xconnect_id": ""
+  },
+  {
+    "_occupied": false,
+    "cable": null,
+    "cable_end": null,
+    "circuit": {
+      "cid": "DOQHD947",
+      "description": "",
+      "display": "DOQHD947",
+      "id": 16,
+      "provider": {
+        "description": "",
+        "display": "Level 3",
+        "id": 5,
+        "name": "Level 3",
+        "slug": "level-3",
+        "url": "http://192.168.65.40:8000/api/circuits/providers/5/"
+      },
+      "url": "http://192.168.65.40:8000/api/circuits/circuits/16/"
+    },
+    "created": "2026-03-01T05:03:04.062213Z",
+    "custom_fields": {},
+    "description": "",
+    "display": "DOQHD947: Termination A",
+    "display_url": "http://192.168.65.40:8000/circuits/circuit-terminations/18/",
+    "id": 18,
+    "last_updated": "2026-03-01T05:03:04.062230Z",
+    "link_peers": [],
+    "link_peers_type": null,
+    "mark_connected": false,
+    "port_speed": null,
+    "pp_info": "",
+    "tags": [],
+    "term_side": "A",
+    "termination": {
+      "description": "",
+      "display": "Level3 MPLS",
+      "id": 1,
+      "name": "Level3 MPLS",
+      "url": "http://192.168.65.40:8000/api/circuits/provider-networks/1/"
+    },
+    "termination_id": 1,
+    "termination_type": "circuits.providernetwork",
+    "upstream_speed": null,
+    "url": "http://192.168.65.40:8000/api/circuits/circuit-terminations/18/",
+    "xconnect_id": ""
+  },
+  {
+    "_occupied": true,
+    "cable": {
+      "description": "",
+      "display": "#52",
+      "id": 52,
+      "label": "",
+      "url": "http://192.168.65.40:8000/api/dcim/cables/52/"
+    },
+    "cable_end": "A",
+    "circuit": {
+      "cid": "DOQHD947",
+      "description": "",
+      "display": "DOQHD947",
+      "id": 16,
+      "provider": {
+        "description": "",
+        "display": "Level 3",
+        "id": 5,
+        "name": "Level 3",
+        "slug": "level-3",
+        "url": "http://192.168.65.40:8000/api/circuits/providers/5/"
+      },
+      "url": "http://192.168.65.40:8000/api/circuits/circuits/16/"
+    },
+    "created": "2026-03-01T05:03:04.133348Z",
+    "custom_fields": {},
+    "description": "",
+    "display": "DOQHD947: Termination Z",
+    "display_url": "http://192.168.65.40:8000/circuits/circuit-terminations/19/",
+    "id": 19,
+    "last_updated": "2026-03-01T05:38:47.445967Z",
+    "link_peers": [
+      {
+        "_occupied": true,
+        "cable": {
+          "description": "",
+          "display": "#52",
+          "id": 52,
+          "label": "",
+          "url": "http://192.168.65.40:8000/api/dcim/cables/52/"
+        },
+        "description": "",
+        "device": {
+          "description": "",
+          "display": "dmi01-albany-sw01",
+          "id": 6,
+          "name": "dmi01-albany-sw01",
+          "url": "http://192.168.65.40:8000/api/dcim/devices/6/"
+        },
+        "display": "GigabitEthernet1/0/33",
+        "id": 105,
+        "name": "GigabitEthernet1/0/33",
+        "url": "http://192.168.65.40:8000/api/dcim/interfaces/105/"
+      }
+    ],
+    "link_peers_type": "dcim.interface",
+    "mark_connected": false,
+    "port_speed": null,
+    "pp_info": "",
+    "tags": [],
+    "term_side": "Z",
+    "termination": {
+      "description": "",
+      "display": "DM-Scranton",
+      "id": 12,
+      "name": "DM-Scranton",
+      "slug": "dm-scranton",
+      "url": "http://192.168.65.40:8000/api/dcim/sites/12/"
+    },
+    "termination_id": 12,
+    "termination_type": "dcim.site",
+    "upstream_speed": null,
+    "url": "http://192.168.65.40:8000/api/circuits/circuit-terminations/19/",
+    "xconnect_id": ""
+  },
+  {
+    "_occupied": false,
+    "cable": null,
+    "cable_end": null,
+    "circuit": {
+      "cid": "JHEW3951",
+      "description": "",
+      "display": "JHEW3951",
+      "id": 17,
+      "provider": {
+        "description": "",
+        "display": "Level 3",
+        "id": 5,
+        "name": "Level 3",
+        "slug": "level-3",
+        "url": "http://192.168.65.40:8000/api/circuits/providers/5/"
+      },
+      "url": "http://192.168.65.40:8000/api/circuits/circuits/17/"
+    },
+    "created": "2026-03-01T05:03:04.241846Z",
+    "custom_fields": {},
+    "description": "",
+    "display": "JHEW3951: Termination A",
+    "display_url": "http://192.168.65.40:8000/circuits/circuit-terminations/20/",
+    "id": 20,
+    "last_updated": "2026-03-01T05:03:04.241863Z",
+    "link_peers": [],
+    "link_peers_type": null,
+    "mark_connected": false,
+    "port_speed": null,
+    "pp_info": "",
+    "tags": [],
+    "term_side": "A",
+    "termination": {
+      "description": "",
+      "display": "Level3 MPLS",
+      "id": 1,
+      "name": "Level3 MPLS",
+      "url": "http://192.168.65.40:8000/api/circuits/provider-networks/1/"
+    },
+    "termination_id": 1,
+    "termination_type": "circuits.providernetwork",
+    "upstream_speed": null,
+    "url": "http://192.168.65.40:8000/api/circuits/circuit-terminations/20/",
+    "xconnect_id": ""
+  },
+  {
+    "_occupied": true,
+    "cable": {
+      "description": "",
+      "display": "#53",
+      "id": 53,
+      "label": "",
+      "url": "http://192.168.65.40:8000/api/dcim/cables/53/"
+    },
+    "cable_end": "A",
+    "circuit": {
+      "cid": "JHEW3951",
+      "description": "",
+      "display": "JHEW3951",
+      "id": 17,
+      "provider": {
+        "description": "",
+        "display": "Level 3",
+        "id": 5,
+        "name": "Level 3",
+        "slug": "level-3",
+        "url": "http://192.168.65.40:8000/api/circuits/providers/5/"
+      },
+      "url": "http://192.168.65.40:8000/api/circuits/circuits/17/"
+    },
+    "created": "2026-03-01T05:03:04.311892Z",
+    "custom_fields": {},
+    "description": "",
+    "display": "JHEW3951: Termination Z",
+    "display_url": "http://192.168.65.40:8000/circuits/circuit-terminations/21/",
+    "id": 21,
+    "last_updated": "2026-03-01T05:38:47.758979Z",
+    "link_peers": [
+      {
+        "_occupied": true,
+        "cable": {
+          "description": "",
+          "display": "#53",
+          "id": 53,
+          "label": "",
+          "url": "http://192.168.65.40:8000/api/dcim/cables/53/"
+        },
+        "description": "",
+        "device": {
+          "description": "",
+          "display": "dmi01-akron-sw01",
+          "id": 3,
+          "name": "dmi01-akron-sw01",
+          "url": "http://192.168.65.40:8000/api/dcim/devices/3/"
+        },
+        "display": "GigabitEthernet1/0/4",
+        "id": 14,
+        "name": "GigabitEthernet1/0/4",
+        "url": "http://192.168.65.40:8000/api/dcim/interfaces/14/"
+      }
+    ],
+    "link_peers_type": "dcim.interface",
+    "mark_connected": false,
+    "port_speed": null,
+    "pp_info": "",
+    "tags": [],
+    "term_side": "Z",
+    "termination": {
+      "description": "",
+      "display": "DM-Albany",
+      "id": 4,
+      "name": "DM-Albany",
+      "slug": "dm-albany",
+      "url": "http://192.168.65.40:8000/api/dcim/sites/4/"
+    },
+    "termination_id": 4,
+    "termination_type": "dcim.site",
+    "upstream_speed": null,
+    "url": "http://192.168.65.40:8000/api/circuits/circuit-terminations/21/",
+    "xconnect_id": ""
+  },
+  {
+    "_occupied": false,
+    "cable": null,
+    "cable_end": null,
+    "circuit": {
+      "cid": "KAGO3917",
+      "description": "",
+      "display": "KAGO3917",
+      "id": 18,
+      "provider": {
+        "description": "",
+        "display": "Level 3",
+        "id": 5,
+        "name": "Level 3",
+        "slug": "level-3",
+        "url": "http://192.168.65.40:8000/api/circuits/providers/5/"
+      },
+      "url": "http://192.168.65.40:8000/api/circuits/circuits/18/"
+    },
+    "created": "2026-03-01T05:03:04.385960Z",
+    "custom_fields": {},
+    "description": "",
+    "display": "KAGO3917: Termination A",
+    "display_url": "http://192.168.65.40:8000/circuits/circuit-terminations/22/",
+    "id": 22,
+    "last_updated": "2026-03-01T05:03:04.385978Z",
+    "link_peers": [],
+    "link_peers_type": null,
+    "mark_connected": false,
+    "port_speed": null,
+    "pp_info": "",
+    "tags": [],
+    "term_side": "A",
+    "termination": {
+      "description": "",
+      "display": "Level3 MPLS",
+      "id": 1,
+      "name": "Level3 MPLS",
+      "url": "http://192.168.65.40:8000/api/circuits/provider-networks/1/"
+    },
+    "termination_id": 1,
+    "termination_type": "circuits.providernetwork",
+    "upstream_speed": null,
+    "url": "http://192.168.65.40:8000/api/circuits/circuit-terminations/22/",
+    "xconnect_id": ""
+  },
+  {
+    "_occupied": true,
+    "cable": {
+      "description": "",
+      "display": "#54",
+      "id": 54,
+      "label": "",
+      "url": "http://192.168.65.40:8000/api/dcim/cables/54/"
+    },
+    "cable_end": "A",
+    "circuit": {
+      "cid": "KAGO3917",
+      "description": "",
+      "display": "KAGO3917",
+      "id": 18,
+      "provider": {
+        "description": "",
+        "display": "Level 3",
+        "id": 5,
+        "name": "Level 3",
+        "slug": "level-3",
+        "url": "http://192.168.65.40:8000/api/circuits/providers/5/"
+      },
+      "url": "http://192.168.65.40:8000/api/circuits/circuits/18/"
+    },
+    "created": "2026-03-01T05:03:04.457141Z",
+    "custom_fields": {},
+    "description": "",
+    "display": "KAGO3917: Termination Z",
+    "display_url": "http://192.168.65.40:8000/circuits/circuit-terminations/23/",
+    "id": 23,
+    "last_updated": "2026-03-01T05:38:47.960051Z",
+    "link_peers": [
+      {
+        "_occupied": true,
+        "cable": {
+          "description": "",
+          "display": "#54",
+          "id": 54,
+          "label": "",
+          "url": "http://192.168.65.40:8000/api/dcim/cables/54/"
+        },
+        "description": "",
+        "device": {
+          "description": "",
+          "display": "dmi01-akron-sw01",
+          "id": 3,
+          "name": "dmi01-akron-sw01",
+          "url": "http://192.168.65.40:8000/api/dcim/devices/3/"
+        },
+        "display": "GigabitEthernet1/0/43",
+        "id": 53,
+        "name": "GigabitEthernet1/0/43",
+        "url": "http://192.168.65.40:8000/api/dcim/interfaces/53/"
+      }
+    ],
+    "link_peers_type": "dcim.interface",
+    "mark_connected": false,
+    "port_speed": null,
+    "pp_info": "",
+    "tags": [],
+    "term_side": "Z",
+    "termination": {
+      "description": "",
+      "display": "DM-Camden",
+      "id": 7,
+      "name": "DM-Camden",
+      "slug": "dm-camden",
+      "url": "http://192.168.65.40:8000/api/dcim/sites/7/"
+    },
+    "termination_id": 7,
+    "termination_type": "dcim.site",
+    "upstream_speed": null,
+    "url": "http://192.168.65.40:8000/api/circuits/circuit-terminations/23/",
+    "xconnect_id": ""
+  },
+  {
+    "_occupied": false,
+    "cable": null,
+    "cable_end": null,
+    "circuit": {
+      "cid": "KDPO0597",
+      "description": "",
+      "display": "KDPO0597",
+      "id": 19,
+      "provider": {
+        "description": "",
+        "display": "Level 3",
+        "id": 5,
+        "name": "Level 3",
+        "slug": "level-3",
+        "url": "http://192.168.65.40:8000/api/circuits/providers/5/"
+      },
+      "url": "http://192.168.65.40:8000/api/circuits/circuits/19/"
+    },
+    "created": "2026-03-01T05:03:04.538195Z",
+    "custom_fields": {},
+    "description": "",
+    "display": "KDPO0597: Termination A",
+    "display_url": "http://192.168.65.40:8000/circuits/circuit-terminations/24/",
+    "id": 24,
+    "last_updated": "2026-03-01T05:03:04.538212Z",
+    "link_peers": [],
+    "link_peers_type": null,
+    "mark_connected": false,
+    "port_speed": null,
+    "pp_info": "",
+    "tags": [],
+    "term_side": "A",
+    "termination": {
+      "description": "",
+      "display": "Level3 MPLS",
+      "id": 1,
+      "name": "Level3 MPLS",
+      "url": "http://192.168.65.40:8000/api/circuits/provider-networks/1/"
+    },
+    "termination_id": 1,
+    "termination_type": "circuits.providernetwork",
+    "upstream_speed": null,
+    "url": "http://192.168.65.40:8000/api/circuits/circuit-terminations/24/",
+    "xconnect_id": ""
+  },
+  {
+    "_occupied": true,
+    "cable": {
+      "description": "",
+      "display": "#55",
+      "id": 55,
+      "label": "",
+      "url": "http://192.168.65.40:8000/api/dcim/cables/55/"
+    },
+    "cable_end": "A",
+    "circuit": {
+      "cid": "KDPO0597",
+      "description": "",
+      "display": "KDPO0597",
+      "id": 19,
+      "provider": {
+        "description": "",
+        "display": "Level 3",
+        "id": 5,
+        "name": "Level 3",
+        "slug": "level-3",
+        "url": "http://192.168.65.40:8000/api/circuits/providers/5/"
+      },
+      "url": "http://192.168.65.40:8000/api/circuits/circuits/19/"
+    },
+    "created": "2026-03-01T05:03:04.613135Z",
+    "custom_fields": {},
+    "description": "",
+    "display": "KDPO0597: Termination Z",
+    "display_url": "http://192.168.65.40:8000/circuits/circuit-terminations/25/",
+    "id": 25,
+    "last_updated": "2026-03-01T05:38:48.699842Z",
+    "link_peers": [
+      {
+        "_occupied": true,
+        "cable": {
+          "description": "",
+          "display": "#55",
+          "id": 55,
+          "label": "",
+          "url": "http://192.168.65.40:8000/api/dcim/cables/55/"
+        },
+        "description": "",
+        "device": {
+          "description": "",
+          "display": "dmi01-binghamton-rtr01",
+          "id": 8,
+          "name": "dmi01-binghamton-rtr01",
+          "url": "http://192.168.65.40:8000/api/dcim/devices/8/"
+        },
+        "display": "GigabitEthernet0/1/6",
+        "id": 131,
+        "name": "GigabitEthernet0/1/6",
+        "url": "http://192.168.65.40:8000/api/dcim/interfaces/131/"
+      }
+    ],
+    "link_peers_type": "dcim.interface",
+    "mark_connected": false,
+    "port_speed": null,
+    "pp_info": "",
+    "tags": [],
+    "term_side": "Z",
+    "termination": {
+      "description": "",
+      "display": "DM-Syracuse",
+      "id": 14,
+      "name": "DM-Syracuse",
+      "slug": "dm-syracuse",
+      "url": "http://192.168.65.40:8000/api/dcim/sites/14/"
+    },
+    "termination_id": 14,
+    "termination_type": "dcim.site",
+    "upstream_speed": null,
+    "url": "http://192.168.65.40:8000/api/circuits/circuit-terminations/25/",
+    "xconnect_id": ""
+  },
+  {
+    "_occupied": false,
+    "cable": null,
+    "cable_end": null,
+    "circuit": {
+      "cid": "KKDG4923",
+      "description": "",
+      "display": "KKDG4923",
+      "id": 20,
+      "provider": {
+        "description": "",
+        "display": "Level 3",
+        "id": 5,
+        "name": "Level 3",
+        "slug": "level-3",
+        "url": "http://192.168.65.40:8000/api/circuits/providers/5/"
+      },
+      "url": "http://192.168.65.40:8000/api/circuits/circuits/20/"
+    },
+    "created": "2026-03-01T05:03:04.870248Z",
+    "custom_fields": {},
+    "description": "",
+    "display": "KKDG4923: Termination A",
+    "display_url": "http://192.168.65.40:8000/circuits/circuit-terminations/26/",
+    "id": 26,
+    "last_updated": "2026-03-01T05:03:04.870266Z",
+    "link_peers": [],
+    "link_peers_type": null,
+    "mark_connected": false,
+    "port_speed": null,
+    "pp_info": "",
+    "tags": [],
+    "term_side": "A",
+    "termination": {
+      "description": "",
+      "display": "Level3 MPLS",
+      "id": 1,
+      "name": "Level3 MPLS",
+      "url": "http://192.168.65.40:8000/api/circuits/provider-networks/1/"
+    },
+    "termination_id": 1,
+    "termination_type": "circuits.providernetwork",
+    "upstream_speed": null,
+    "url": "http://192.168.65.40:8000/api/circuits/circuit-terminations/26/",
+    "xconnect_id": ""
+  },
+  {
+    "_occupied": true,
+    "cable": {
+      "description": "",
+      "display": "#56",
+      "id": 56,
+      "label": "",
+      "url": "http://192.168.65.40:8000/api/dcim/cables/56/"
+    },
+    "cable_end": "A",
+    "circuit": {
+      "cid": "KKDG4923",
+      "description": "",
+      "display": "KKDG4923",
+      "id": 20,
+      "provider": {
+        "description": "",
+        "display": "Level 3",
+        "id": 5,
+        "name": "Level 3",
+        "slug": "level-3",
+        "url": "http://192.168.65.40:8000/api/circuits/providers/5/"
+      },
+      "url": "http://192.168.65.40:8000/api/circuits/circuits/20/"
+    },
+    "created": "2026-03-01T05:03:06.023422Z",
+    "custom_fields": {},
+    "description": "",
+    "display": "KKDG4923: Termination Z",
+    "display_url": "http://192.168.65.40:8000/circuits/circuit-terminations/27/",
+    "id": 27,
+    "last_updated": "2026-03-01T05:38:49.504873Z",
+    "link_peers": [
+      {
+        "_occupied": true,
+        "cable": {
+          "description": "",
+          "display": "#56",
+          "id": 56,
+          "label": "",
+          "url": "http://192.168.65.40:8000/api/dcim/cables/56/"
+        },
+        "description": "",
+        "device": {
+          "description": "",
+          "display": "dmi01-akron-rtr01",
+          "id": 2,
+          "name": "dmi01-akron-rtr01",
+          "url": "http://192.168.65.40:8000/api/dcim/devices/2/"
+        },
+        "display": "GigabitEthernet0/0/0",
+        "id": 1,
+        "name": "GigabitEthernet0/0/0",
+        "url": "http://192.168.65.40:8000/api/dcim/interfaces/1/"
+      }
+    ],
+    "link_peers_type": "dcim.interface",
+    "mark_connected": false,
+    "port_speed": null,
+    "pp_info": "",
+    "tags": [],
+    "term_side": "Z",
+    "termination": {
+      "description": "",
+      "display": "DM-Akron",
+      "id": 3,
+      "name": "DM-Akron",
+      "slug": "dm-akron",
+      "url": "http://192.168.65.40:8000/api/dcim/sites/3/"
+    },
+    "termination_id": 3,
+    "termination_type": "dcim.site",
+    "upstream_speed": null,
+    "url": "http://192.168.65.40:8000/api/circuits/circuit-terminations/27/",
+    "xconnect_id": ""
+  },
+  {
+    "_occupied": false,
+    "cable": null,
+    "cable_end": null,
+    "circuit": {
+      "cid": "KLQU4018",
+      "description": "",
+      "display": "KLQU4018",
+      "id": 21,
+      "provider": {
+        "description": "",
+        "display": "Level 3",
+        "id": 5,
+        "name": "Level 3",
+        "slug": "level-3",
+        "url": "http://192.168.65.40:8000/api/circuits/providers/5/"
+      },
+      "url": "http://192.168.65.40:8000/api/circuits/circuits/21/"
+    },
+    "created": "2026-03-01T05:03:06.714699Z",
+    "custom_fields": {},
+    "description": "",
+    "display": "KLQU4018: Termination A",
+    "display_url": "http://192.168.65.40:8000/circuits/circuit-terminations/28/",
+    "id": 28,
+    "last_updated": "2026-03-01T05:03:06.714716Z",
+    "link_peers": [],
+    "link_peers_type": null,
+    "mark_connected": false,
+    "port_speed": null,
+    "pp_info": "",
+    "tags": [],
+    "term_side": "A",
+    "termination": {
+      "description": "",
+      "display": "Level3 MPLS",
+      "id": 1,
+      "name": "Level3 MPLS",
+      "url": "http://192.168.65.40:8000/api/circuits/provider-networks/1/"
+    },
+    "termination_id": 1,
+    "termination_type": "circuits.providernetwork",
+    "upstream_speed": null,
+    "url": "http://192.168.65.40:8000/api/circuits/circuit-terminations/28/",
+    "xconnect_id": ""
+  },
+  {
+    "_occupied": true,
+    "cable": {
+      "description": "",
+      "display": "#57",
+      "id": 57,
+      "label": "",
+      "url": "http://192.168.65.40:8000/api/dcim/cables/57/"
+    },
+    "cable_end": "A",
+    "circuit": {
+      "cid": "KLQU4018",
+      "description": "",
+      "display": "KLQU4018",
+      "id": 21,
+      "provider": {
+        "description": "",
+        "display": "Level 3",
+        "id": 5,
+        "name": "Level 3",
+        "slug": "level-3",
+        "url": "http://192.168.65.40:8000/api/circuits/providers/5/"
+      },
+      "url": "http://192.168.65.40:8000/api/circuits/circuits/21/"
+    },
+    "created": "2026-03-01T05:03:06.792575Z",
+    "custom_fields": {},
+    "description": "",
+    "display": "KLQU4018: Termination Z",
+    "display_url": "http://192.168.65.40:8000/circuits/circuit-terminations/29/",
+    "id": 29,
+    "last_updated": "2026-03-01T05:38:49.820485Z",
+    "link_peers": [
+      {
+        "_occupied": true,
+        "cable": {
+          "description": "",
+          "display": "#57",
+          "id": 57,
+          "label": "",
+          "url": "http://192.168.65.40:8000/api/dcim/cables/57/"
+        },
+        "description": "",
+        "device": {
+          "description": "",
+          "display": "dmi01-albany-rtr01",
+          "id": 5,
+          "name": "dmi01-albany-rtr01",
+          "url": "http://192.168.65.40:8000/api/dcim/devices/5/"
+        },
+        "display": "GigabitEthernet0/1/3",
+        "id": 66,
+        "name": "GigabitEthernet0/1/3",
+        "url": "http://192.168.65.40:8000/api/dcim/interfaces/66/"
+      }
+    ],
+    "link_peers_type": "dcim.interface",
+    "mark_connected": false,
+    "port_speed": null,
+    "pp_info": "",
+    "tags": [],
+    "term_side": "Z",
+    "termination": {
+      "description": "",
+      "display": "DM-Nashua",
+      "id": 8,
+      "name": "DM-Nashua",
+      "slug": "dm-nashua",
+      "url": "http://192.168.65.40:8000/api/dcim/sites/8/"
+    },
+    "termination_id": 8,
+    "termination_type": "dcim.site",
+    "upstream_speed": null,
+    "url": "http://192.168.65.40:8000/api/circuits/circuit-terminations/29/",
+    "xconnect_id": ""
+  },
+  {
+    "_occupied": false,
+    "cable": null,
+    "cable_end": null,
+    "circuit": {
+      "cid": "KSIR0381",
+      "description": "",
+      "display": "KSIR0381",
+      "id": 22,
+      "provider": {
+        "description": "",
+        "display": "Level 3",
+        "id": 5,
+        "name": "Level 3",
+        "slug": "level-3",
+        "url": "http://192.168.65.40:8000/api/circuits/providers/5/"
+      },
+      "url": "http://192.168.65.40:8000/api/circuits/circuits/22/"
+    },
+    "created": "2026-03-01T05:03:06.864779Z",
+    "custom_fields": {},
+    "description": "",
+    "display": "KSIR0381: Termination A",
+    "display_url": "http://192.168.65.40:8000/circuits/circuit-terminations/30/",
+    "id": 30,
+    "last_updated": "2026-03-01T05:03:06.864797Z",
+    "link_peers": [],
+    "link_peers_type": null,
+    "mark_connected": false,
+    "port_speed": null,
+    "pp_info": "",
+    "tags": [],
+    "term_side": "A",
+    "termination": {
+      "description": "",
+      "display": "Level3 MPLS",
+      "id": 1,
+      "name": "Level3 MPLS",
+      "url": "http://192.168.65.40:8000/api/circuits/provider-networks/1/"
+    },
+    "termination_id": 1,
+    "termination_type": "circuits.providernetwork",
+    "upstream_speed": null,
+    "url": "http://192.168.65.40:8000/api/circuits/circuit-terminations/30/",
+    "xconnect_id": ""
+  },
+  {
+    "_occupied": true,
+    "cable": {
+      "description": "",
+      "display": "#58",
+      "id": 58,
+      "label": "",
+      "url": "http://192.168.65.40:8000/api/dcim/cables/58/"
+    },
+    "cable_end": "A",
+    "circuit": {
+      "cid": "KSIR0381",
+      "description": "",
+      "display": "KSIR0381",
+      "id": 22,
+      "provider": {
+        "description": "",
+        "display": "Level 3",
+        "id": 5,
+        "name": "Level 3",
+        "slug": "level-3",
+        "url": "http://192.168.65.40:8000/api/circuits/providers/5/"
+      },
+      "url": "http://192.168.65.40:8000/api/circuits/circuits/22/"
+    },
+    "created": "2026-03-01T05:03:06.934545Z",
+    "custom_fields": {},
+    "description": "",
+    "display": "KSIR0381: Termination Z",
+    "display_url": "http://192.168.65.40:8000/circuits/circuit-terminations/31/",
+    "id": 31,
+    "last_updated": "2026-03-01T05:38:50.219271Z",
+    "link_peers": [
+      {
+        "_occupied": true,
+        "cable": {
+          "description": "",
+          "display": "#58",
+          "id": 58,
+          "label": "",
+          "url": "http://192.168.65.40:8000/api/dcim/cables/58/"
+        },
+        "description": "",
+        "device": {
+          "description": "",
+          "display": "dmi01-albany-sw01",
+          "id": 6,
+          "name": "dmi01-albany-sw01",
+          "url": "http://192.168.65.40:8000/api/dcim/devices/6/"
+        },
+        "display": "GigabitEthernet1/0/20",
+        "id": 92,
+        "name": "GigabitEthernet1/0/20",
+        "url": "http://192.168.65.40:8000/api/dcim/interfaces/92/"
+      }
+    ],
+    "link_peers_type": "dcim.interface",
+    "mark_connected": false,
+    "port_speed": null,
+    "pp_info": "",
+    "tags": [],
+    "term_side": "Z",
+    "termination": {
+      "description": "",
+      "display": "DM-Rochester",
+      "id": 11,
+      "name": "DM-Rochester",
+      "slug": "dm-rochester",
+      "url": "http://192.168.65.40:8000/api/dcim/sites/11/"
+    },
+    "termination_id": 11,
+    "termination_type": "dcim.site",
+    "upstream_speed": null,
+    "url": "http://192.168.65.40:8000/api/circuits/circuit-terminations/31/",
+    "xconnect_id": ""
+  },
+  {
+    "_occupied": false,
+    "cable": null,
+    "cable_end": null,
+    "circuit": {
+      "cid": "LQRT4981",
+      "description": "",
+      "display": "LQRT4981",
+      "id": 23,
+      "provider": {
+        "description": "",
+        "display": "Level 3",
+        "id": 5,
+        "name": "Level 3",
+        "slug": "level-3",
+        "url": "http://192.168.65.40:8000/api/circuits/providers/5/"
+      },
+      "url": "http://192.168.65.40:8000/api/circuits/circuits/23/"
+    },
+    "created": "2026-03-01T05:03:07.010967Z",
+    "custom_fields": {},
+    "description": "",
+    "display": "LQRT4981: Termination A",
+    "display_url": "http://192.168.65.40:8000/circuits/circuit-terminations/32/",
+    "id": 32,
+    "last_updated": "2026-03-01T05:03:07.010984Z",
+    "link_peers": [],
+    "link_peers_type": null,
+    "mark_connected": false,
+    "port_speed": null,
+    "pp_info": "",
+    "tags": [],
+    "term_side": "A",
+    "termination": {
+      "description": "",
+      "display": "Level3 MPLS",
+      "id": 1,
+      "name": "Level3 MPLS",
+      "url": "http://192.168.65.40:8000/api/circuits/provider-networks/1/"
+    },
+    "termination_id": 1,
+    "termination_type": "circuits.providernetwork",
+    "upstream_speed": null,
+    "url": "http://192.168.65.40:8000/api/circuits/circuit-terminations/32/",
+    "xconnect_id": ""
+  },
+  {
+    "_occupied": true,
+    "cable": {
+      "description": "",
+      "display": "#59",
+      "id": 59,
+      "label": "",
+      "url": "http://192.168.65.40:8000/api/dcim/cables/59/"
+    },
+    "cable_end": "A",
+    "circuit": {
+      "cid": "LQRT4981",
+      "description": "",
+      "display": "LQRT4981",
+      "id": 23,
+      "provider": {
+        "description": "",
+        "display": "Level 3",
+        "id": 5,
+        "name": "Level 3",
+        "slug": "level-3",
+        "url": "http://192.168.65.40:8000/api/circuits/providers/5/"
+      },
+      "url": "http://192.168.65.40:8000/api/circuits/circuits/23/"
+    },
+    "created": "2026-03-01T05:03:07.090285Z",
+    "custom_fields": {},
+    "description": "",
+    "display": "LQRT4981: Termination Z",
+    "display_url": "http://192.168.65.40:8000/circuits/circuit-terminations/33/",
+    "id": 33,
+    "last_updated": "2026-03-01T05:38:51.425075Z",
+    "link_peers": [
+      {
+        "_occupied": true,
+        "cable": {
+          "description": "",
+          "display": "#59",
+          "id": 59,
+          "label": "",
+          "url": "http://192.168.65.40:8000/api/dcim/cables/59/"
+        },
+        "description": "",
+        "device": {
+          "description": "",
+          "display": "dmi01-albany-sw01",
+          "id": 6,
+          "name": "dmi01-albany-sw01",
+          "url": "http://192.168.65.40:8000/api/dcim/devices/6/"
+        },
+        "display": "GigabitEthernet1/0/7",
+        "id": 79,
+        "name": "GigabitEthernet1/0/7",
+        "url": "http://192.168.65.40:8000/api/dcim/interfaces/79/"
+      }
+    ],
+    "link_peers_type": "dcim.interface",
+    "mark_connected": false,
+    "port_speed": null,
+    "pp_info": "",
+    "tags": [],
+    "term_side": "Z",
+    "termination": {
+      "description": "",
+      "display": "DM-Pittsfield",
+      "id": 10,
+      "name": "DM-Pittsfield",
+      "slug": "dm-pittsfield",
+      "url": "http://192.168.65.40:8000/api/dcim/sites/10/"
+    },
+    "termination_id": 10,
+    "termination_type": "dcim.site",
+    "upstream_speed": null,
+    "url": "http://192.168.65.40:8000/api/circuits/circuit-terminations/33/",
+    "xconnect_id": ""
+  },
+  {
+    "_occupied": false,
+    "cable": null,
+    "cable_end": null,
+    "circuit": {
+      "cid": "PPJQ5091",
+      "description": "",
+      "display": "PPJQ5091",
+      "id": 24,
+      "provider": {
+        "description": "",
+        "display": "Level 3",
+        "id": 5,
+        "name": "Level 3",
+        "slug": "level-3",
+        "url": "http://192.168.65.40:8000/api/circuits/providers/5/"
+      },
+      "url": "http://192.168.65.40:8000/api/circuits/circuits/24/"
+    },
+    "created": "2026-03-01T05:03:07.162374Z",
+    "custom_fields": {},
+    "description": "",
+    "display": "PPJQ5091: Termination A",
+    "display_url": "http://192.168.65.40:8000/circuits/circuit-terminations/34/",
+    "id": 34,
+    "last_updated": "2026-03-01T05:03:07.162391Z",
+    "link_peers": [],
+    "link_peers_type": null,
+    "mark_connected": false,
+    "port_speed": null,
+    "pp_info": "",
+    "tags": [],
+    "term_side": "A",
+    "termination": {
+      "description": "",
+      "display": "Level3 MPLS",
+      "id": 1,
+      "name": "Level3 MPLS",
+      "url": "http://192.168.65.40:8000/api/circuits/provider-networks/1/"
+    },
+    "termination_id": 1,
+    "termination_type": "circuits.providernetwork",
+    "upstream_speed": null,
+    "url": "http://192.168.65.40:8000/api/circuits/circuit-terminations/34/",
+    "xconnect_id": ""
+  },
+  {
+    "_occupied": true,
+    "cable": {
+      "description": "",
+      "display": "#60",
+      "id": 60,
+      "label": "",
+      "url": "http://192.168.65.40:8000/api/dcim/cables/60/"
+    },
+    "cable_end": "A",
+    "circuit": {
+      "cid": "PPJQ5091",
+      "description": "",
+      "display": "PPJQ5091",
+      "id": 24,
+      "provider": {
+        "description": "",
+        "display": "Level 3",
+        "id": 5,
+        "name": "Level 3",
+        "slug": "level-3",
+        "url": "http://192.168.65.40:8000/api/circuits/providers/5/"
+      },
+      "url": "http://192.168.65.40:8000/api/circuits/circuits/24/"
+    },
+    "created": "2026-03-01T05:03:07.233893Z",
+    "custom_fields": {},
+    "description": "",
+    "display": "PPJQ5091: Termination Z",
+    "display_url": "http://192.168.65.40:8000/circuits/circuit-terminations/35/",
+    "id": 35,
+    "last_updated": "2026-03-01T05:38:51.632615Z",
+    "link_peers": [
+      {
+        "_occupied": true,
+        "cable": {
+          "description": "",
+          "display": "#60",
+          "id": 60,
+          "label": "",
+          "url": "http://192.168.65.40:8000/api/dcim/cables/60/"
+        },
+        "description": "",
+        "device": {
+          "description": "",
+          "display": "dmi01-akron-sw01",
+          "id": 3,
+          "name": "dmi01-akron-sw01",
+          "url": "http://192.168.65.40:8000/api/dcim/devices/3/"
+        },
+        "display": "GigabitEthernet1/0/17",
+        "id": 27,
+        "name": "GigabitEthernet1/0/17",
+        "url": "http://192.168.65.40:8000/api/dcim/interfaces/27/"
+      }
+    ],
+    "link_peers_type": "dcim.interface",
+    "mark_connected": false,
+    "port_speed": null,
+    "pp_info": "",
+    "tags": [],
+    "term_side": "Z",
+    "termination": {
+      "description": "",
+      "display": "DM-Binghamton",
+      "id": 5,
+      "name": "DM-Binghamton",
+      "slug": "dm-binghamton",
+      "url": "http://192.168.65.40:8000/api/dcim/sites/5/"
+    },
+    "termination_id": 5,
+    "termination_type": "dcim.site",
+    "upstream_speed": null,
+    "url": "http://192.168.65.40:8000/api/circuits/circuit-terminations/35/",
+    "xconnect_id": ""
+  },
+  {
+    "_occupied": false,
+    "cable": null,
+    "cable_end": null,
+    "circuit": {
+      "cid": "QMKD2436",
+      "description": "",
+      "display": "QMKD2436",
+      "id": 25,
+      "provider": {
+        "description": "",
+        "display": "Level 3",
+        "id": 5,
+        "name": "Level 3",
+        "slug": "level-3",
+        "url": "http://192.168.65.40:8000/api/circuits/providers/5/"
+      },
+      "url": "http://192.168.65.40:8000/api/circuits/circuits/25/"
+    },
+    "created": "2026-03-01T05:03:07.305214Z",
+    "custom_fields": {},
+    "description": "",
+    "display": "QMKD2436: Termination A",
+    "display_url": "http://192.168.65.40:8000/circuits/circuit-terminations/36/",
+    "id": 36,
+    "last_updated": "2026-03-01T05:03:07.305232Z",
+    "link_peers": [],
+    "link_peers_type": null,
+    "mark_connected": false,
+    "port_speed": null,
+    "pp_info": "",
+    "tags": [],
+    "term_side": "A",
+    "termination": {
+      "description": "",
+      "display": "Level3 MPLS",
+      "id": 1,
+      "name": "Level3 MPLS",
+      "url": "http://192.168.65.40:8000/api/circuits/provider-networks/1/"
+    },
+    "termination_id": 1,
+    "termination_type": "circuits.providernetwork",
+    "upstream_speed": null,
+    "url": "http://192.168.65.40:8000/api/circuits/circuit-terminations/36/",
+    "xconnect_id": ""
+  },
+  {
+    "_occupied": true,
+    "cable": {
+      "description": "",
+      "display": "#61",
+      "id": 61,
+      "label": "",
+      "url": "http://192.168.65.40:8000/api/dcim/cables/61/"
+    },
+    "cable_end": "A",
+    "circuit": {
+      "cid": "QMKD2436",
+      "description": "",
+      "display": "QMKD2436",
+      "id": 25,
+      "provider": {
+        "description": "",
+        "display": "Level 3",
+        "id": 5,
+        "name": "Level 3",
+        "slug": "level-3",
+        "url": "http://192.168.65.40:8000/api/circuits/providers/5/"
+      },
+      "url": "http://192.168.65.40:8000/api/circuits/circuits/25/"
+    },
+    "created": "2026-03-01T05:03:07.398534Z",
+    "custom_fields": {},
+    "description": "",
+    "display": "QMKD2436: Termination Z",
+    "display_url": "http://192.168.65.40:8000/circuits/circuit-terminations/37/",
+    "id": 37,
+    "last_updated": "2026-03-01T05:38:51.956822Z",
+    "link_peers": [
+      {
+        "_occupied": true,
+        "cable": {
+          "description": "",
+          "display": "#61",
+          "id": 61,
+          "label": "",
+          "url": "http://192.168.65.40:8000/api/dcim/cables/61/"
+        },
+        "description": "",
+        "device": {
+          "description": "",
+          "display": "dmi01-binghamton-sw01",
+          "id": 9,
+          "name": "dmi01-binghamton-sw01",
+          "url": "http://192.168.65.40:8000/api/dcim/devices/9/"
+        },
+        "display": "GigabitEthernet1/0/10",
+        "id": 144,
+        "name": "GigabitEthernet1/0/10",
+        "url": "http://192.168.65.40:8000/api/dcim/interfaces/144/"
+      }
+    ],
+    "link_peers_type": "dcim.interface",
+    "mark_connected": false,
+    "port_speed": null,
+    "pp_info": "",
+    "tags": [],
+    "term_side": "Z",
+    "termination": {
+      "description": "",
+      "display": "DM-Utica",
+      "id": 15,
+      "name": "DM-Utica",
+      "slug": "dm-utica",
+      "url": "http://192.168.65.40:8000/api/dcim/sites/15/"
+    },
+    "termination_id": 15,
+    "termination_type": "dcim.site",
+    "upstream_speed": null,
+    "url": "http://192.168.65.40:8000/api/circuits/circuit-terminations/37/",
+    "xconnect_id": ""
+  },
+  {
+    "_occupied": false,
+    "cable": null,
+    "cable_end": null,
+    "circuit": {
+      "cid": "QPMA5027",
+      "description": "",
+      "display": "QPMA5027",
+      "id": 26,
+      "provider": {
+        "description": "",
+        "display": "Level 3",
+        "id": 5,
+        "name": "Level 3",
+        "slug": "level-3",
+        "url": "http://192.168.65.40:8000/api/circuits/providers/5/"
+      },
+      "url": "http://192.168.65.40:8000/api/circuits/circuits/26/"
+    },
+    "created": "2026-03-01T05:03:07.472274Z",
+    "custom_fields": {},
+    "description": "",
+    "display": "QPMA5027: Termination A",
+    "display_url": "http://192.168.65.40:8000/circuits/circuit-terminations/38/",
+    "id": 38,
+    "last_updated": "2026-03-01T05:03:07.472292Z",
+    "link_peers": [],
+    "link_peers_type": null,
+    "mark_connected": false,
+    "port_speed": null,
+    "pp_info": "",
+    "tags": [],
+    "term_side": "A",
+    "termination": {
+      "description": "",
+      "display": "Level3 MPLS",
+      "id": 1,
+      "name": "Level3 MPLS",
+      "url": "http://192.168.65.40:8000/api/circuits/provider-networks/1/"
+    },
+    "termination_id": 1,
+    "termination_type": "circuits.providernetwork",
+    "upstream_speed": null,
+    "url": "http://192.168.65.40:8000/api/circuits/circuit-terminations/38/",
+    "xconnect_id": ""
+  },
+  {
+    "_occupied": true,
+    "cable": {
+      "description": "",
+      "display": "#62",
+      "id": 62,
+      "label": "",
+      "url": "http://192.168.65.40:8000/api/dcim/cables/62/"
+    },
+    "cable_end": "A",
+    "circuit": {
+      "cid": "QPMA5027",
+      "description": "",
+      "display": "QPMA5027",
+      "id": 26,
+      "provider": {
+        "description": "",
+        "display": "Level 3",
+        "id": 5,
+        "name": "Level 3",
+        "slug": "level-3",
+        "url": "http://192.168.65.40:8000/api/circuits/providers/5/"
+      },
+      "url": "http://192.168.65.40:8000/api/circuits/circuits/26/"
+    },
+    "created": "2026-03-01T05:03:07.555182Z",
+    "custom_fields": {},
+    "description": "",
+    "display": "QPMA5027: Termination Z",
+    "display_url": "http://192.168.65.40:8000/circuits/circuit-terminations/39/",
+    "id": 39,
+    "last_updated": "2026-03-01T05:38:52.265525Z",
+    "link_peers": [
+      {
+        "_occupied": true,
+        "cable": {
+          "description": "",
+          "display": "#62",
+          "id": 62,
+          "label": "",
+          "url": "http://192.168.65.40:8000/api/dcim/cables/62/"
+        },
+        "description": "",
+        "device": {
+          "description": "",
+          "display": "dmi01-akron-sw01",
+          "id": 3,
+          "name": "dmi01-akron-sw01",
+          "url": "http://192.168.65.40:8000/api/dcim/devices/3/"
+        },
+        "display": "GigabitEthernet1/0/30",
+        "id": 40,
+        "name": "GigabitEthernet1/0/30",
+        "url": "http://192.168.65.40:8000/api/dcim/interfaces/40/"
+      }
+    ],
+    "link_peers_type": "dcim.interface",
+    "mark_connected": false,
+    "port_speed": null,
+    "pp_info": "",
+    "tags": [],
+    "term_side": "Z",
+    "termination": {
+      "description": "",
+      "display": "DM-Buffalo",
+      "id": 6,
+      "name": "DM-Buffalo",
+      "slug": "dm-buffalo",
+      "url": "http://192.168.65.40:8000/api/dcim/sites/6/"
+    },
+    "termination_id": 6,
+    "termination_type": "dcim.site",
+    "upstream_speed": null,
+    "url": "http://192.168.65.40:8000/api/circuits/circuit-terminations/39/",
+    "xconnect_id": ""
+  },
+  {
+    "_occupied": false,
+    "cable": null,
+    "cable_end": null,
+    "circuit": {
+      "cid": "319031",
+      "description": "",
+      "display": "319031",
+      "id": 27,
+      "provider": {
+        "description": "",
+        "display": "NCSU Facilities",
+        "id": 6,
+        "name": "NCSU Facilities",
+        "slug": "ncsu-facilities",
+        "url": "http://192.168.65.40:8000/api/circuits/providers/6/"
+      },
+      "url": "http://192.168.65.40:8000/api/circuits/circuits/27/"
+    },
+    "created": "2026-03-01T05:03:07.632152Z",
+    "custom_fields": {},
+    "description": "",
+    "display": "319031: Termination A",
+    "display_url": "http://192.168.65.40:8000/circuits/circuit-terminations/40/",
+    "id": 40,
+    "last_updated": "2026-03-01T05:03:07.632170Z",
+    "link_peers": [],
+    "link_peers_type": null,
+    "mark_connected": false,
+    "port_speed": null,
+    "pp_info": "",
+    "tags": [],
+    "term_side": "A",
+    "termination": {
+      "description": "Main Distribution Frame",
+      "display": "MDF",
+      "id": 24,
+      "name": "MDF",
+      "slug": "ncsu-065",
+      "url": "http://192.168.65.40:8000/api/dcim/sites/24/"
+    },
+    "termination_id": 24,
+    "termination_type": "dcim.site",
+    "upstream_speed": null,
+    "url": "http://192.168.65.40:8000/api/circuits/circuit-terminations/40/",
+    "xconnect_id": ""
+  },
+  {
+    "_occupied": false,
+    "cable": null,
+    "cable_end": null,
+    "circuit": {
+      "cid": "319031",
+      "description": "",
+      "display": "319031",
+      "id": 27,
+      "provider": {
+        "description": "",
+        "display": "NCSU Facilities",
+        "id": 6,
+        "name": "NCSU Facilities",
+        "slug": "ncsu-facilities",
+        "url": "http://192.168.65.40:8000/api/circuits/providers/6/"
+      },
+      "url": "http://192.168.65.40:8000/api/circuits/circuits/27/"
+    },
+    "created": "2026-03-01T05:03:07.708911Z",
+    "custom_fields": {},
+    "description": "",
+    "display": "319031: Termination Z",
+    "display_url": "http://192.168.65.40:8000/circuits/circuit-terminations/41/",
+    "id": 41,
+    "last_updated": "2026-03-01T05:03:07.708928Z",
+    "link_peers": [],
+    "link_peers_type": null,
+    "mark_connected": false,
+    "port_speed": null,
+    "pp_info": "",
+    "tags": [],
+    "term_side": "Z",
+    "termination": {
+      "description": "",
+      "display": "Butler Communications",
+      "id": 1,
+      "name": "Butler Communications",
+      "slug": "ncsu-128",
+      "url": "http://192.168.65.40:8000/api/dcim/sites/1/"
+    },
+    "termination_id": 1,
+    "termination_type": "dcim.site",
+    "upstream_speed": null,
+    "url": "http://192.168.65.40:8000/api/circuits/circuit-terminations/41/",
+    "xconnect_id": ""
+  },
+  {
+    "_occupied": false,
+    "cable": null,
+    "cable_end": null,
+    "circuit": {
+      "cid": "350927",
+      "description": "",
+      "display": "350927",
+      "id": 28,
+      "provider": {
+        "description": "",
+        "display": "NCSU Facilities",
+        "id": 6,
+        "name": "NCSU Facilities",
+        "slug": "ncsu-facilities",
+        "url": "http://192.168.65.40:8000/api/circuits/providers/6/"
+      },
+      "url": "http://192.168.65.40:8000/api/circuits/circuits/28/"
+    },
+    "created": "2026-03-01T05:03:07.782740Z",
+    "custom_fields": {},
+    "description": "",
+    "display": "350927: Termination A",
+    "display_url": "http://192.168.65.40:8000/circuits/circuit-terminations/42/",
+    "id": 42,
+    "last_updated": "2026-03-01T05:03:07.782757Z",
+    "link_peers": [],
+    "link_peers_type": null,
+    "mark_connected": false,
+    "port_speed": null,
+    "pp_info": "",
+    "tags": [],
+    "term_side": "A",
+    "termination": {
+      "description": "Main Distribution Frame",
+      "display": "MDF",
+      "id": 24,
+      "name": "MDF",
+      "slug": "ncsu-065",
+      "url": "http://192.168.65.40:8000/api/dcim/sites/24/"
+    },
+    "termination_id": 24,
+    "termination_type": "dcim.site",
+    "upstream_speed": null,
+    "url": "http://192.168.65.40:8000/api/circuits/circuit-terminations/42/",
+    "xconnect_id": ""
+  },
+  {
+    "_occupied": false,
+    "cable": null,
+    "cable_end": null,
+    "circuit": {
+      "cid": "350927",
+      "description": "",
+      "display": "350927",
+      "id": 28,
+      "provider": {
+        "description": "",
+        "display": "NCSU Facilities",
+        "id": 6,
+        "name": "NCSU Facilities",
+        "slug": "ncsu-facilities",
+        "url": "http://192.168.65.40:8000/api/circuits/providers/6/"
+      },
+      "url": "http://192.168.65.40:8000/api/circuits/circuits/28/"
+    },
+    "created": "2026-03-01T05:03:07.849255Z",
+    "custom_fields": {},
+    "description": "",
+    "display": "350927: Termination Z",
+    "display_url": "http://192.168.65.40:8000/circuits/circuit-terminations/43/",
+    "id": 43,
+    "last_updated": "2026-03-01T05:03:07.849272Z",
+    "link_peers": [],
+    "link_peers_type": null,
+    "mark_connected": false,
+    "port_speed": null,
+    "pp_info": "",
+    "tags": [],
+    "term_side": "Z",
+    "termination": {
+      "description": "",
+      "display": "D. S. Weaver Labs",
+      "id": 2,
+      "name": "D. S. Weaver Labs",
+      "slug": "ncsu-117",
+      "url": "http://192.168.65.40:8000/api/dcim/sites/2/"
+    },
+    "termination_id": 2,
+    "termination_type": "dcim.site",
+    "upstream_speed": null,
+    "url": "http://192.168.65.40:8000/api/circuits/circuit-terminations/43/",
+    "xconnect_id": ""
+  },
+  {
+    "_occupied": false,
+    "cable": null,
+    "cable_end": null,
+    "circuit": {
+      "cid": "398282",
+      "description": "",
+      "display": "398282",
+      "id": 29,
+      "provider": {
+        "description": "",
+        "display": "NCSU Facilities",
+        "id": 6,
+        "name": "NCSU Facilities",
+        "slug": "ncsu-facilities",
+        "url": "http://192.168.65.40:8000/api/circuits/providers/6/"
+      },
+      "url": "http://192.168.65.40:8000/api/circuits/circuits/29/"
+    },
+    "created": "2026-03-01T05:03:07.919311Z",
+    "custom_fields": {},
+    "description": "",
+    "display": "398282: Termination A",
+    "display_url": "http://192.168.65.40:8000/circuits/circuit-terminations/44/",
+    "id": 44,
+    "last_updated": "2026-03-01T05:03:07.919328Z",
+    "link_peers": [],
+    "link_peers_type": null,
+    "mark_connected": false,
+    "port_speed": null,
+    "pp_info": "",
+    "tags": [],
+    "term_side": "A",
+    "termination": {
+      "description": "Main Distribution Frame",
+      "display": "MDF",
+      "id": 24,
+      "name": "MDF",
+      "slug": "ncsu-065",
+      "url": "http://192.168.65.40:8000/api/dcim/sites/24/"
+    },
+    "termination_id": 24,
+    "termination_type": "dcim.site",
+    "upstream_speed": null,
+    "url": "http://192.168.65.40:8000/api/circuits/circuit-terminations/44/",
+    "xconnect_id": ""
+  },
+  {
+    "_occupied": false,
+    "cable": null,
+    "cable_end": null,
+    "circuit": {
+      "cid": "398282",
+      "description": "",
+      "display": "398282",
+      "id": 29,
+      "provider": {
+        "description": "",
+        "display": "NCSU Facilities",
+        "id": 6,
+        "name": "NCSU Facilities",
+        "slug": "ncsu-facilities",
+        "url": "http://192.168.65.40:8000/api/circuits/providers/6/"
+      },
+      "url": "http://192.168.65.40:8000/api/circuits/circuits/29/"
+    },
+    "created": "2026-03-01T05:03:07.990134Z",
+    "custom_fields": {},
+    "description": "",
+    "display": "398282: Termination Z",
+    "display_url": "http://192.168.65.40:8000/circuits/circuit-terminations/45/",
+    "id": 45,
+    "last_updated": "2026-03-01T05:03:07.990154Z",
+    "link_peers": [],
+    "link_peers_type": null,
+    "mark_connected": false,
+    "port_speed": null,
+    "pp_info": "",
+    "tags": [],
+    "term_side": "Z",
+    "termination": {
+      "description": "",
+      "display": "Grinnells Lab",
+      "id": 17,
+      "name": "Grinnells Lab",
+      "slug": "ncsu-118",
+      "url": "http://192.168.65.40:8000/api/dcim/sites/17/"
+    },
+    "termination_id": 17,
+    "termination_type": "dcim.site",
+    "upstream_speed": null,
+    "url": "http://192.168.65.40:8000/api/circuits/circuit-terminations/45/",
+    "xconnect_id": ""
+  }
+]

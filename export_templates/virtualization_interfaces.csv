@@ -1,0 +1,1 @@
+virtual_machine,name,enabled,parent,bridge,mtu,primary_mac_address,description,mode,untagged_vlan,tagged_vlans,qinq_svlan,vlan_translation_policy,vrf,owner,tags,custom_fields

@@ -1,0 +1,138 @@
+[
+  {
+    "_depth": 0,
+    "comments": "",
+    "created": "2026-03-01T04:26:43.016638Z",
+    "custom_fields": {},
+    "description": "",
+    "device_count": 10,
+    "display": "Row 1",
+    "display_url": "http://192.168.65.40:8000/dcim/locations/1/",
+    "facility": "",
+    "id": 1,
+    "last_updated": "2026-03-01T04:26:43.016655Z",
+    "name": "Row 1",
+    "owner": null,
+    "parent": null,
+    "prefix_count": 0,
+    "rack_count": 0,
+    "site": {
+      "description": "Main Distribution Frame",
+      "display": "MDF",
+      "id": 24,
+      "name": "MDF",
+      "slug": "ncsu-065",
+      "url": "http://192.168.65.40:8000/api/dcim/sites/24/"
+    },
+    "slug": "row-1",
+    "status": {
+      "label": "Active",
+      "value": "active"
+    },
+    "tags": [],
+    "tenant": null,
+    "url": "http://192.168.65.40:8000/api/dcim/locations/1/"
+  },
+  {
+    "_depth": 0,
+    "comments": "",
+    "created": "2026-03-01T04:26:43.096955Z",
+    "custom_fields": {},
+    "description": "",
+    "device_count": 1,
+    "display": "Row 2",
+    "display_url": "http://192.168.65.40:8000/dcim/locations/2/",
+    "facility": "",
+    "id": 2,
+    "last_updated": "2026-03-01T04:26:43.096972Z",
+    "name": "Row 2",
+    "owner": null,
+    "parent": null,
+    "prefix_count": 0,
+    "rack_count": 0,
+    "site": {
+      "description": "Main Distribution Frame",
+      "display": "MDF",
+      "id": 24,
+      "name": "MDF",
+      "slug": "ncsu-065",
+      "url": "http://192.168.65.40:8000/api/dcim/sites/24/"
+    },
+    "slug": "row-2",
+    "status": {
+      "label": "Active",
+      "value": "active"
+    },
+    "tags": [],
+    "tenant": null,
+    "url": "http://192.168.65.40:8000/api/dcim/locations/2/"
+  },
+  {
+    "_depth": 0,
+    "comments": "",
+    "created": "2026-03-01T04:26:43.157998Z",
+    "custom_fields": {},
+    "description": "",
+    "device_count": 0,
+    "display": "Row 3",
+    "display_url": "http://192.168.65.40:8000/dcim/locations/3/",
+    "facility": "",
+    "id": 3,
+    "last_updated": "2026-03-01T04:26:43.158015Z",
+    "name": "Row 3",
+    "owner": null,
+    "parent": null,
+    "prefix_count": 0,
+    "rack_count": 0,
+    "site": {
+      "description": "Main Distribution Frame",
+      "display": "MDF",
+      "id": 24,
+      "name": "MDF",
+      "slug": "ncsu-065",
+      "url": "http://192.168.65.40:8000/api/dcim/sites/24/"
+    },
+    "slug": "row-3",
+    "status": {
+      "label": "Active",
+      "value": "active"
+    },
+    "tags": [],
+    "tenant": null,
+    "url": "http://192.168.65.40:8000/api/dcim/locations/3/"
+  },
+  {
+    "_depth": 0,
+    "comments": "",
+    "created": "2026-03-01T04:26:43.216949Z",
+    "custom_fields": {},
+    "description": "",
+    "device_count": 0,
+    "display": "Row 4",
+    "display_url": "http://192.168.65.40:8000/dcim/locations/4/",
+    "facility": "",
+    "id": 4,
+    "last_updated": "2026-03-01T04:26:43.216966Z",
+    "name": "Row 4",
+    "owner": null,
+    "parent": null,
+    "prefix_count": 0,
+    "rack_count": 0,
+    "site": {
+      "description": "Main Distribution Frame",
+      "display": "MDF",
+      "id": 24,
+      "name": "MDF",
+      "slug": "ncsu-065",
+      "url": "http://192.168.65.40:8000/api/dcim/sites/24/"
+    },
+    "slug": "row-4",
+    "status": {
+      "label": "Active",
+      "value": "active"
+    },
+    "tags": [],
+    "tenant": null,
+    "url": "http://192.168.65.40:8000/api/dcim/locations/4/"
+  }
+]

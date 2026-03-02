@@ -1,0 +1,16 @@
+{
+  "created_count": 0,
+  "created_objects": [],
+  "generated_at_utc": "2026-03-01T05:19:46.153889+00:00",
+  "input_dir": "/var/www/html/netbox-mast-v2/exports",
+  "mode": "APPLY",
+  "netbox_url": "http://192.168.65.40:8000",
+  "rollback_order": "reverse(created_objects)",
+  "selected_resources": [
+    "rack_reservations",
+    "rack_roles",
+    "rack_types",
+    "racks"
+  ],
+  "update_existing": false
+}

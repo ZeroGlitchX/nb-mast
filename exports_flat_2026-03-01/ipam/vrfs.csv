@@ -1,0 +1,7 @@
+comments,created,description,display,display_url,enforce_unique,id,ipaddress_count,last_updated,name,owner,prefix_count,rd,tenant,url
+,2026-03-01T04:26:45.916398Z,,Alpha (65000:100),http://192.168.65.40:8000/ipam/vrfs/1/,False,1,30,2026-03-01T04:26:45.916414Z,Alpha,,4,65000:100,,http://192.168.65.40:8000/api/ipam/vrfs/1/
+,2026-03-01T04:26:46.036454Z,,Bravo (65000:200),http://192.168.65.40:8000/ipam/vrfs/2/,False,2,30,2026-03-01T04:26:46.036473Z,Bravo,,4,65000:200,,http://192.168.65.40:8000/api/ipam/vrfs/2/
+,2026-03-01T04:26:46.153773Z,,Charlie (65000:300),http://192.168.65.40:8000/ipam/vrfs/3/,False,3,30,2026-03-01T04:26:46.153790Z,Charlie,,4,65000:300,,http://192.168.65.40:8000/api/ipam/vrfs/3/
+,2026-03-01T04:26:46.254956Z,,Delta (65000:400),http://192.168.65.40:8000/ipam/vrfs/4/,False,4,30,2026-03-01T04:26:46.254974Z,Delta,,4,65000:400,,http://192.168.65.40:8000/api/ipam/vrfs/4/
+,2026-03-01T04:26:46.353987Z,,Echo (65000:500),http://192.168.65.40:8000/ipam/vrfs/5/,False,5,30,2026-03-01T04:26:46.354003Z,Echo,,4,65000:500,,http://192.168.65.40:8000/api/ipam/vrfs/5/
+,2026-03-01T04:26:46.460504Z,Shared services VRF,Shared (65000:1),http://192.168.65.40:8000/ipam/vrfs/6/,True,6,0,2026-03-01T04:26:46.460522Z,Shared,,1,65000:1,,http://192.168.65.40:8000/api/ipam/vrfs/6/

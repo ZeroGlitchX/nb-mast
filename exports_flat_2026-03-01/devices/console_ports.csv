@@ -1,0 +1,42 @@
+_occupied,cable,cable_end,connected_endpoints,connected_endpoints_reachable,connected_endpoints_type,created,description,display,display_url,id,label,last_updated,link_peers_type,mark_connected,module,name,owner,speed,url
+False,,,,,,2026-03-01T05:01:57.123139Z,,con 0,http://192.168.65.40:8000/dcim/console-ports/1/,1,,2026-03-01T05:01:57.123158Z,,False,,con 0,,,http://192.168.65.40:8000/api/dcim/console-ports/1/
+False,,,,,,2026-03-01T05:01:57.203934Z,,usb,http://192.168.65.40:8000/dcim/console-ports/2/,2,,2026-03-01T05:01:57.203954Z,,False,,usb,,,http://192.168.65.40:8000/api/dcim/console-ports/2/
+False,,,,,,2026-03-01T05:01:57.258425Z,,con 0,http://192.168.65.40:8000/dcim/console-ports/3/,3,,2026-03-01T05:01:57.258446Z,,False,,con 0,,,http://192.168.65.40:8000/api/dcim/console-ports/3/
+False,,,,,,2026-03-01T05:01:57.313540Z,,usb,http://192.168.65.40:8000/dcim/console-ports/4/,4,,2026-03-01T05:01:57.313561Z,,False,,usb,,,http://192.168.65.40:8000/api/dcim/console-ports/4/
+False,,,,,,2026-03-01T05:01:57.365164Z,,con 0,http://192.168.65.40:8000/dcim/console-ports/5/,5,,2026-03-01T05:01:57.365183Z,,False,,con 0,,,http://192.168.65.40:8000/api/dcim/console-ports/5/
+False,,,,,,2026-03-01T05:01:57.423668Z,,usb,http://192.168.65.40:8000/dcim/console-ports/6/,6,,2026-03-01T05:01:57.423688Z,,False,,usb,,,http://192.168.65.40:8000/api/dcim/console-ports/6/
+False,,,,,,2026-03-01T05:01:57.473863Z,,con 0,http://192.168.65.40:8000/dcim/console-ports/7/,7,,2026-03-01T05:01:57.473882Z,,False,,con 0,,,http://192.168.65.40:8000/api/dcim/console-ports/7/
+False,,,,,,2026-03-01T05:01:57.558390Z,,usb,http://192.168.65.40:8000/dcim/console-ports/8/,8,,2026-03-01T05:01:57.558451Z,,False,,usb,,,http://192.168.65.40:8000/api/dcim/console-ports/8/
+False,,,,,,2026-03-01T05:01:57.619870Z,,con 0,http://192.168.65.40:8000/dcim/console-ports/9/,9,,2026-03-01T05:01:57.619890Z,,False,,con 0,,,http://192.168.65.40:8000/api/dcim/console-ports/9/
+False,,,,,,2026-03-01T05:01:57.677745Z,,usb,http://192.168.65.40:8000/dcim/console-ports/10/,10,,2026-03-01T05:01:57.677762Z,,False,,usb,,,http://192.168.65.40:8000/api/dcim/console-ports/10/
+False,,,,,,2026-03-01T05:01:57.730011Z,,con 0,http://192.168.65.40:8000/dcim/console-ports/11/,11,,2026-03-01T05:01:57.730031Z,,False,,con 0,,,http://192.168.65.40:8000/api/dcim/console-ports/11/
+False,,,,,,2026-03-01T05:01:57.782070Z,,usb,http://192.168.65.40:8000/dcim/console-ports/12/,12,,2026-03-01T05:01:57.782089Z,,False,,usb,,,http://192.168.65.40:8000/api/dcim/console-ports/12/
+False,,,,,,2026-03-01T05:01:57.832570Z,,con 0,http://192.168.65.40:8000/dcim/console-ports/13/,13,,2026-03-01T05:01:57.832588Z,,False,,con 0,,,http://192.168.65.40:8000/api/dcim/console-ports/13/
+False,,,,,,2026-03-01T05:01:57.884775Z,,usb,http://192.168.65.40:8000/dcim/console-ports/14/,14,,2026-03-01T05:01:57.884795Z,,False,,usb,,,http://192.168.65.40:8000/api/dcim/console-ports/14/
+False,,,,,,2026-03-01T05:01:57.938776Z,,con 0,http://192.168.65.40:8000/dcim/console-ports/15/,15,,2026-03-01T05:01:57.938796Z,,False,,con 0,,,http://192.168.65.40:8000/api/dcim/console-ports/15/
+False,,,,,,2026-03-01T05:01:58.008719Z,,usb,http://192.168.65.40:8000/dcim/console-ports/16/,16,,2026-03-01T05:01:58.008739Z,,False,,usb,,,http://192.168.65.40:8000/api/dcim/console-ports/16/
+False,,,,,,2026-03-01T05:01:58.080875Z,,con 0,http://192.168.65.40:8000/dcim/console-ports/17/,17,,2026-03-01T05:01:58.080896Z,,False,,con 0,,,http://192.168.65.40:8000/api/dcim/console-ports/17/
+False,,,,,,2026-03-01T05:01:58.136902Z,,usb,http://192.168.65.40:8000/dcim/console-ports/18/,18,,2026-03-01T05:01:58.136923Z,,False,,usb,,,http://192.168.65.40:8000/api/dcim/console-ports/18/
+False,,,,,,2026-03-01T05:01:58.190100Z,,con 0,http://192.168.65.40:8000/dcim/console-ports/19/,19,,2026-03-01T05:01:58.190118Z,,False,,con 0,,,http://192.168.65.40:8000/api/dcim/console-ports/19/
+False,,,,,,2026-03-01T05:01:58.243956Z,,usb,http://192.168.65.40:8000/dcim/console-ports/20/,20,,2026-03-01T05:01:58.243975Z,,False,,usb,,,http://192.168.65.40:8000/api/dcim/console-ports/20/
+False,,,,,,2026-03-01T05:01:58.295964Z,,con 0,http://192.168.65.40:8000/dcim/console-ports/21/,21,,2026-03-01T05:01:58.295982Z,,False,,con 0,,,http://192.168.65.40:8000/api/dcim/console-ports/21/
+False,,,,,,2026-03-01T05:01:58.353914Z,,usb,http://192.168.65.40:8000/dcim/console-ports/22/,22,,2026-03-01T05:01:58.353933Z,,False,,usb,,,http://192.168.65.40:8000/api/dcim/console-ports/22/
+False,,,,,,2026-03-01T05:01:58.407615Z,,con 0,http://192.168.65.40:8000/dcim/console-ports/23/,23,,2026-03-01T05:01:58.407635Z,,False,,con 0,,,http://192.168.65.40:8000/api/dcim/console-ports/23/
+False,,,,,,2026-03-01T05:01:58.465142Z,,usb,http://192.168.65.40:8000/dcim/console-ports/24/,24,,2026-03-01T05:01:58.465161Z,,False,,usb,,,http://192.168.65.40:8000/api/dcim/console-ports/24/
+False,,,,,,2026-03-01T05:01:58.517122Z,,con 0,http://192.168.65.40:8000/dcim/console-ports/25/,25,,2026-03-01T05:01:58.517141Z,,False,,con 0,,,http://192.168.65.40:8000/api/dcim/console-ports/25/
+False,,,,,,2026-03-01T05:01:58.583377Z,,usb,http://192.168.65.40:8000/dcim/console-ports/26/,26,,2026-03-01T05:01:58.583397Z,,False,,usb,,,http://192.168.65.40:8000/api/dcim/console-ports/26/
+False,,,,,,2026-03-01T05:01:58.645118Z,,Console-RE0,http://192.168.65.40:8000/dcim/console-ports/27/,27,,2026-03-01T05:01:58.645137Z,,False,,Console-RE0,,,http://192.168.65.40:8000/api/dcim/console-ports/27/
+False,,,,,,2026-03-01T05:01:58.702979Z,,Console-RE1,http://192.168.65.40:8000/dcim/console-ports/28/,28,,2026-03-01T05:01:58.702998Z,,False,,Console-RE1,,,http://192.168.65.40:8000/api/dcim/console-ports/28/
+False,,,,,,2026-03-01T05:01:58.755848Z,,Console-RE0,http://192.168.65.40:8000/dcim/console-ports/29/,29,,2026-03-01T05:01:58.755868Z,,False,,Console-RE0,,,http://192.168.65.40:8000/api/dcim/console-ports/29/
+False,,,,,,2026-03-01T05:01:58.813465Z,,Console-RE1,http://192.168.65.40:8000/dcim/console-ports/30/,30,,2026-03-01T05:01:58.813483Z,,False,,Console-RE1,,,http://192.168.65.40:8000/api/dcim/console-ports/30/
+False,,,,,,2026-03-01T05:01:58.865210Z,,Console,http://192.168.65.40:8000/dcim/console-ports/31/,31,,2026-03-01T05:01:58.865229Z,,False,,Console,,,http://192.168.65.40:8000/api/dcim/console-ports/31/
+False,,,,,,2026-03-01T05:01:58.918303Z,,Console,http://192.168.65.40:8000/dcim/console-ports/32/,32,,2026-03-01T05:01:58.918322Z,,False,,Console,,,http://192.168.65.40:8000/api/dcim/console-ports/32/
+False,,,,,,2026-03-01T05:01:58.970975Z,,Console,http://192.168.65.40:8000/dcim/console-ports/33/,33,,2026-03-01T05:01:58.970994Z,,False,,Console,,,http://192.168.65.40:8000/api/dcim/console-ports/33/
+False,,,,,,2026-03-01T05:01:59.028411Z,,Console,http://192.168.65.40:8000/dcim/console-ports/34/,34,,2026-03-01T05:01:59.028430Z,,False,,Console,,,http://192.168.65.40:8000/api/dcim/console-ports/34/
+False,,,,,,2026-03-01T05:01:59.083906Z,,Console,http://192.168.65.40:8000/dcim/console-ports/35/,35,,2026-03-01T05:01:59.083926Z,,False,,Console,,,http://192.168.65.40:8000/api/dcim/console-ports/35/
+False,,,,,,2026-03-01T05:01:59.144222Z,,Console,http://192.168.65.40:8000/dcim/console-ports/36/,36,,2026-03-01T05:01:59.144242Z,,False,,Console,,,http://192.168.65.40:8000/api/dcim/console-ports/36/
+False,,,,,,2026-03-01T05:01:59.203153Z,,Console,http://192.168.65.40:8000/dcim/console-ports/37/,37,,2026-03-01T05:01:59.203175Z,,False,,Console,,,http://192.168.65.40:8000/api/dcim/console-ports/37/
+False,,,,,,2026-03-01T05:01:59.258802Z,,Console,http://192.168.65.40:8000/dcim/console-ports/38/,38,,2026-03-01T05:01:59.258822Z,,False,,Console,,,http://192.168.65.40:8000/api/dcim/console-ports/38/
+False,,,,,,2026-03-01T05:01:59.312361Z,,Console,http://192.168.65.40:8000/dcim/console-ports/39/,39,,2026-03-01T05:01:59.312381Z,,False,,Console,,,http://192.168.65.40:8000/api/dcim/console-ports/39/
+False,,,,,,2026-03-01T05:01:59.369538Z,,Console,http://192.168.65.40:8000/dcim/console-ports/40/,40,,2026-03-01T05:01:59.369558Z,,False,,Console,,,http://192.168.65.40:8000/api/dcim/console-ports/40/
+False,,,,,,2026-03-01T05:01:59.430489Z,,Console,http://192.168.65.40:8000/dcim/console-ports/41/,41,,2026-03-01T05:01:59.430510Z,,False,,Console,,,http://192.168.65.40:8000/api/dcim/console-ports/41/

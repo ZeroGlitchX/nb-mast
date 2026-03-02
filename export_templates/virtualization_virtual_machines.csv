@@ -1,0 +1,1 @@
+name,status,start_on_boot,site,cluster,device,serial,role,tenant,platform,primary_ip4,primary_ip6,vcpus,memory,disk,description,owner,comments,config_template,local_context_data,tags,custom_fields

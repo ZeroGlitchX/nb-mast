@@ -1,0 +1,8 @@
+comments,created,description,display,display_url,id,last_updated,name,owner,url
+,2026-03-01T02:48:54.120300Z,,CPU,http://192.168.65.40:8000/dcim/module-type-profiles/1/,1,2026-03-01T05:10:37.448180Z,CPU,,http://192.168.65.40:8000/api/dcim/module-type-profiles/1/
+,2026-03-01T02:48:54.172951Z,,Expansion card,http://192.168.65.40:8000/dcim/module-type-profiles/7/,7,2026-03-01T02:48:54.172963Z,Expansion card,,http://192.168.65.40:8000/api/dcim/module-type-profiles/7/
+,2026-03-01T02:48:54.146991Z,,Fan,http://192.168.65.40:8000/dcim/module-type-profiles/2/,2,2026-03-01T05:10:37.504045Z,Fan,,http://192.168.65.40:8000/api/dcim/module-type-profiles/2/
+,2026-03-01T02:48:54.152203Z,,GPU,http://192.168.65.40:8000/dcim/module-type-profiles/3/,3,2026-03-01T05:10:37.580174Z,GPU,,http://192.168.65.40:8000/api/dcim/module-type-profiles/3/
+,2026-03-01T02:48:54.157257Z,,Hard disk,http://192.168.65.40:8000/dcim/module-type-profiles/4/,4,2026-03-01T05:10:37.646414Z,Hard disk,,http://192.168.65.40:8000/api/dcim/module-type-profiles/4/
+,2026-03-01T02:48:54.162133Z,,Memory,http://192.168.65.40:8000/dcim/module-type-profiles/5/,5,2026-03-01T05:10:37.707575Z,Memory,,http://192.168.65.40:8000/api/dcim/module-type-profiles/5/
+,2026-03-01T02:48:54.168011Z,,Power supply,http://192.168.65.40:8000/dcim/module-type-profiles/6/,6,2026-03-01T05:10:37.763218Z,Power supply,,http://192.168.65.40:8000/api/dcim/module-type-profiles/6/

@@ -1,0 +1,31 @@
+[
+  {
+    "airflow": null,
+    "attributes": null,
+    "comments": "32x10GE interfaces",
+    "created": "2026-03-01T04:57:09.353064Z",
+    "custom_fields": {},
+    "description": "",
+    "display": "EX9200-32XS",
+    "display_url": "http://192.168.65.40:8000/dcim/module-types/1/",
+    "id": 1,
+    "last_updated": "2026-03-01T05:10:37.833807Z",
+    "manufacturer": {
+      "description": "",
+      "display": "Juniper",
+      "id": 9,
+      "name": "Juniper",
+      "slug": "juniper",
+      "url": "http://192.168.65.40:8000/api/dcim/manufacturers/9/"
+    },
+    "model": "EX9200-32XS",
+    "module_count": 2,
+    "owner": null,
+    "part_number": "",
+    "profile": null,
+    "tags": [],
+    "url": "http://192.168.65.40:8000/api/dcim/module-types/1/",
+    "weight": null,
+    "weight_unit": null
+  }
+]

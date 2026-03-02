@@ -1,0 +1,98 @@
+[
+  {
+    "comments": "",
+    "created": "2026-03-01T05:03:08.057714Z",
+    "custom_fields": {},
+    "description": "",
+    "display": "Panel 1",
+    "display_url": "http://192.168.65.40:8000/dcim/power-panels/1/",
+    "id": 1,
+    "last_updated": "2026-03-01T05:03:08.057731Z",
+    "location": null,
+    "name": "Panel 1",
+    "owner": null,
+    "powerfeed_count": 16,
+    "site": {
+      "description": "Main Distribution Frame",
+      "display": "MDF",
+      "id": 24,
+      "name": "MDF",
+      "slug": "ncsu-065",
+      "url": "http://192.168.65.40:8000/api/dcim/sites/24/"
+    },
+    "tags": [],
+    "url": "http://192.168.65.40:8000/api/dcim/power-panels/1/"
+  },
+  {
+    "comments": "",
+    "created": "2026-03-01T05:03:08.114372Z",
+    "custom_fields": {},
+    "description": "",
+    "display": "Panel 2",
+    "display_url": "http://192.168.65.40:8000/dcim/power-panels/2/",
+    "id": 2,
+    "last_updated": "2026-03-01T05:03:08.114390Z",
+    "location": null,
+    "name": "Panel 2",
+    "owner": null,
+    "powerfeed_count": 16,
+    "site": {
+      "description": "Main Distribution Frame",
+      "display": "MDF",
+      "id": 24,
+      "name": "MDF",
+      "slug": "ncsu-065",
+      "url": "http://192.168.65.40:8000/api/dcim/sites/24/"
+    },
+    "tags": [],
+    "url": "http://192.168.65.40:8000/api/dcim/power-panels/2/"
+  },
+  {
+    "comments": "",
+    "created": "2026-03-01T05:03:08.162332Z",
+    "custom_fields": {},
+    "description": "",
+    "display": "Panel 3",
+    "display_url": "http://192.168.65.40:8000/dcim/power-panels/3/",
+    "id": 3,
+    "last_updated": "2026-03-01T05:03:08.162349Z",
+    "location": null,
+    "name": "Panel 3",
+    "owner": null,
+    "powerfeed_count": 8,
+    "site": {
+      "description": "Main Distribution Frame",
+      "display": "MDF",
+      "id": 24,
+      "name": "MDF",
+      "slug": "ncsu-065",
+      "url": "http://192.168.65.40:8000/api/dcim/sites/24/"
+    },
+    "tags": [],
+    "url": "http://192.168.65.40:8000/api/dcim/power-panels/3/"
+  },
+  {
+    "comments": "",
+    "created": "2026-03-01T05:03:08.217415Z",
+    "custom_fields": {},
+    "description": "",
+    "display": "Panel 4",
+    "display_url": "http://192.168.65.40:8000/dcim/power-panels/4/",
+    "id": 4,
+    "last_updated": "2026-03-01T05:03:08.217433Z",
+    "location": null,
+    "name": "Panel 4",
+    "owner": null,
+    "powerfeed_count": 8,
+    "site": {
+      "description": "Main Distribution Frame",
+      "display": "MDF",
+      "id": 24,
+      "name": "MDF",
+      "slug": "ncsu-065",
+      "url": "http://192.168.65.40:8000/api/dcim/sites/24/"
+    },
+    "tags": [],
+    "url": "http://192.168.65.40:8000/api/dcim/power-panels/4/"
+  }
+]

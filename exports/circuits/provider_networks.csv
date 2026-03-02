@@ -1,0 +1,2 @@
+comments,created,custom_fields,description,display,display_url,id,last_updated,name,owner,provider,service_id,tags,url
+,2026-03-01T05:03:00.727366Z,{},,Level3 MPLS,http://192.168.65.40:8000/circuits/provider-networks/1/,1,2026-03-01T05:03:00.727385Z,Level3 MPLS,,"{""description"": """", ""display"": ""Level 3"", ""id"": 5, ""name"": ""Level 3"", ""slug"": ""level-3"", ""url"": ""http://192.168.65.40:8000/api/circuits/providers/5/""}",,[],http://192.168.65.40:8000/api/circuits/provider-networks/1/
