@@ -1,4 +1,0 @@
-date_joined,display,display_url,email,first_name,groups,id,is_active,last_login,last_name,permissions,url,username
-2026-03-01T07:12:02.606913Z,alice (Alice Imported),http://192.168.65.40:8000/users/users/2/,alice@local.invalid,Alice,[],2,True,,Imported,[],http://192.168.65.40:8000/api/users/users/2/,alice
-2026-03-01T07:12:03.931296Z,bob (Bob Imported),http://192.168.65.40:8000/users/users/3/,bob@local.invalid,Bob,[],3,True,,Imported,[],http://192.168.65.40:8000/api/users/users/3/,bob
-2026-03-01T02:52:47.637850Z,netbox-admin,http://192.168.65.40:8000/users/users/1/,,,[],1,True,2026-03-01T03:03:01.733865Z,,[],http://192.168.65.40:8000/api/users/users/1/,netbox-admin

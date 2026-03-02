@@ -1,6 +1,6 @@
 # NetBox Export/Import Toolkit
 
-## Netbox Migration and Sync Tool (NB-MAST)
+## NetBox Migration and Sync Tool (NB-MAST)
 
 This workspace includes:
 
@@ -38,7 +38,7 @@ V2 key Bearer test:
 ```bash
 set -a; source .env; set +a
 curl -X GET \
-  -H "Authorization: Bearer ${NETBOX_API_TOKEN_V2}" \
+  -H "Authorization: Bearer ${NETBOX_API_TOKEN}" \
   -H "Content-Type: application/json" \
   -H "Accept: application/json; indent=4" \
   "${NETBOX_URL}/api/status/"
@@ -48,19 +48,15 @@ curl -X GET \
 
 `netbox_export.py` and `generate_export_templates.py` both use `SECTION_ENDPOINTS` from `generate_export_templates.py`, so export ordering and template naming stay synchronized.
 
-## Smoke tests
+## Smoke tests (local optional)
 
-Run Phase 5 smoke tests:
+Run smoke tests locally when desired:
 
 ```bash
 python3 -m unittest discover -s smoke_tests -p "test_*.py" -v
 ```
 
-GitHub Actions automation:
-- Workflow: `.github/workflows/phase5-smoke-tests.yml`
-- Trigger: push/PR on `main` and `master` + manual `workflow_dispatch`
-
-Current smoke coverage:
+Current local smoke coverage:
 - `--only` valid/invalid selector behavior and fail-fast error path
 - preflight warning vs blocker behavior (`--preflight` vs strict mode semantics)
 - rollback manifest structure and apply/dry-run write behavior
@@ -70,7 +66,7 @@ Current smoke coverage:
 
 ```bash
 python3 generate_export_templates.py \
-  --url https://demo.netbox.dev \
+  --url http://192.168.65.40:8000 \
   --token "<API_TOKEN>" \
   --output-dir export_templates
 ```
@@ -79,7 +75,7 @@ Flat/safe templates (nested/multi-value fields excluded):
 
 ```bash
 python3 generate_export_templates.py \
-  --url https://demo.netbox.dev \
+  --url http://192.168.65.40:8000 \
   --token "<API_TOKEN>" \
   --output-dir export_templates_flat \
   --csv-flat
@@ -89,7 +85,7 @@ python3 generate_export_templates.py \
 
 ```bash
 python3 netbox_export.py \
-  --url https://demo.netbox.dev \
+  --url http://192.168.65.40:8000 \
   --token "<API_TOKEN>" \
   --auth-scheme Token \
   --output-dir exports
@@ -99,14 +95,25 @@ Or:
 
 ```bash
 export NETBOX_API_TOKEN="<API_TOKEN>"
-python3 netbox_export.py --url https://demo.netbox.dev --output-dir exports
+python3 netbox_export.py --url http://192.168.65.40:8000 --output-dir exports
+```
+
+For instances with self-signed certificates, add `--no-verify-ssl`:
+
+```bash
+python3 netbox_export.py \
+  --url http://192.168.65.40:8000 \
+  --token "<API_TOKEN>" \
+  --auth-scheme Token \
+  --no-verify-ssl \
+  --output-dir exports
 ```
 
 Flat/safe CSV export (nested/list columns excluded from CSV):
 
 ```bash
 python3 netbox_export.py \
-  --url https://demo.netbox.dev \
+  --url http://192.168.65.40:8000 \
   --token "<API_TOKEN>" \
   --output-dir exports_flat \
   --csv-flat
@@ -118,7 +125,7 @@ Dry-run:
 
 ```bash
 python3 netbox_import.py \
-  --url https://demo.netbox.dev \
+  --url http://192.168.65.40:8000 \
   --token "<API_TOKEN>" \
   --input-dir exports \
   --dry-run
@@ -128,16 +135,26 @@ Apply:
 
 ```bash
 python3 netbox_import.py \
-  --url https://demo.netbox.dev \
+  --url http://192.168.65.40:8000 \
   --token "<API_TOKEN>" \
   --input-dir exports
+```
+
+For instances with self-signed certificates, add `--no-verify-ssl` to any import command:
+
+```bash
+python3 netbox_import.py \
+  --url http://192.168.65.40:8000 \
+  --token "<API_TOKEN>" \
+  --input-dir exports \
+  --no-verify-ssl
 ```
 
 Apply and update matched existing objects:
 
 ```bash
 python3 netbox_import.py \
-  --url https://demo.netbox.dev \
+  --url http://192.168.65.40:8000 \
   --token "<API_TOKEN>" \
   --input-dir exports \
   --update-existing
@@ -147,7 +164,7 @@ Import only selected sections/resources:
 
 ```bash
 python3 netbox_import.py \
-  --url https://demo.netbox.dev \
+  --url http://192.168.65.40:8000 \
   --token "<API_TOKEN>" \
   --input-dir exports \
   --dry-run \
@@ -160,7 +177,7 @@ For admin user imports, if exported user records do not include passwords, provi
 
 ```bash
 python3 netbox_import.py \
-  --url https://demo.netbox.dev \
+  --url http://192.168.65.40:8000 \
   --token "<API_TOKEN>" \
   --input-dir exports \
   --default-user-password "<PASSWORD>"
@@ -173,13 +190,19 @@ JSON import behavior:
 - If a resource JSON file is missing but the matching CSV exists, the importer materializes `<resource>.json` from CSV first, then imports from JSON.
 - If both JSON and CSV exist, JSON is used.
 
+Missing endpoint behavior:
+
+- If an endpoint returns HTTP 404 (endpoint not available in the target NetBox version), the export writes empty JSON/CSV files for that resource and logs a skip message rather than aborting.
+- The importer similarly returns an empty result set for any 404 endpoint during index preload, allowing the run to continue cleanly.
+- This applies to version-gated resources such as `owner_groups` and `owners` in the `admin` section.
+
 ## Preflight checks
 
 Readiness-only validation (no import execution):
 
 ```bash
 python3 netbox_import.py \
-  --url https://demo.netbox.dev \
+  --url http://192.168.65.40:8000 \
   --token "<API_TOKEN>" \
   --input-dir exports \
   --preflight
@@ -189,12 +212,14 @@ Strict preflight (missing files are blockers):
 
 ```bash
 python3 netbox_import.py \
-  --url https://demo.netbox.dev \
+  --url http://192.168.65.40:8000 \
   --token "<API_TOKEN>" \
   --input-dir exports \
   --preflight \
   --preflight-strict
 ```
+
+Both preflight modes also accept `--no-verify-ssl` for self-signed certificate environments.
 
 ## Current importer scope
 
@@ -229,4 +254,3 @@ The `admin` section currently includes these importable subsections:
 - `users`
 - `permissions`
 - `tokens`
-

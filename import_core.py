@@ -10,6 +10,7 @@ import csv
 import json
 import os
 import re
+import ssl
 import sys
 import urllib.error
 import urllib.parse
@@ -472,12 +473,18 @@ class NetBoxClient:
         token: str,
         timeout: int = 30,
         auth_scheme: str = "Token",
+        verify_ssl: bool = True,
     ) -> None:
         self.base_url = base_url.rstrip("/")
         self.token = token
         self.timeout = timeout
         self.auth_scheme = normalize_auth_scheme(auth_scheme)
         self.endpoint_allowlist: set[str] | None = None
+        self.ssl_context: ssl.SSLContext | None = None
+        if not verify_ssl:
+            self.ssl_context = ssl.create_default_context()
+            self.ssl_context.check_hostname = False
+            self.ssl_context.verify_mode = ssl.CERT_NONE
 
     def request_json(
         self,
@@ -499,7 +506,7 @@ class NetBoxClient:
 
         req = urllib.request.Request(url, data=payload, headers=headers, method=method.upper())
         try:
-            with urllib.request.urlopen(req, timeout=self.timeout) as response:
+            with urllib.request.urlopen(req, timeout=self.timeout, context=self.ssl_context) as response:
                 raw = response.read().decode("utf-8")
                 return json.loads(raw) if raw else None
         except urllib.error.HTTPError as exc:
@@ -527,7 +534,13 @@ class NetBoxClient:
         results: list[dict[str, Any]] = []
         next_url: str | None = base_url
         while next_url:
-            payload = self.request_json("GET", next_url, absolute_url=True)
+            try:
+                payload = self.request_json("GET", next_url, absolute_url=True)
+            except NetBoxApiError as exc:
+                if exc.status == 404:
+                    print(f"  [skip] HTTP 404 — endpoint not available in this NetBox version, writing empty export.")
+                    return []
+                raise
             if isinstance(payload, dict) and "results" in payload:
                 page_items = payload.get("results") or []
                 if not isinstance(page_items, list):
@@ -675,6 +688,11 @@ def parse_args() -> argparse.Namespace:
         "--preflight-strict",
         action="store_true",
         help="With --preflight, treat missing expected section/resource files as blockers.",
+    )
+    parser.add_argument(
+        "--no-verify-ssl",
+        action="store_true",
+        help="Disable SSL certificate verification (use for self-signed certs).",
     )
     return parser.parse_args()
 
@@ -867,6 +885,7 @@ def run_preflight(
     input_root: Path,
     include_resources: set[str] | None,
     strict_missing_files: bool,
+    verify_ssl: bool = True,
 ) -> int:
     print("Running preflight checks...")
     blockers: list[str] = []
@@ -968,7 +987,7 @@ def run_preflight(
         else:
             warnings.append("Missing export_manifest.json")
 
-    client = NetBoxClient(url, token, timeout=timeout, auth_scheme=auth_scheme)
+    client = NetBoxClient(url, token, timeout=timeout, auth_scheme=auth_scheme, verify_ssl=verify_ssl)
     try:
         status_payload = client.request_json("GET", "/api/status/")
         if isinstance(status_payload, dict):
@@ -1063,5 +1082,3 @@ def copy_fields(src: dict[str, Any], dst: dict[str, Any], fields: list[str]) -> 
     for field in fields:
         if field in src and non_empty(src[field]):
             dst[field] = src[field]
-
-

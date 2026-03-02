@@ -1,5 +1,0 @@
-cluster_count,comments,created,description,display,display_url,id,last_updated,name,owner,slug,url
-10,,2026-03-01T05:02:30.087275Z,,Asia Pacific,http://192.168.65.40:8000/virtualization/cluster-groups/1/,1,2026-03-01T05:02:30.087292Z,Asia Pacific,,asia-pacific,http://192.168.65.40:8000/api/virtualization/cluster-groups/1/
-9,,2026-03-01T05:02:30.136490Z,,EMEA,http://192.168.65.40:8000/virtualization/cluster-groups/2/,2,2026-03-01T05:02:30.136507Z,EMEA,,emea,http://192.168.65.40:8000/api/virtualization/cluster-groups/2/
-12,,2026-03-01T05:02:30.186863Z,,North America,http://192.168.65.40:8000/virtualization/cluster-groups/3/,3,2026-03-01T05:02:30.186880Z,North America,,north-america,http://192.168.65.40:8000/api/virtualization/cluster-groups/3/
-1,,2026-03-01T05:02:30.229340Z,,South America,http://192.168.65.40:8000/virtualization/cluster-groups/4/,4,2026-03-01T05:02:30.229357Z,South America,,south-america,http://192.168.65.40:8000/api/virtualization/cluster-groups/4/

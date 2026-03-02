@@ -1,9 +1,0 @@
-aggregate_count,comments,created,description,display,display_url,id,is_private,last_updated,name,owner,slug,url
-0,,2026-03-01T04:26:44.734993Z,African Network Information Centre,AFRINIC,http://192.168.65.40:8000/ipam/rirs/1/,1,False,2026-03-01T04:26:44.735009Z,AFRINIC,,afrinic,http://192.168.65.40:8000/api/ipam/rirs/1/
-0,,2026-03-01T04:26:44.790215Z,Asia Pacific Network Information Centre,APNIC,http://192.168.65.40:8000/ipam/rirs/2/,2,False,2026-03-01T04:26:44.790231Z,APNIC,,apnic,http://192.168.65.40:8000/api/ipam/rirs/2/
-0,,2026-03-01T04:26:44.834053Z,American Registry for Internet Numbers,ARIN,http://192.168.65.40:8000/ipam/rirs/3/,3,False,2026-03-01T04:26:44.834069Z,ARIN,,arin,http://192.168.65.40:8000/api/ipam/rirs/3/
-0,,2026-03-01T04:26:44.882943Z,Latin America and Caribbean Network Information Centre,LACNIC,http://192.168.65.40:8000/ipam/rirs/4/,4,False,2026-03-01T04:26:44.882961Z,LACNIC,,lacnic,http://192.168.65.40:8000/api/ipam/rirs/4/
-3,,2026-03-01T04:26:44.936154Z,,RFC 1918,http://192.168.65.40:8000/ipam/rirs/5/,5,True,2026-03-01T04:26:44.936172Z,RFC 1918,,rfc-1918,http://192.168.65.40:8000/api/ipam/rirs/5/
-1,,2026-03-01T04:26:45.007365Z,,RFC 6598,http://192.168.65.40:8000/ipam/rirs/6/,6,True,2026-03-01T04:26:45.007383Z,RFC 6598,,rfc-6598,http://192.168.65.40:8000/api/ipam/rirs/6/
-0,,2026-03-01T04:26:45.063373Z,,RFC 6996,http://192.168.65.40:8000/ipam/rirs/7/,7,True,2026-03-01T04:26:45.063392Z,RFC 6996,,rfc-6996,http://192.168.65.40:8000/api/ipam/rirs/7/
-0,,2026-03-01T04:26:45.112739Z,Réseaux IP Européens Network Coordination Centre,RIPE NCC,http://192.168.65.40:8000/ipam/rirs/8/,8,False,2026-03-01T04:26:45.112756Z,RIPE NCC,,ripe-ncc,http://192.168.65.40:8000/api/ipam/rirs/8/

@@ -1,5 +1,0 @@
-comments,created,description,display,display_url,domain,id,last_updated,member_count,name,owner,url
-,2026-03-01T04:57:25.207606Z,,r105-torsw,http://192.168.65.40:8000/dcim/virtual-chassis/1/,,1,2026-03-01T04:57:25.207626Z,1,r105-torsw,,http://192.168.65.40:8000/api/dcim/virtual-chassis/1/
-,2026-03-01T04:57:25.311062Z,,r106-torsw,http://192.168.65.40:8000/dcim/virtual-chassis/2/,,2,2026-03-01T04:57:25.311080Z,1,r106-torsw,,http://192.168.65.40:8000/api/dcim/virtual-chassis/2/
-,2026-03-01T04:57:25.394049Z,,r107-torsw,http://192.168.65.40:8000/dcim/virtual-chassis/3/,,3,2026-03-01T04:57:25.394066Z,1,r107-torsw,,http://192.168.65.40:8000/api/dcim/virtual-chassis/3/
-,2026-03-01T04:57:25.474133Z,,r108-torsw,http://192.168.65.40:8000/dcim/virtual-chassis/4/,,4,2026-03-01T04:57:25.474149Z,1,r108-torsw,,http://192.168.65.40:8000/api/dcim/virtual-chassis/4/

@@ -1,5 +1,0 @@
-color,comments,created,custom_fields,description,display,display_url,id,last_updated,name,owner,rack_count,slug,tags,url
-2196f3,,2026-03-01T04:57:06.795070Z,{},,Compute,http://192.168.65.40:8000/dcim/rack-roles/1/,1,2026-03-01T05:10:30.580311Z,Compute,,12,compute,[],http://192.168.65.40:8000/api/dcim/rack-roles/1/
-9e9e9e,,2026-03-01T04:57:06.859497Z,{},,IDF,http://192.168.65.40:8000/dcim/rack-roles/2/,2,2026-03-01T05:10:30.685350Z,IDF,,5,idf,[],http://192.168.65.40:8000/api/dcim/rack-roles/2/
-00bcd4,,2026-03-01T04:57:06.904855Z,{},,Infrastructure,http://192.168.65.40:8000/dcim/rack-roles/3/,3,2026-03-01T05:10:30.980294Z,Infrastructure,,4,infrastructure,[],http://192.168.65.40:8000/api/dcim/rack-roles/3/
-ffc107,,2026-03-01T04:57:06.956202Z,{},,Storage,http://192.168.65.40:8000/dcim/rack-roles/4/,4,2026-03-01T05:10:31.047026Z,Storage,,4,storage,[],http://192.168.65.40:8000/api/dcim/rack-roles/4/
