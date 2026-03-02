@@ -10,6 +10,7 @@ Evolve NB-MAST v1 into a faster, safer, and more maintainable v2 while preservin
 - Step 1 (selective import) implemented via `--only`.
 - Follow-up optimization implemented: when `--only` is used, index preloading is now endpoint-scoped instead of always loading all indexes.
 - Phase 3 completed: `--preflight` and `--preflight-strict` readiness checks are implemented and validated.
+- Phase 5 completed: smoke tests and GitHub Actions CI validation passed (run `22561377015` on March 1, 2026 CST / March 2, 2026 UTC).
 
 ## Phased Plan
 
@@ -97,7 +98,7 @@ Validation:
 
 ## Phase 5: Regression Tests
 
-Status: `In Progress` (smoke suite + CI workflow implemented)
+Status: `Completed`
 
 Deliverables:
 - Add smoke tests for:
@@ -113,9 +114,11 @@ Validation:
 - Added `tests/test_phase5_smoke.py` with 8 smoke tests for `--only` selector parsing/fail-fast, preflight strict vs warn behavior, scoped step filtering, and rollback manifest apply/dry-run semantics.
 - Added GitHub Actions workflow `.github/workflows/phase5-smoke-tests.yml` to run py_compile checks + smoke tests on push/PR.
 - Local execution: `python3 -m unittest discover -s tests -p 'test_*.py' -v` => 8/8 passing.
+- Remote CI execution: GitHub Actions run `22561377015` (`Phase5 Smoke Tests`) on branch `main` completed with `success` at `2026-03-02T04:26:29Z` (March 1, 2026 22:26:29 CST).
+- Run URL: `https://github.com/ZeroGlitchX/nb-mast/actions/runs/22561377015`.
 
 ## Suggested Execution Order (Next)
 
-1. Validate first remote GitHub Actions run and then mark Phase 5 `Completed`.
-2. Add one network-isolated regression case for CSV-to-JSON materialization path to protect first-ingest behavior.
-3. Optional: incremental cleanup in `import_resources.py` (registry dedupe for repeated key handlers) after CI baseline is stable.
+1. Add one network-isolated regression case for CSV-to-JSON materialization path to protect first-ingest behavior.
+2. Optional: incremental cleanup in `import_resources.py` (registry dedupe for repeated key handlers) now that CI baseline is stable.
+3. Optional: add branch-protection requirements in GitHub so Phase5 Smoke Tests must pass before merge.
