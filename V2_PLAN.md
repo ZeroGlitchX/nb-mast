@@ -12,6 +12,7 @@ Evolve NB-MAST v1 into a faster, safer, and more maintainable v2 while preservin
 - Phase 3 completed: `--preflight` and `--preflight-strict` readiness checks are implemented and validated.
 - Phase 5 completed: smoke tests and GitHub Actions CI validation passed (run `22561377015` on March 1, 2026 CST / March 2, 2026 UTC).
 - Suggested execution order Step 1 completed: `import_resources.py` key-handler dedupe landed with smoke tests passing (10/10).
+- Suggested execution order Step 2 completed: `main` branch protection now requires pull requests and passing `smoke-tests` status checks before merge.
 
 ## Phased Plan
 
@@ -113,9 +114,9 @@ Acceptance criteria:
 - Tests run non-interactively and pass in local/CI environments.
 
 Validation:
-- Added `tests/test_phase5_smoke.py` with 8 smoke tests for `--only` selector parsing/fail-fast, preflight strict vs warn behavior, scoped step filtering, and rollback manifest apply/dry-run semantics.
+- Added `smoke_tests/test_phase5_smoke.py` with 8 smoke tests for `--only` selector parsing/fail-fast, preflight strict vs warn behavior, scoped step filtering, and rollback manifest apply/dry-run semantics.
 - Added GitHub Actions workflow `.github/workflows/phase5-smoke-tests.yml` to run py_compile checks + smoke tests on push/PR.
-- Local execution baseline: `python3 -m unittest discover -s tests -p 'test_*.py' -v` => 8/8 passing.
+- Local execution baseline: `python3 -m unittest discover -s smoke_tests -p 'test_*.py' -v` => 8/8 passing.
 - Remote CI baseline: GitHub Actions run `22561377015` (`Phase5 Smoke Tests`) on branch `main` completed with `success` at `2026-03-02T04:26:29Z` (March 1, 2026 22:26:29 CST).
 - Run URL: `https://github.com/ZeroGlitchX/nb-mast/actions/runs/22561377015`.
 
@@ -133,12 +134,11 @@ Acceptance criteria:
 - Full smoke suite remains passing after addendum changes.
 
 Validation:
-- Added `TestCsvMaterialization` in `tests/test_phase5_smoke.py` with 2 tests for create/skip behavior.
-- Local execution after addendum: `python3 -m unittest discover -s tests -p 'test_*.py' -v` => 10/10 passing.
+- Added `TestCsvMaterialization` in `smoke_tests/test_phase5_smoke.py` with 2 tests for create/skip behavior.
+- Local execution after addendum: `python3 -m unittest discover -s smoke_tests -p 'test_*.py' -v` => 10/10 passing.
 - Remote CI addendum validation: GitHub Actions run `22561697814` on branch `main` completed with `success` at `2026-03-02T04:40:52Z` (March 1, 2026 22:40:52 CST).
 - Run URL: `https://github.com/ZeroGlitchX/nb-mast/actions/runs/22561697814`.
 
 ## Suggested Execution Order (Next)
 
-1. Optional: add branch-protection requirements in GitHub so Phase5 Smoke Tests must pass before merge.
-2. Optional: split smoke suite into targeted files (`test_only_selectors.py`, `test_preflight.py`, `test_rollback.py`, `test_csv_materialization.py`) for maintainability as coverage grows.
+1. Optional: split smoke suite into targeted files (`test_only_selectors.py`, `test_preflight.py`, `test_rollback.py`, `test_csv_materialization.py`) for maintainability as coverage grows.

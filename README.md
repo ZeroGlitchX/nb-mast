@@ -53,7 +53,7 @@ curl -X GET \
 Run Phase 5 smoke tests:
 
 ```bash
-python3 -m unittest discover -s tests -p "test_*.py" -v
+python3 -m unittest discover -s smoke_tests -p "test_*.py" -v
 ```
 
 GitHub Actions automation:
