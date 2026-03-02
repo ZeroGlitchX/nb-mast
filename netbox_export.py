@@ -9,6 +9,7 @@ import argparse
 import csv
 import json
 import os
+import ssl
 import sys
 import urllib.error
 import urllib.parse
@@ -61,12 +62,16 @@ RESOURCE_ORDER: list[ResourceSpec] = build_resource_order()
 
 class NetBoxClient:
     def __init__(
-        self, base_url: str, token: str, timeout: int = 30, auth_scheme: str = "Token"
+        self, base_url: str, token: str, timeout: int = 30, auth_scheme: str = "Token", verify_ssl: bool = True
     ) -> None:
         self.base_url = base_url.rstrip("/")
         self.token = token
         self.timeout = timeout
         self.auth_scheme = normalize_auth_scheme(auth_scheme)
+        self.ssl_context = None if verify_ssl else ssl.create_default_context()
+        if self.ssl_context:
+            self.ssl_context.check_hostname = False
+            self.ssl_context.verify_mode = ssl.CERT_NONE
 
     def _request_json(self, url: str) -> Any:
         request = urllib.request.Request(
@@ -77,7 +82,7 @@ class NetBoxClient:
             },
             method="GET",
         )
-        with urllib.request.urlopen(request, timeout=self.timeout) as response:
+        with urllib.request.urlopen(request, timeout=self.timeout, context=self.ssl_context) as response:
             return json.loads(response.read().decode("utf-8"))
 
     def fetch_all(self, endpoint: str) -> list[dict[str, Any]]:
@@ -133,6 +138,11 @@ def parse_args() -> argparse.Namespace:
         "--csv-flat",
         action="store_true",
         help="Write CSV files with nested/list fields excluded.",
+    )
+    parser.add_argument(
+        "--no-verify-ssl",
+        action="store_true",
+        help="Disable SSL certificate verification (use for self-signed certs).",
     )
     return parser.parse_args()
 
@@ -203,6 +213,7 @@ def main() -> int:
         args.token,
         timeout=args.timeout,
         auth_scheme=args.auth_scheme,
+        verify_ssl=not args.no_verify_ssl,
     )
     output_root = Path(args.output_dir).resolve()
     ensure_group_dirs(output_root, {spec.group for spec in RESOURCE_ORDER})
@@ -219,6 +230,9 @@ def main() -> int:
         try:
             records = client.fetch_all(spec.endpoint)
         except urllib.error.HTTPError as exc:
+            if exc.code == 404:
+                print(f"  [skip] HTTP 404 — endpoint not found in this NetBox version, writing empty export.")
+                records = []
             print(
                 f"Error: HTTP {exc.code} while fetching {spec.endpoint}: {exc.reason}",
                 file=sys.stderr,

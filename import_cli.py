@@ -37,6 +37,7 @@ def main() -> int:
             input_root=input_root,
             include_resources=selected_resources,
             strict_missing_files=args.preflight_strict,
+            verify_ssl=not args.no_verify_ssl,
         )
 
     try:
@@ -170,6 +171,7 @@ def main() -> int:
         args.token,
         timeout=args.timeout,
         auth_scheme=args.auth_scheme,
+        verify_ssl=not args.no_verify_ssl,
     )
     required_index_resources = build_required_index_resources(selected_resources)
     client.endpoint_allowlist = build_index_endpoint_allowlist(required_index_resources)
