@@ -16,12 +16,10 @@ def key_region(obj: dict[str, Any]) -> str | None:
     return name if isinstance(name, str) and name else None
 
 
-def key_site_group(obj: dict[str, Any]) -> str | None:
-    return key_region(obj)
+key_site_group = key_region
 
 
-def key_site(obj: dict[str, Any]) -> str | None:
-    return key_region(obj)
+key_site = key_region
 
 
 def key_location(obj: dict[str, Any]) -> tuple[int | None, str] | None:
@@ -32,28 +30,22 @@ def key_location(obj: dict[str, Any]) -> tuple[int | None, str] | None:
     return (site_id, slug_or_name)
 
 
-def key_device_role(obj: dict[str, Any]) -> str | None:
-    return key_region(obj)
+key_device_role = key_region
 
 
-def key_manufacturer(obj: dict[str, Any]) -> str | None:
-    return key_region(obj)
+key_manufacturer = key_region
 
 
-def key_tenant_group(obj: dict[str, Any]) -> str | None:
-    return key_region(obj)
+key_tenant_group = key_region
 
 
-def key_tenant(obj: dict[str, Any]) -> str | None:
-    return key_region(obj)
+key_tenant = key_region
 
 
-def key_platform(obj: dict[str, Any]) -> str | None:
-    return key_region(obj)
+key_platform = key_region
 
 
-def key_rack_role(obj: dict[str, Any]) -> str | None:
-    return key_region(obj)
+key_rack_role = key_region
 
 
 def key_device_type(obj: dict[str, Any]) -> tuple[int | None, str] | None:
@@ -111,12 +103,10 @@ def key_rack(obj: dict[str, Any]) -> tuple[int | None, str] | None:
     return (site_id, rack_name)
 
 
-def key_rir(obj: dict[str, Any]) -> str | None:
-    return key_region(obj)
+key_rir = key_region
 
 
-def key_ipam_role(obj: dict[str, Any]) -> str | None:
-    return key_region(obj)
+key_ipam_role = key_region
 
 
 def key_route_target(obj: dict[str, Any]) -> str | None:
@@ -134,8 +124,7 @@ def key_vrf(obj: dict[str, Any]) -> tuple[str, str] | None:
     return None
 
 
-def key_vlan_group(obj: dict[str, Any]) -> str | None:
-    return key_region(obj)
+key_vlan_group = key_region
 
 
 def key_vlan(obj: dict[str, Any]) -> Any:
@@ -195,12 +184,10 @@ def key_ip_range(obj: dict[str, Any]) -> tuple[int | None, str, str] | None:
     return (vrf_id, start, end)
 
 
-def key_cluster_group(obj: dict[str, Any]) -> str | None:
-    return key_region(obj)
+key_cluster_group = key_region
 
 
-def key_cluster_type(obj: dict[str, Any]) -> str | None:
-    return key_region(obj)
+key_cluster_type = key_region
 
 
 def key_cluster(obj: dict[str, Any]) -> str | None:
@@ -218,8 +205,7 @@ def key_virtual_machine(obj: dict[str, Any]) -> Any:
     return ("name", name)
 
 
-def key_provider(obj: dict[str, Any]) -> str | None:
-    return key_region(obj)
+key_provider = key_region
 
 
 def key_provider_network(obj: dict[str, Any]) -> Any:
@@ -230,8 +216,7 @@ def key_provider_network(obj: dict[str, Any]) -> Any:
     return (provider_id, name)
 
 
-def key_circuit_type(obj: dict[str, Any]) -> str | None:
-    return key_region(obj)
+key_circuit_type = key_region
 
 
 def key_circuit(obj: dict[str, Any]) -> str | None:
@@ -273,8 +258,7 @@ def key_custom_field(obj: dict[str, Any]) -> str | None:
     return name if isinstance(name, str) and name else None
 
 
-def key_tag(obj: dict[str, Any]) -> str | None:
-    return key_region(obj)
+key_tag = key_region
 
 
 def key_user(obj: dict[str, Any]) -> str | None:

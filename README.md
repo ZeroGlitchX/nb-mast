@@ -1,6 +1,6 @@
 # NetBox Export/Import Toolkit
 
-## Netbox Migration and Sync Tool (NB-MAST)
+## NetBox Migration and Sync Tool (NB-MAST)
 
 This workspace includes:
 
@@ -15,6 +15,14 @@ This workspace includes:
 
 - `export_templates/` generated CSV templates
 - `exports/` exported JSON/CSV data plus `export_manifest.json`
+
+
+## Repository policy
+
+- GitHub is used for source code and project docs only.
+- Generated runtime artifacts stay local and are intentionally ignored (for example: `exports/`, `exports_flat_*`, `export_templates/`, `export_templates_flat/`, rollback manifests, and `.env`).
+- Smoke tests are currently local-only and optional for contributors.
+
 
 ## Environment file (.env)
 
@@ -38,7 +46,7 @@ V2 key Bearer test:
 ```bash
 set -a; source .env; set +a
 curl -X GET \
-  -H "Authorization: Bearer ${NETBOX_API_TOKEN_V2}" \
+  -H "Authorization: Bearer ${NETBOX_API_TOKEN}" \
   -H "Content-Type: application/json" \
   -H "Accept: application/json; indent=4" \
   "${NETBOX_URL}/api/status/"
@@ -48,19 +56,15 @@ curl -X GET \
 
 `netbox_export.py` and `generate_export_templates.py` both use `SECTION_ENDPOINTS` from `generate_export_templates.py`, so export ordering and template naming stay synchronized.
 
-## Smoke tests
+## Smoke tests (local optional)
 
-Run Phase 5 smoke tests:
+Run smoke tests locally when desired (no required GitHub Actions check is configured at this time):
 
 ```bash
 python3 -m unittest discover -s smoke_tests -p "test_*.py" -v
 ```
 
-GitHub Actions automation:
-- Workflow: `.github/workflows/phase5-smoke-tests.yml`
-- Trigger: push/PR on `main` and `master` + manual `workflow_dispatch`
-
-Current smoke coverage:
+Current local smoke coverage:
 - `--only` valid/invalid selector behavior and fail-fast error path
 - preflight warning vs blocker behavior (`--preflight` vs strict mode semantics)
 - rollback manifest structure and apply/dry-run write behavior

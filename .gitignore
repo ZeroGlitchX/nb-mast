@@ -1,6 +1,22 @@
+# Local environment
 .env
+
+# Python cache
 __pycache__/
+
+# Local run helpers
+run-command
+
+# Planning/working docs
 V2_PLAN.md
 WORK_SUMMARY-v2.md
 docs/
-run-command
+
+# Generated templates and exports (local runtime data)
+export_templates/
+export_templates_flat/
+exports/
+exports_flat_*/
+
+# Local rollback artifacts
+rollback_manifest*.json

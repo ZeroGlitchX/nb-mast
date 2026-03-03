@@ -1,2 +1,0 @@
-airflow,attributes,comments,created,description,display,display_url,id,last_updated,model,module_count,owner,part_number,profile,url,weight,weight_unit
-,,32x10GE interfaces,2026-03-01T04:57:09.353064Z,,EX9200-32XS,http://192.168.65.40:8000/dcim/module-types/1/,1,2026-03-01T05:10:37.833807Z,EX9200-32XS,2,,,,http://192.168.65.40:8000/api/dcim/module-types/1/,,

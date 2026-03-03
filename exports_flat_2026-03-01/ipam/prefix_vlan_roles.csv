@@ -1,6 +1,0 @@
-comments,created,description,display,display_url,id,last_updated,name,owner,prefix_count,slug,url,vlan_count,weight
-,2026-03-01T04:26:45.155797Z,,Access - Data,http://192.168.65.40:8000/ipam/roles/1/,1,2026-03-01T04:26:45.155815Z,Access - Data,,13,access-data,http://192.168.65.40:8000/api/ipam/roles/1/,13,1000
-,2026-03-01T04:26:45.214049Z,,Access - Voice,http://192.168.65.40:8000/ipam/roles/2/,2,2026-03-01T04:26:45.214066Z,Access - Voice,,13,access-voice,http://192.168.65.40:8000/api/ipam/roles/2/,13,1000
-,2026-03-01T04:26:45.260283Z,,Access - Wireless,http://192.168.65.40:8000/ipam/roles/3/,3,2026-03-01T04:26:45.260301Z,Access - Wireless,,13,access-wireless,http://192.168.65.40:8000/api/ipam/roles/3/,13,1000
-,2026-03-01T04:26:45.303558Z,,Management,http://192.168.65.40:8000/ipam/roles/4/,4,2026-03-01T04:26:45.303575Z,Management,,13,management,http://192.168.65.40:8000/api/ipam/roles/4/,0,1000
-,2026-03-01T04:26:45.348267Z,,Testing,http://192.168.65.40:8000/ipam/roles/5/,5,2026-03-01T04:26:45.348284Z,Testing,,1,testing,http://192.168.65.40:8000/api/ipam/roles/5/,0,1000

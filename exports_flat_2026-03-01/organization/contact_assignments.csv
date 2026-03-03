@@ -1,4 +1,0 @@
-created,display,id,last_updated,object_id,object_type,url
-2026-03-01T04:26:44.578552Z,Dwight Schrute (Primary) -> DM-Scranton,1,2026-03-01T04:26:44.578570Z,12,dcim.site,http://192.168.65.40:8000/api/tenancy/contact-assignments/1/
-2026-03-01T04:26:44.629561Z,Michael Scott (Secondary) -> DM-Scranton,2,2026-03-01T04:26:44.629578Z,12,dcim.site,http://192.168.65.40:8000/api/tenancy/contact-assignments/2/
-2026-03-01T04:26:44.686340Z,Pamela Halpert (Primary) -> DM-Scranton,3,2026-03-01T04:26:44.686358Z,12,dcim.site,http://192.168.65.40:8000/api/tenancy/contact-assignments/3/
