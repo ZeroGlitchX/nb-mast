@@ -16,6 +16,14 @@ This workspace includes:
 - `export_templates/` generated CSV templates
 - `exports/` exported JSON/CSV data plus `export_manifest.json`
 
+
+## Repository policy
+
+- GitHub is used for source code and project docs only.
+- Generated runtime artifacts stay local and are intentionally ignored (for example: `exports/`, `exports_flat_*`, `export_templates/`, `export_templates_flat/`, rollback manifests, and `.env`).
+- Smoke tests are currently local-only and optional for contributors.
+
+
 ## Environment file (.env)
 
 All three scripts now auto-load `.env` from the current directory (or script directory).
@@ -50,7 +58,7 @@ curl -X GET \
 
 ## Smoke tests (local optional)
 
-Run smoke tests locally when desired:
+Run smoke tests locally when desired (no required GitHub Actions check is configured at this time):
 
 ```bash
 python3 -m unittest discover -s smoke_tests -p "test_*.py" -v
